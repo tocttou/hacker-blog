@@ -5,7 +5,7 @@
 
   <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{{ "css/main.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{%if site.url %}{{ "/css/main.css" | prepend: site.url }}{% else %}{{ "/css/main.css" }}{% endif %}">
 
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
 </head>
