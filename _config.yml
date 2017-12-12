@@ -1,0 +1,33 @@
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
+url: "https://ashishchaudhary.in/hacker-blog"
+author:
+  name: "SomeHacker"
+  email: "someone@somewebsite.somedomain"
+  url: "https://ashishchaudhary.in/hacker-blog"
+
+baseurl: /
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+google_analytics: "UA-67838485-1"
+# Custom variables
+owner : "SomeHacker"
+year : "2017"
