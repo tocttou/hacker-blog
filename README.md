@@ -26,6 +26,9 @@ If you want to see the changes before pushing the blog to Github, do a local bui
 1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
 2. `gem install jekyll-seo-tag`
 3. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
+4. Go to `http://0.0.0.0:8000/` in your web browser.
+
+*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
 
 ### Local build using docker
 
@@ -36,7 +39,9 @@ docker run --rm -p 8000:8000 \
   jekyll serve --watch --port 8000
 ```
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000` to access the blog.
+Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+
+*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
 
 ## Customizing
 
@@ -47,16 +52,19 @@ Edit the `_config.yml` file and set the following variables:
 ```yml
 title: [The title of your blog]
 description: [A short description of your blog's purpose]
-url: [Canonical URL for this blog]
 author:
   name: [Your name]
   email: [Your email address]
   url: [URL of your website]
 
+baseurl: [The base url for this blog.]
+
 paginate: [Number of posts in one paginated section (default: 3)]
 owner: [Your name]
 year: [Current Year]
 ```
+
+*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
 
 Additionally, you may choose to set the following optional variables:
 
