@@ -27,7 +27,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-google_analytics: "UA-67838485-1"
 # Custom variables
 owner : "SomeHacker"
-year : "2017"
+year : "2018"

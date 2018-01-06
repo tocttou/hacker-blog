@@ -3,6 +3,7 @@
     <span>
         <b>{{ site.owner}}</b>
     </span>
-    <span>© {{ site.year }}</span>
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    <span>© {{ currentyear }}</span>
   </a>
 </footer>
