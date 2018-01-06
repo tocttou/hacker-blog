@@ -1,12 +1,12 @@
 title: Hacker-Blog
 description: "A Jekyll Blog Theme For Hackers"
-url: "https://ashishchaudhary.in/hacker-blog"
 author:
   name: "SomeHacker"
   email: "someone@somewebsite.somedomain"
   url: "https://ashishchaudhary.in/hacker-blog"
 
 baseurl: /
+
 source: .
 destination: ./_site
 permalink: /:title
