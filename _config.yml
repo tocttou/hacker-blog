@@ -11,7 +11,7 @@ source: .
 destination: ./_site
 permalink: /:title
 paginate: 3
-paginate_path: /page:num/
+paginate_path: /page/:num/
 
 defaults:
   -
