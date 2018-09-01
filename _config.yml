@@ -1,7 +1,7 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: TeachingTales
+description: "Teaching Tales 2018-2019"
 author:
-  name: "SomeHacker"
+  name: "Michael Link"
   email: "MichaelLLink1@GMail.com"
   url: "https://michaelllink.github.io/TeachingTales/"
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "Michael Link"
 year : "2018"
