@@ -1,5 +1,5 @@
 ---
-title: Yet Another Sample Page
+title: Hello, World!
 published: true
 ---
 
