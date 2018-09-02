@@ -6,7 +6,9 @@ published: true
 
 Well, I guess you've got to start somewhere.  If you're reading tihs, you know of me in some way, shape, or form.  Therefore, I'll spare both of us the introduction.
 
-This blog will mainly be a writing pad for me to reflect and share information on any number of the various topics I deal with in my daily life.  However, some things I'll probably touch on over the course of this year.
+This blog will mainly be a writing pad for me to reflect and share information on any number of the various topics I deal with in my daily life.  
+
+However, here are some things I'll probably touch on over the course of this year.
 
 * Finance
     * Stock Market
