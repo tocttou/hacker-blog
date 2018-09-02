@@ -25,6 +25,10 @@ However, here are some things I'll probably touch on over the course of this yea
         * Practical Security
         * My new lecture series: How2Hack
         * Collegiate Cybersecurity Education
+
+* Music
+    * Music Education
+    * Percussion Performance
 * Other Topics of Current Interest
     * Ethics
     * Faith (and/or Lack Thereof)
