@@ -36,6 +36,6 @@ However, here are some things I'll probably touch on over the course of this yea
     * The Unexpected
     * My Book
     
-If any of that intrigues you, stick around.  If not, stick around anyways because I'll post some funny memes every once and a while.
+If any of that intrigues you, stick around.  If not, stick around anyways because I'll post some funny memes _every once in a while._
 
 M
