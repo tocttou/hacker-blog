@@ -12,8 +12,10 @@ This blog will mainly be a writing pad for me to reflect and share information o
 * Stock Market
 * Investments
 * Computer Science Education
-** AP Computer Science A
-** AP Computer Science Principles
+      -AP CS A
+      -AP CS P
+      -Practical Security
+      -My new lecture series: How2Hack
 ** Practical Security
 ** My new lecture series: How2Hack
 * Teaching
@@ -22,6 +24,8 @@ This blog will mainly be a writing pad for me to reflect and share information o
 * Computer Systems Security
 * Ethics
 * Faith (and/or Lack Thereof)
+* My Side Projects (such as The Unexpected)
+* My Book
 
 If any of that intrigues you, stick around.  If not, stick around anyways because I'll post some funny memes every once and a while.
 
