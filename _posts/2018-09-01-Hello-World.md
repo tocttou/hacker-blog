@@ -4,7 +4,7 @@ published: true
 ---
 # Hello, World!
 
-Well, I guess you've got to start somewhere.  If you're reading tihs, you know of me in some way, shape, or form.  Therefore, I'll spare both of us the introduction.
+Well, I guess you've got to start somewhere.  If you're reading tihs, you know of me in some way, shape, or form.  Therefore, I'll spare us both the introduction.
 
 This blog will mainly be a writing pad for me to reflect and share information on any number of the various topics I deal with in my daily life.  
 
