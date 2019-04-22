@@ -1,30 +1,27 @@
 ---
 layout: null
 ---
-
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }}</title>
- <link href="{{ "/atom.xml" | prepend: site.baseurl | replace: '//', '/' }}" rel="self"/>
- <id>{{ site.baseurl }}</id>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <author>
-   <name>{{ site.author.name }}</name>
-   <uri>{{ site.author.url }}</uri>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for post in site.posts limit: 10 %}
-
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"/>
-   <id>{{ post.id | prepend: site.baseurl | replace: '//', '/' }}</id>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
- </entry>
-
- {% endfor %}
-
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <author>
+      <name>{{ site.author.name }}</name>
+      <email>{{ site.author.email }}</email>
+      <uri>{{ site.author.url }}</uri>
+    </author>
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}/{{ post.url }}</link>
+        <link href="{{ site.url }}{{ post.url }}"/>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
