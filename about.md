@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ben
+title: About
 published: true
 ---
 
