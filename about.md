@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: Ben
+published: true
 ---
 
 Something about me.
