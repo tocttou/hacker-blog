@@ -1,6 +1,7 @@
 ---
 id: 1021
 title: 'Komut Satırı Argümanları &#8211; Command Line Arguments'
+published: true
 date: 2017-03-07T03:11:03+00:00
 author: admin
 layout: post

@@ -1,6 +1,7 @@
 ---
 id: 1068
 title: GNU/Linux Temel Komutlar
+published: true
 date: 2017-08-27T13:13:28+00:00
 author: admin
 layout: post
