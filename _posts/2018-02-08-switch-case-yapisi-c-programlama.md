@@ -1,6 +1,7 @@
 ---
 id: 1188
 title: Switch Case Yapısı C Programlama
+published: true
 date: 2018-02-08T21:00:28+00:00
 author: admin
 layout: post

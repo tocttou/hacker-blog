@@ -1,6 +1,7 @@
 ---
 id: 907
 title: Bilgisayarı Kapatmak mı, Uyku Modu mu, Hazırda Beklet mi?
+published: true
 date: 2017-02-12T18:02:45+00:00
 author: admin
 layout: post
