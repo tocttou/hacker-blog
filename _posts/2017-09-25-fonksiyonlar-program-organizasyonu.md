@@ -1,7 +1,6 @@
 ---
 id: 1097
 title: Fonksiyonlar ve Program Organizasyonu
-published: true
 date: 2017-09-25T19:20:27+00:00
 author: admin
 layout: post

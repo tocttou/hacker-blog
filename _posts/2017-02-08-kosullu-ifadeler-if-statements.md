@@ -1,7 +1,6 @@
 ---
 id: 994
 title: 'Koşullu İfadeler (If Statements) &#8211; C Programlama'
-published: true
 date: 2017-02-08T14:57:27+00:00
 author: admin
 layout: post

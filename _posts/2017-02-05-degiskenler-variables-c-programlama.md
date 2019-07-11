@@ -1,7 +1,6 @@
 ---
 id: 967
 title: 'Değişkenler (Variables) &#8211; C Programlama'
-published: true
 date: 2017-02-05T10:59:48+00:00
 author: admin
 layout: post

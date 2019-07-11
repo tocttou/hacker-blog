@@ -1,7 +1,6 @@
 ---
 id: 936
 title: C Programlama Diline Giriş
-published: true
 date: 2017-02-02T21:30:36+00:00
 author: admin
 layout: post
