@@ -1,7 +1,6 @@
 ---
 id: 1055
 title: 'Döngü Yapısı (Loop) &#8211; For, While, Do while'
-published: true
 date: 2017-05-02T13:55:59+00:00
 author: admin
 layout: post
