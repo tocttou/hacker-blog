@@ -7,11 +7,13 @@ Tal y como lo dice el título, en este post veremos lo básico para crear juegos
 
 # Requisitos previos
 
-Antes de comenzar es necesario recalcar que se necesita conocimiento en programación, en especial Lua, ya que es el lenguaje de programación que usaremos, aunque en este post trataré de crear un ejemplo para iniciarte en esto, no es un tutorial de programación, pronto haré un post explicando lo mas básico que necesitas para ir avanzando en este mundillo.
+Antes de comenzar es necesario recalcar que se necesita conocimiento en programación, en especial Lua, ya que es el lenguaje de programación que usaremos.
 
-A parte de Lua, se necesita conocer [Love2D](https://love2d.org/), un framework de desarrollo de videojuegos basado en el lenguaje que usaremos.
+A parte de Lua, se necesita conocer [Love2D](https://love2d.org/), un framework de desarrollo de videojuegos basado en Lua.
 
-Si conoces 
+Yo escribí un blog al respecto hace un tiempo, si quieres darle un vistazo ve [aquí.](https://lualove2d.blogspot.com/search/label/principio)
+
+Además también tengo una serie en mi canal de [Youtube](https://www.youtube.com/watch?v=K-UARJLjPig&list=PLoXNpYRpQVcDGBdj1pjeu5Jht_j-FlnQi).
 
 Si ya tienen algún conocimiento de programación pero no conoces Lua te invito a leer esto: [Lua, MuyLinux](https://www.muylinux.com/2016/05/23/lua-lenguaje-empezar-programar/) y luego puedes pasar a leer sobre Love2D.
 
@@ -49,3 +51,77 @@ En principio, un juego en love busca un archivo llamado `main.lua`, y lo ejecuta
 
 Abriremos Comet y buscaremos la carpeta lovegame y crearemos un archivo llamado `main.lua`.
 
+Ahí podremos escribir el siguiente código:
+
+```lua
+local lovepad = require 'lovepad' -- cargamos la libreria
+lovepad:setGamePad() -- configuramos el gamepad por defecto
+
+function love.draw() -- funcion que trae love para dibujar objetos
+    -- Aqui escribimos nuestro codigo para dibujar los objetos del juego
+    lovepad:draw() --funcion obligatoria de lovepad para dibujar el gamepad
+end
+
+function love.update(dt) -- function que trae love para actualizar la pantalla
+    -- aqui escribimos la logica del juego
+    lovepad:update() -- function obligatoria de lovepad para actualizar el gamepad
+end
+```
+
+Si guardamos y ahora abrimos Love2D nos aparecería algo como esto:
+
+![Screenshot 1](https://imgur.com/rHnSjOT.png)
+
+Ahora si ya podemos comenzar a programar nuestro juego, ya tenemos las herramientas básicas para desarrollar un juego en love2d,
+
+A modo de ejemplo, continuaremos con un pequeño ejemplo de cómo trabajar con lovepad.
+
+ahora vamos a crear un sprite con 8 bit pintor, yo hice esto:
+
+![Screenshot 2](https://imgur.com/BUgMxmJ.png)
+
+Este dibujo lo exporté y lo coloqué en la carpeta `lovegame`.
+
+Ahora podemos abrir el `SFXR` y elegir un sonido aleatorio, seleccionamos `edit` y luego `export wav` para generar el audio.
+
+![Screenshot 3](https://imgur.com/X0L0RWA.png)
+
+![Screenshot 4](https://imgur.com/hlMjAUY.png)
+
+Lo movemos a la carpeta `lovegame`. Ahora renombramos los archivos, a  la imagen le ponemos `sprite.png` y al sonido `sonido.wav`.
+
+Nos devolvemos a Comet y modificamos el archivo `main.lua`:
+
+```lua
+local lovepad = require 'lovepad'
+lovepad:setGamePad()
+
+local ball = {} -- creamos una tabla para manejar las variables de la bola
+
+ball.x = 100 -- asignamos una variable x para manejar la posicion en x
+ball.y = 100 -- asignamos una variable y para manejar la posicion en y
+ball.speed = 100
+ball.img = love.graphics.newImage('sprite.png') -- cargamos la imagen
+ball.sound = love.audio.newSource('sonido.wav', 'static') -- cargamos el sonido
+function love.draw()
+    love.graphics.draw(ball.img, ball.x, ball.y) -- dibujamos la bola en pantalla.
+    lovepad:draw()
+end
+
+function love.update(dt)
+    -- agregamos la logica de los botones
+    -- Si está siendo apretad 'boton' mueve la bola...
+    if lovepad:isDown('Up') then ball.y = ball.y - ball.speed * dt end
+    if lovepad:isDown('Down') then ball.y = ball.y + ball.speed * dt end
+    if lovepad:isDown('Left') then ball.x = ball.x - ball.speed * dt end
+    if lovepad:isDown('Right') then ball.x = ball.x + ball.speed * dt end
+    -- isPressed solo devuelve true una vez, a diferencia de isDown.
+    if lovepad:isPressed('Up') or lovepad:isPressed('Down')
+    or lovepad:isPressed('Left') or lovepad:isPressed('Right') then
+        ball.sound:play()
+    lovepad:update()
+end
+```
+Si guardas esto y luego vas a Love2D verás como aparece la bola y ahora con los botones puedes moverlo y cada vez que presionas un botón se escucha el sonido.
+
+Y esto sería todo por el post, espero te haya servido, si tienes alguna duda hazmelo saber en los comentarios, si te interesa conocer mejor cómo funciona lovepad puedes ver toda la información en este [link](https://github.com/DeybisMelendez/lovepad/blob/master/README.md).
