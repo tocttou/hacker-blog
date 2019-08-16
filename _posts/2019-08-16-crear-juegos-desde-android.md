@@ -5,7 +5,7 @@ published: true
 
 Tal y como lo dice el título, en este post veremos lo básico para crear juegos desde un teléfono o tablet android, esta es una guía de aplicaciones que puedes descargar para lograr esto.
 
-# Requisitos previos
+## Requisitos previos
 
 Antes de comenzar es necesario recalcar que se necesita conocimiento en programación, en especial Lua, ya que es el lenguaje de programación que usaremos.
 
@@ -17,7 +17,7 @@ Además también tengo una serie en mi canal de [Youtube](https://www.youtube.co
 
 Si ya tienen algún conocimiento de programación pero no conoces Lua te invito a leer esto: [Lua, MuyLinux](https://www.muylinux.com/2016/05/23/lua-lenguaje-empezar-programar/) y luego puedes pasar a leer sobre Love2D.
 
-# Aplicaciones.
+## Aplicaciones.
 
 Hay 4 aplicaciones básicas que utilizaremos:
 
@@ -39,7 +39,7 @@ Un generador de efectos de sonido: [SFXR](https://play.google.com/store/apps/det
 
 Opcionalmente podremos descargar todo tipo de recursos desde la web: [OpenGameArt](https://play.google.com/store/apps/details?id=be.minimal.sfxr)
 
-# Explicando el entorno
+## Explicando el entorno
 
 La aplicación love2d ejecuta proyectos creados para el framework, lo único que debemos hacer es agregar nuestro proyecto en la carpeta `lovegame` en nuestro sdcard, si no la tienes luego de instalarlo, crealo.
 
@@ -72,9 +72,9 @@ Si guardamos y ahora abrimos Love2D nos aparecería algo como esto:
 
 ![Screenshot 1](https://imgur.com/rHnSjOT.png)
 
-Ahora si ya podemos comenzar a programar nuestro juego, ya tenemos las herramientas básicas para desarrollar un juego en love2d,
+Ahora si ya podemos comenzar a programar nuestro juego, ya tenemos las herramientas básicas para desarrollar un juego en love2d.
 
-A modo de ejemplo, continuaremos con un pequeño ejemplo de cómo trabajar con lovepad.
+Continuaremos con un pequeño ejemplo de cómo trabajar con lovepad.
 
 ahora vamos a crear un sprite con 8 bit pintor, yo hice esto:
 
@@ -110,7 +110,7 @@ end
 
 function love.update(dt)
     -- agregamos la logica de los botones
-    -- Si está siendo apretad 'boton' mueve la bola...
+    -- Si está siendo apretado 'botón' mueve la bola...
     if lovepad:isDown('Up') then ball.y = ball.y - ball.speed * dt end
     if lovepad:isDown('Down') then ball.y = ball.y + ball.speed * dt end
     if lovepad:isDown('Left') then ball.x = ball.x - ball.speed * dt end
@@ -125,4 +125,5 @@ end
 Si guardas esto y luego vas a Love2D verás como aparece la bola y ahora con los botones puedes moverlo y cada vez que presionas un botón se escucha el sonido.
 
 Y esto sería todo por el post, espero te haya servido, si tienes alguna duda hazmelo saber en los comentarios, si te interesa conocer mejor cómo funciona lovepad puedes ver toda la información en este [link](https://github.com/DeybisMelendez/lovepad/blob/master/README.md).
+
 {% include disqus.html %}
