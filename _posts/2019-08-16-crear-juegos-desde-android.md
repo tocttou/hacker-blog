@@ -1,6 +1,6 @@
 ---
 title: Cómo crear juegos desde tu teléfono Android
-published: false
+published: true
 ---
 
 Tal y como lo dice el título, en este post veremos lo básico para crear juegos desde un teléfono o tablet android, esta es una guía de aplicaciones que puedes descargar para lograr esto.
@@ -125,3 +125,4 @@ end
 Si guardas esto y luego vas a Love2D verás como aparece la bola y ahora con los botones puedes moverlo y cada vez que presionas un botón se escucha el sonido.
 
 Y esto sería todo por el post, espero te haya servido, si tienes alguna duda hazmelo saber en los comentarios, si te interesa conocer mejor cómo funciona lovepad puedes ver toda la información en este [link](https://github.com/DeybisMelendez/lovepad/blob/master/README.md).
+{% include disqus.html %}
