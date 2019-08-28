@@ -1,5 +1,5 @@
 ---
-title: Hola mundo
+title: Cómo añadir un splash screen de Kongregate en Godot
 published: true
 ---
 
