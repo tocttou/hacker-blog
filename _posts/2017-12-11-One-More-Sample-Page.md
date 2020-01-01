@@ -1,6 +1,6 @@
 ---
 title: One More Sample Page
-published: true
+published: false
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
