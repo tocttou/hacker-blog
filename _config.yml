@@ -5,7 +5,7 @@ author:
   email: "amanajayvarma@gmail.com"
   url: "amanajayvarma.github.io"
 
-baseurl: "amanajayvarma.github.io"
+baseurl: /
 
 source: .
 destination: ./_site
