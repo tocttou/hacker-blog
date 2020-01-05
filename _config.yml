@@ -5,13 +5,14 @@ author:
   email: "amanajayvarma@gmail.com"
   url: "amanajayvarma.github.io"
 
-baseurl: /
+baseurl: "amanajayvarma.github.io"
 
 source: .
 destination: ./_site
 permalink: /:title
 paginate: 3
 paginate_path: /page/:num/
+google_analytics: "UA-155361221-1"
 
 defaults:
   -
