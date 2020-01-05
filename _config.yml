@@ -45,4 +45,15 @@ pwa:
     - sw-register.js
     - "fonts/**/*"
 
+#Notification
+requestDesktopNotificationPermission(){
+ if(Notification && Notification.permission === 'default') {
+   Notification.requestPermission(function (permission) {
+      if(!('permission' in Notification)) {
+        Notification.permission = permission;
+      }
+   });
+ }
+}
+
 theme: jekyll-theme-cayman
