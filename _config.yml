@@ -49,5 +49,4 @@ pwa:
   runtime_cache:
     - route: /^api\/getdata/
   strategy: networkFirst
-    - route: "'/api/pic'"
   strategy: cacheFirst
