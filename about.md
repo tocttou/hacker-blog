@@ -20,4 +20,4 @@ My name is AAV(Aman Ajay Varma) and This is my blog persnoal blog. Here I mostly
 
 <h4>Funding</h4>
 
-<script><a href="https://liberapay.com/amanajayvarma/donate" target="_blank"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></script>
+<a href="https://liberapay.com/amanajayvarma/donate" target="_blank"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
