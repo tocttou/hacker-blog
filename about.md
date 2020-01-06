@@ -24,4 +24,4 @@ Funding
 
 License
 
-<a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/AGPLv3_Logo.svg/1200px-AGPLv3_Logo.svg.png" width="300px"></a>
+<a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/AGPLv3_Logo.svg/1200px-AGPLv3_Logo.svg.png" width="150px"></a>
