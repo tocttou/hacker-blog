@@ -35,14 +35,19 @@ year : {{ currentyear }}
 
 #Web Progressive app
 pwa:
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
+  sw_filename: sw.js
+  dest_js_directory: js
+  cache_name: pwa-cache
+  precache_recent_posts_num: 12
+  precache_glob_directory: /
+  precache_glob_patterns:
+    - "{js,css,fonts}/**/*.{js,css,woff,woff2}"
+    - /index.html
+    - /about.html
+  precache_glob_ignores:
     - sw-register.js
-    - "fonts/**/*"
+  runtime_cache:
+    - route: /^api\/getdata/
+  strategy: networkFirst
+    - route: "'/api/pic'"
+  strategy: cacheFirst
