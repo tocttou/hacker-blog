@@ -1,18 +1,16 @@
 {
-  "lang": "en",
-  "dir": "ltr\rtl",
-  "name": "Coding site",
+  "name": "AmanAjayVarma",
   "short_name": "AAV",
+  "lang": "en-GB",
+  "start_url": "/amanajayvarma.tk",
+  "display": "minimal-ui",
+  "orientation": "any",
+  "theme_color": "#1b1b1b",
   "icons": [
     {
-      "src": "\/assets\/images\/touch\/android-chrome-192x192.png",
+      "src": "https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/assets/a-192x192.png?raw=true",
       "sizes": "192x192",
-      "type": "image\/png"
+      "type": "image/png"
     }
-  ],
-  "theme_color": "#1a1a1a",
-  "background_color": "#1a1a1a",
-  "start_url": "https://amanajayvarma.tk",
-  "display": "standalone",
-  "orientation": "natural"
+  ]
 }
