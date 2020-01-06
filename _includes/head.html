@@ -10,20 +10,21 @@
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  <script>
-            if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("An active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("/serviceworker.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-      </script>
+ 
+  <link rel="manifest" href="manifest.json">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="AAV">
+<meta name="apple-mobile-web-app-title" content="AAV">
+<meta name="theme-color" content="#1b1b1b">
+<meta name="msapplication-navbutton-color" content="#1b1b1b">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/amanajayvarma.tk">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="192x192" href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/assets/a-192x192.png?raw=true">
+<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/assets/a-192x192.png?raw=true">
+    
 </head>
