@@ -7,6 +7,7 @@
     <span>© {{ currentyear }}</span>
   </a>
 </footer>
+<script>
 // Registration of service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
@@ -41,4 +42,4 @@ self.addEventListener('install', function(event) {
       })
   );
 });
-
+</script>
