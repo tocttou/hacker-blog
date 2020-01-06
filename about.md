@@ -18,6 +18,6 @@ My name is AAV(Aman Ajay Varma) and This is my blog persnoal blog. Here I mostly
 
 <a href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/actions" target="_blank"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/amanajayvarma/amanajayvarma.github.io/Jekyll site CI?style=flat-square"></a>
 
-Funding
+<h4>Funding</h4>
 
 <noscript><a href="https://liberapay.com/amanajayvarma/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
