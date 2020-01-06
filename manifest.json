@@ -1,7 +1,7 @@
 {
   "name": "amanajayvarma",
   "short_name": "aav",
-  "start_url": ".",
+  "start_url": "https://amanajayvarma.github.io",
   "display": "standalone",
   "background_color": "#fff",
   "description": "A website for programmers.",
