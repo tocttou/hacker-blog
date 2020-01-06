@@ -1,63 +1,40 @@
+// CODELAB: Add list of files to cache here.
+const FILES_TO_CACHE = [
+  '/offline.html',
+];
 
-const CACHE = "pwabuilder-offline";
-
-const offlineFallbackPage = "index.html";
-
-// Install stage sets up the index page (home page) in the cache and opens a new cache
-self.addEventListener("install", function (event) {
-  console.log("Install Event processing");
-
-  event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("Cached offline page during install");
-
-      if (offlineFallbackPage === "ToDo-replace-this-name.html") {
-        return cache.add(new Response("Update the value of the offlineFallbackPage constant in the serviceworker."));
-      }
-      
-      return cache.add(offlineFallbackPage);
+// CODELAB: Precache static resources here.
+evt.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      console.log('[ServiceWorker] Pre-caching offline page');
+      return cache.addAll(FILES_TO_CACHE);
     })
-  );
-});
+);
 
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
+// CODELAB: Remove previous cached data from disk.
+evt.waitUntil(
+    caches.keys().then((keyList) => {
+      return Promise.all(keyList.map((key) => {
+        if (key !== CACHE_NAME) {
+          console.log('[ServiceWorker] Removing old cache', key);
+          return caches.delete(key);
+        }
+      }));
+    })
+);
 
-  event.respondWith(
-    fetch(event.request)
-      .then(function (response) {
-        console.log("Add page to offline cache: " + response.url);
-
-        // If request was success, add or update it in the cache
-        event.waitUntil(updateCache(event.request, response.clone()));
-
-        return response;
-      })
-      .catch(function (error) {        
-        console.log("Network request Failed. Serving content from cache: " + error);
-        return fromCache(event.request);
-      })
-  );
-});
-
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return error page
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        return Promise.reject("no-match");
-      }
-
-      return matching;
-    });
-  });
+// CODELAB: Add fetch event handler here.
+if (evt.request.mode !== 'navigate') {
+  // Not a page navigation, bail.
+  return;
 }
+evt.respondWith(
+    fetch(evt.request)
+        .catch(() => {
+          return caches.open(CACHE_NAME)
+              .then((cache) => {
+                return cache.match('offline.html');
+              });
+        })
+);
 
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}
