@@ -6,7 +6,8 @@
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
     <span>© {{ currentyear }}</span>
   </a>
-  // Registration of service worker
+</footer>
+// Registration of service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register("/sw.js").then(function(registration) {
@@ -21,4 +22,3 @@ if ('serviceWorker' in navigator) {
 else{
     console.log('Service Workers not supported');
 }
-</footer>
