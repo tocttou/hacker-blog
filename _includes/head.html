@@ -10,4 +10,20 @@
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <script>
+            if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("An active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("/serviceworker.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+      </script>
 </head>
