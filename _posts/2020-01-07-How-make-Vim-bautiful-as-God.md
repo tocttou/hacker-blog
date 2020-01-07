@@ -13,14 +13,16 @@ published: true
 ```
 vim .vimrc
 ```
-<p>Press ` i ` to enter in the Input mode</p><br/>
+Press `i` to enter in the Input mode<br/>
 
 <h5>Copy the text and Paste in .virc file</h5><br/>
 <a href="https://gist.github.com/AmanAjayVarma/f9aed21a4e7392a7458da3a6da48aac1.js" target="_blank">Gist link</a>
-<p>After this close the vim enter `:wq`</p><br/>
+
+After this close the vim enter `:wq`<br/>
 
 <h5>Now Installing the plugin</h5><br/>
-<p>Now Open the Vim Press  `Esc` and Enter `:PlugInstall`
+
+Now Open the Vim Press  `Esc` and Enter `:PlugInstall`
 After completing Installing press `q`
 
 <h5>Now let's change the colourscheme of Vim</h5><br/>
@@ -31,7 +33,8 @@ vim vim/colors/color.vim
 ```
 <p>Copy text and Paste in <b>color.vim</b></p><br/>
 <a href="https://gist.github.com/AmanAjayVarma/5e0202bf8cdc8625086e3c61187328c8" target="_blank">Gist link</a>
-<p>Now close the Vim `:wq`</p><br/>
+
+Now close the Vim `:wq`<br/>
 
 <h5>Use <a href="https://terminator-gtk3.readthedocs.io/" target="_blank">terminator</a> to make Vim more Beautiful</h5>
 <p>Open your terminal and enter</p>
@@ -39,8 +42,8 @@ vim vim/colors/color.vim
 ```
 sudo apt install terminator
 ```
-<p>After installing Open terminator.<p>
-<p>`RightClick` Go to `Preference` option<br/>
+After installing Open terminator.
+`RightClick` Go to `Preference` option<br/>
 Then `Profiles` now `Background`<br/>
 Now select `Transparent background` and Make it `80%`<br/>
 
