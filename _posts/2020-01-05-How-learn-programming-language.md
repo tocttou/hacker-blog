@@ -1,3 +1,8 @@
+---
+title: How to learn programming language -aav
+published: true
+---
+
 <p>The programmer is a man who writes the hundred of lines of code every day. Normal people can't understand what it takes to write that much code. The program is the thing that makes us alive. Even one code can ruin our whole day.</p><br/>
 
 <p>Most of my friends know I am very new in the coding world. But I learn many things that I can write in this article. I have done much research on how to do concentrate on programing you are writing. And here are some tips for you guys.</p><br/>
