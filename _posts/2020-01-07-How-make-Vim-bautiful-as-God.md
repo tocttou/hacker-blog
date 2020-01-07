@@ -1,5 +1,5 @@
 ---
-title: How to make Vim beautiful as God
+title: How to make Vim beautiful as God -aav
 published: true
 ---
 
