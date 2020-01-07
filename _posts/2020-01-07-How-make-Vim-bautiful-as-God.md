@@ -1,3 +1,9 @@
+---
+title: How to make Vim beautiful as God
+published: true
+---
+
+
 <p>If you use <a href="https://vim.org" target="blank">Vim</a> you know it does not very good. It is not the same as other code editors so that why it's customization process also is different than others. But here I am going to tell you how you can make vim look awesome.</p><br/>
 
 <h3>Edit .vimrc file</h3><br/>
