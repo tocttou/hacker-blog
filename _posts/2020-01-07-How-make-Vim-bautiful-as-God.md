@@ -16,7 +16,7 @@ vim .vimrc
 Press `i` to enter in the Input mode<br/>
 
 <h5>Copy the text and Paste in .virc file</h5><br/>
-<a href="https://gist.github.com/AmanAjayVarma/f9aed21a4e7392a7458da3a6da48aac1.js" target="_blank">Gist link</a>
+<a href="https://gist.github.com/AmanAjayVarma/f9aed21a4e7392a7458da3a6da48aac1" target="_blank">Gist link</a>
 
 After this close the vim enter `:wq`<br/>
 
