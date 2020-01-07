@@ -8,11 +8,12 @@ published: true
 
 <h3>Edit .vimrc file</h3><br/>
 
-<h5>Open the Terminal and Enter</h5><br/>
+<h5>Open the Terminal and Enter</h5>
+
 ```
 vim .vimrc
 ```
-<p>Press `i` to enter in the Input mode</p><br/>
+<p>Press ` i ` to enter in the Input mode</p><br/>
 
 <h5>Copy the text and Paste in .virc file</h5><br/>
 <a href="https://gist.github.com/AmanAjayVarma/f9aed21a4e7392a7458da3a6da48aac1.js" target="_blank">Gist link</a>
@@ -20,10 +21,11 @@ vim .vimrc
 
 <h5>Now Installing the plugin</h5><br/>
 <p>Now Open the Vim Press  `Esc` and Enter `:PlugInstall`
-After completing Installing press `q`.
+After completing Installing press `q`
 
 <h5>Now let's change the colourscheme of Vim</h5><br/>
-<p>Enter</p><br/> 
+<p>Enter</p>
+
 ```
 vim vim/colors/color.vim
 ```
@@ -33,6 +35,7 @@ vim vim/colors/color.vim
 
 <h5>Use <a href="https://terminator-gtk3.readthedocs.io/" target="_blank">terminator</a> to make Vim more Beautiful</h5>
 <p>Open your terminal and enter</p>
+
 ```
 sudo apt install terminator
 ```
