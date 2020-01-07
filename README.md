@@ -7,7 +7,6 @@ My name is AAV(Aman Ajay Varma) and This is my blog persnoal blog. Here I mostly
 
 My social media links
 
-<a href="https://facebook.com/amanajayvarma" target="_blank"><img src="https://img.icons8.com/color/50/000000/facebook-new.png"></a>
 <a href="https://reddit.com/u/amanajayvarma" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png" width="45"></a>
 <a href="mailto:amanajayvarma@gmail.com" target="_blank"><img src="https://img.icons8.com/officel/45/000000/email.png"></a>
 <a href="https://wa.me/917499820830" target="_blan"><img src="https://img.icons8.com/color/50/000000/whatsapp.png"></a>
