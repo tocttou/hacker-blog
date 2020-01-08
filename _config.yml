@@ -29,9 +29,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-name: Spellcheck Action
-uses: rojopolis/spellcheck-github-actions@0.2.0
-
 # Custom variables
 owner : "AmanAjayVarma"
 year : {{ currentyear }}
