@@ -23,7 +23,11 @@ defaults:
     values:
       layout: "post"
 
-future: false
+future: true
+plugins:	
+  - jekyll-seo-tag	
+  - jekyll-paginate	
+  - jekyll-sitemap
 
 # Custom variables
 owner : "AmanAjayVarma"
