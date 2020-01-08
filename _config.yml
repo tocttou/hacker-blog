@@ -23,7 +23,7 @@ defaults:
     values:
       layout: "post"
 
-future: true
+future: false
 
 # Custom variables
 owner : "AmanAjayVarma"
