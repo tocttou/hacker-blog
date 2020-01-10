@@ -28,6 +28,7 @@ plugins:
   - jekyll-seo-tag	
   - jekyll-paginate	
   - jekyll-sitemap
+  - amp-jekyll
 
 # Custom variables
 owner : "AmanAjayVarma"
