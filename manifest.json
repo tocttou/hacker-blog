@@ -7,7 +7,7 @@
   "orientation": "any",
   "theme_color": "#1b1b1b",
   "background_color": "#1b1b1b",
-  "start_url": "/index.html"
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/assets/a-192x192.png?raw=true",
