@@ -3,10 +3,10 @@
   "short_name": "AAV",
   "description": "For Coders",
   "lang": "en-GB",
-  "start_url": "/?source=pwa",
   "display": "minimal-ui",
   "orientation": "any",
   "theme_color": "#1b1b1b",
+  "background_color": "#1b1b1b",
   "icons": [
     {
       "src": "https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/assets/a-192x192.png?raw=true",
@@ -18,5 +18,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/_post",
 }
