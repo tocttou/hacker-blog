@@ -1,7 +1,7 @@
 [![time tracker](https://wakatime.com/badge/github/AmanAjayVarma/amanajayvarma.github.io.svg)](https://wakatime.com/badge/github/AmanAjayVarma/amanajayvarma.github.io)
 <noscript><a href="https://liberapay.com/amanajayvarma/donate"><img alt="Donate using Liberapay" src="http://img.shields.io/liberapay/goal/amanajayvarma.svg?logo=liberapay"></a></noscript>
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/189355?domain=https%3A%2F%2Ffosstodon.org%2F&style=social)](https://fosstodon.org/web/accounts/189355)
-<a href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/blob/master/index.html" target="_blank"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/amanajayvarma/amanajayvarma.github.io/Jekyll site CI?"></a>
+<a href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/actions" target="_blank"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/amanajayvarma/amanajayvarma.github.io/Jekyll site CI?"></a>
 
 My name is AAV(Aman Ajay Varma) and This is my blog persnoal blog. Here I mostly write about the Tech & Coding related stuff but sometimes I talk about other topics also. I mostly use FOSS stuff, Big a linux fan & beliver in open source.
 
