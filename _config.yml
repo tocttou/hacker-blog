@@ -36,6 +36,9 @@ year : {{ currentyear }}
 
 ampdir: YOURDIR
 
+offline:
+  strategy: cache-then-network
+
 pwa:
   sw_src_filepath: service-worker.js # Optional
   sw_dest_filename: service-worker.js # Optional
