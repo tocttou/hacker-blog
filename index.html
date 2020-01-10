@@ -8,7 +8,9 @@ layout: default
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
           <p>{{ post.content | strip_html | truncatewords:50 }}</p>
           <script>
-              
+          {% if page.path contains '_posts' %}
+          <link rel="amphtml" href="{{ page.id | prepend: '/YOURDIR' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+          {% endif %}
       </li>
     {% endfor %}
 </ul>
