@@ -33,3 +33,5 @@ plugins:
 # Custom variables
 owner : "AmanAjayVarma"
 year : {{ currentyear }}
+
+ampdir: YOURDIR
