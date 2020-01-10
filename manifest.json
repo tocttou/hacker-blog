@@ -1,8 +1,9 @@
 {
   "name": "AmanAjayVarma",
   "short_name": "AAV",
+  "description": "For Coders",
   "lang": "en-GB",
-  "start_url": "https://amanajayvarma.tk",
+  "start_url": "/?source=pwa",
   "display": "minimal-ui",
   "orientation": "any",
   "theme_color": "#1b1b1b",
