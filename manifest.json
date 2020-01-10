@@ -1,9 +1,8 @@
 {
   "name": "AmanAjayVarma",
   "short_name": "AAV",
-  "start_url": "https://amanajayvarma.tk"
   "lang": "en-GB",
-  "start_url": "/amanajayvarma.tk",
+  "start_url": "https://amanajayvarma.tk",
   "display": "minimal-ui",
   "orientation": "any",
   "theme_color": "#1b1b1b",
