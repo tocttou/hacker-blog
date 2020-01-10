@@ -35,3 +35,11 @@ owner : "AmanAjayVarma"
 year : {{ currentyear }}
 
 ampdir: YOURDIR
+
+pwa:
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
