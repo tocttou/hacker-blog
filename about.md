@@ -14,15 +14,13 @@ My name is AAV(Aman Ajay Varma) and This is my blog persnoal blog. Here I mostly
 <a href="https://wa.me/917499820830" target="_blan"><img src="https://img.icons8.com/color/50/000000/whatsapp.png"></a>
 <a href="https://feedburner.google.com/fb/a/mailverify?uri=Amanajayvarma" target="_blank"><img src="https://img.icons8.com/color/50/000000/rss.png"></a>
 
+<h4>Build<h4>
+
 <a href="https://github.com/AmanAjayVarma/amanajayvarma.github.io/actions" target="_blank"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/amanajayvarma/amanajayvarma.github.io/Jekyll site CI?style=flat-square"></a>
 
 <h4>Sponsor</h4>
 
 <a href="https://liberapay.com/amanajayvarma/donate" target="_blank"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-
-<h4>Readers</h4>
-
-<p><a href="http://feeds.feedburner.com/Amanajayvarma"><img src="http://feeds.feedburner.com/~fc/Amanajayvarma?bg=00CC33&amp;fg=000000&amp;anim=0" height="50" width="100" style="border:0" alt="" /></a></p>
 
 <h4>Other</h4>
 
