@@ -50,3 +50,7 @@ pwa:
     - index.html
   precache_glob_ignores: # Optional
     - "fonts/**/*"
+
+algolia:
+  application_id: 6UPORS964U
+  index_name:     jekyll # You can replace that with whatever name you want
