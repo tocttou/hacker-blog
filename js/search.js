@@ -1,4 +1,4 @@
-...
+
 function getQueryVariable(variable) {
   var query = window.location.search.substring(1);
   var vars = query.split('&');
@@ -13,8 +13,6 @@ function getQueryVariable(variable) {
 }
 
 var searchTerm = getQueryVariable('query');
-...
-...
 if (searchTerm) {
   document.getElementById('search-box').setAttribute("value", searchTerm);
 
@@ -41,8 +39,6 @@ if (searchTerm) {
     displaySearchResults(results, window.store); // We'll write this in the next section
   }
 }
-...
-...
 function displaySearchResults(results, store) {
   var searchResults = document.getElementById('search-results');
 
@@ -60,7 +56,6 @@ function displaySearchResults(results, store) {
     searchResults.innerHTML = '<li>No results found</li>';
   }
 }
-...
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
