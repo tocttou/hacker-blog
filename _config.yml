@@ -29,7 +29,7 @@ plugins:
   - jekyll-paginate	
   - jekyll-sitemap
   - amp-jekyll
-
+  - jekyll-gist
 # Custom variables
 owner : "AmanAjayVarma"
 year : {{ currentyear }}
@@ -51,6 +51,3 @@ pwa:
   precache_glob_ignores: # Optional
     - "fonts/**/*"
 
-algolia:
-  application_id: 6UPORS964U
-  index_name:     jekyll # You can replace that with whatever name you want
