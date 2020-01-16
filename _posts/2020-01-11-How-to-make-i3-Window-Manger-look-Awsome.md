@@ -1,7 +1,7 @@
 ---
 title: How to make i3 Window Manager look Awesome -aav
 ---
-<p>If you like your desktop environment then you should try window manger but then you have to choose the best one. The best one that I can find is the i3 window manager. It is the best one that suits me well. If you install i3 then you well see it looks very ugly.</p>
+<p>If you like your desktop environment then you should try window manger but then you have to choose the best one. The best one that I can find is the i3 window manager. It is the best one that suits me well. If you install <a href="https://i3wm.org">i3</a> then you well see it looks very ugly.</p>
 <img src="https://i3wm.org/screenshots/i3-9.png">
 <p>But here I am going to tell you how to make it look like Taylor swift(means awesome). If you never used the window manger then it is very different from the desktop environment. You have to edit the config file of i3 like <a href="https://amanajayvarma.tk/How-make-Vim-bautiful-as-God"> vim</a>.</p>
 <h3>Installing i3</h3>
