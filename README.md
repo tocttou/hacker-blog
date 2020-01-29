@@ -17,7 +17,8 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 1. Fork and Clone this repository
 2. Customize your blog
 3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master 
+4. Commit and push to master on a repository named `<githubusername.github.io>`.
+5. Visit `<githubusername>.github.io`
 
 ## Local Build
 
