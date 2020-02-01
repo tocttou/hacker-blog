@@ -9,8 +9,8 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 1. Pagination
 2. SEO tags
 3. Archive Page
-4. RSS (https://base-url/atom)
-5. Sitemap (https://base-url/sitemap)
+4. RSS (`https://base-url/atom`)
+5. Sitemap (`https://base-url/sitemap`)
 6. Google Analytics (optional)
 
 ## Usage
