@@ -9,8 +9,9 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 1. Pagination
 2. SEO tags
 3. Archive Page
-4. RSS
-5. Sitemap 
+4. RSS (https://base-url/atom)
+5. Sitemap (https://base-url/sitemap)
+6. Google Analytics (optional)
 
 ## Usage
 
@@ -25,9 +26,9 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 If you want to see the changes before pushing the blog to Github, do a local build.
 
 1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. gem install jekyll-seo-tag
-3. gem install jekyll-paginate
-4. gem install jekyll-sitemap
+2. `gem install jekyll-seo-tag`
+3. `gem install jekyll-paginate`
+4. `gem install jekyll-sitemap`
 5. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
 6. Go to `http://0.0.0.0:8000/` in your web browser.
 
