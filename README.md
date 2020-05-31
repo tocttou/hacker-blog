@@ -12,7 +12,6 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 4. About Page
 5. RSS (`https://base-url/atom`)
 6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
 
 ## Usage
 
@@ -69,13 +68,7 @@ owner: [Your name]
 year: [Current Year]
 ```
 
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
+*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.
 
 ### About Page
 
