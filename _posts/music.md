@@ -4,7 +4,6 @@ published: true
 ---
 
 
-[Link to another page](another-page).
 
 # [](#header-1)Header 1
 
