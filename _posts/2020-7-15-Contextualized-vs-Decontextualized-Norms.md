@@ -1,7 +1,7 @@
 ---
 title: Contextualized Norms
 published: true
-​---
+---
 There are certain questions you're not supposed to ask; "do disabled people have less moral weight?", "does gender correlate with intelligence?", or "are certain races more prone to violence?" are some examples. People that lack social savviness are really confused by why they aren't allowed to ask these questions. People that have social savviness might say something like "because it's rude" (I don't claim enough social savviness to be able to predict properly). The concept of a norm being contextualized provides a generalized answer to why you can't ask certain questions.
 
 Contextualized norms are, as the name suggests, sensitive to context. When you ask a sensitive question, that question has context. Most of the time, the context of that question is a history discussions designed to delegimitize certain persons. A more complete answer to why you can't ask some question about X: 
