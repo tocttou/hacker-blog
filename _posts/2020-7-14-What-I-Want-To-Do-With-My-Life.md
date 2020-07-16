@@ -1,7 +1,7 @@
 ---
 title: What I Want To Do With My Life
 published: true
-​---
+---
 Sometimes, people ask me what I want to do with my life. Usually, I say something like "I dunno, currently deciding between industry and grad school." This answer is not technically false, but it is not the whole truth either.
 
 The primary deception in the usual answer I give is that it doesn't actually answer the question - "becoming a software engineer" or "getting a PhD" are goals that I only care about in relation to other goals. It's important to remember that the things you want are distinct from the actions you take to get what you want. You take actions because they have consequences; if the consequences chance, then the action might no longer be valuable.
