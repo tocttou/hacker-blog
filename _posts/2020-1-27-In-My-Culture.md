@@ -2,7 +2,7 @@
 title: In My Culture
 published: true
 ---
-Background reading: [In My Culture](https://medium.com/@ThingMaker/in-my-culture-29c6464072b2)
+Background reading: [In My Culture](https://medium.com/@ThingMaker/in-my-culture-29c6464072b2).
 
 In my culture, people say what they mean. If we’re deciding what to get for dinner and you say you don’t care, everyone will act as if you literally don’t care. They will decide where to go to dinner and you will be expected to agree with the decision (provided you haven’t said anything in the meanwhile).
 
