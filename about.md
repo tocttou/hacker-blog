@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm Mark Xu. I want to be omnibenevolent. To this end, I am also interested in becoming omniscient and omnipotent. I approximate this by employing to their fullest extent the technological prostheses that humanity has developed, attempting to craft my own if nothing existent suffices.
+I'm Mark Xu. I want to be omnibenevolent. To this end, I am also interested in becoming omniscient and omnipotent. I approximate this by employing the cognitive and technological prostheses that humanity has developed.
 
 Content is my own beliefs at the time of writing, lossily compressed into language. I will attempt to include the necessary nuance and caveats, although I can make no guarantees.
 
