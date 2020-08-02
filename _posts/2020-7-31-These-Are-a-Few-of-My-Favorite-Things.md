@@ -4,9 +4,10 @@ published: true
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
 
-#### Electronics
+### Electronics
 
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [iPod Touch](https://www.apple.com/ipod-touch/)
 * [Jabra Elite 65t Wireless Earbuds](https://www.jabra.com/bluetooth-headsets/jabra-elite-65t##100-99000000-02)
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
@@ -17,7 +18,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
 * [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/product/uhk60)
 
-#### Stationary
+### Stationary
 
 * [Hi-Tec-C Coleto 1000 Pen](https://www.amazon.com/Pilot-Multi-Pen-Hi-Tec-C-Coleto-LHKC-1SC-S/dp/B00OCDNB34/ref=sr_1_2?dchild=1&keywords=coleto+4+pilot&qid=1593989412&sr=8-2&pldnSite=1)
 * [Moleskin Dotted XL Notebook](https://www.amazon.com/gp/product/B015NG44CU/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -25,7 +26,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [White Post-its](https://www.amazon.com/gp/product/B008PAIC4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Writing Slope](https://www.amazon.com/gp/product/B0110BSSWE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
-#### Toiletries
+### Toiletries
 
 * [Apagard Toothpaste](https://www.amazon.com/gp/product/B0016GCZQO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Aveeno Shampoo](https://www.amazon.com/gp/product/B0067H6E9G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -40,7 +41,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Philips Nose Trimmer](https://www.amazon.com/gp/product/B00QYOSK9E/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Philips Sonicare Toothbrush](https://www.amazon.com/gp/product/B078GVDB19/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
-#### Environmental Adjusters
+### Environmental Adjusters
 
 * [Aeron Chair](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * [Blackout Curtains](https://www.amazon.com/gp/product/B071YYPDWJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -49,19 +50,24 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [LIFX LED Bulb](https://www.amazon.com/gp/product/B073168GYG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Lumenator](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
 * [Magnetic Poster Frame](https://www.amazon.com/gp/product/B07Y681V5L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Memory Foam Pillow](https://smile.amazon.com/gp/product/B00EINBSEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Standing Desk](https://www.upliftdesk.com/)
 * [Tree Bookshelf](https://www.amazon.com/gp/product/B07WGKXDW9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Velvet Hangers](https://www.amazon.com/gp/product/B00FXNAAW2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Vertical Laptop Stand](https://www.amazon.com/gp/product/B07K8JJ2LG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Weighted Blanket](https://smile.amazon.com/gp/product/B07C1PBDLX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Workout Bar](https://smile.amazon.com/gp/product/B001EJMS6K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-#### Software
+### Software
 
+* [Anki](https://apps.ankiweb.net/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/)
 * [Protonmail](https://protonmail.com/)
 * [Roam](https://roamresearch.com/)
+* [Signal](https://signal.org/en/)
 * [Todoist](https://todoist.com/)
 
-#### Miscellaneous
+### Miscellaneous
 
 * [Screwpop Utility Knife](https://www.amazon.com/gp/product/B00UZHT432/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
