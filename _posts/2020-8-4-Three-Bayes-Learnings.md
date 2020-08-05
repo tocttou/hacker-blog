@@ -9,7 +9,7 @@ As such, I spend a reasonable amount of time comparing my own thought processes 
 
 (Bayes' Rule is much easier to understand in terms of ratios. Buck explains why [here](http://shlegeris.com/2019/12/01/bayes).)
 
-## Updates are Bidirectional
+## Updates Multiple Hypotheses
 
 I have a tendency to telling stories about evidence that cause me to under-update. For example, suppose I think I'm good at essay writing, but I am struggling to write a particular essay. The story I tell myself is "I guess this essay was harder than I thought." This story might be true, but it ignores the fact that struggling is also evidence that I'm worse at writing than I thought. (This error might be described as over-proliferating [buckets](https://www.lesswrong.com/posts/EEv9JeuY5xfuDDSgF/flinching-away-from-truth-is-often-about-protecting-the).)
 
