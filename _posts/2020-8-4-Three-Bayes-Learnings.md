@@ -9,8 +9,6 @@ As such, I spend a reasonable amount of time comparing my own thought processes 
 
 (Bayes' Rule is much easier to understand in terms of ratios. Buck explains why [here](http://shlegeris.com/2019/12/01/bayes).)
 
-***
-
 ## Update Multiple Hypotheses
 
 I have a tendency to telling stories about evidence that cause me to under-update. For example, suppose I think I'm good at essay writing, but I am struggling to write a particular essay. The story I tell myself is "I guess this essay was harder than I thought." This story might be true, but it ignores the fact that struggling is also evidence that I'm worse at writing than I thought. (This error might be described as over-proliferating [buckets](https://www.lesswrong.com/posts/EEv9JeuY5xfuDDSgF/flinching-away-from-truth-is-often-about-protecting-the).)
@@ -23,7 +21,7 @@ If you have parameters in your model of reality and you make an observation, you
 
 In 1974, if you solved an impressive-sounding problem with AI, you were actually discovering that that problem was easier than expected. But you are also discovering that 1974 AI was slightly more powerful than you thought. (In practice, sufficiently small updates are not worth making.)
 
-One of the consequences is that everything you do is always giving you evidence about your own abilities. As the saying goes, "if everywhere you go smells like shit, maybe it's time to check your shoes"
+One of the consequences is that everything you do is always giving you evidence about your own abilities. Thus it is said: "if everywhere you go smells like shit, maybe it's time to check your shoes"
 
 ## Strong Evidence is Common
 
@@ -43,6 +41,6 @@ I once read a story about someone (let's call them Jane) trying to determine whe
 
 In theory, it is not a mistake to assign high probability to a given false statement; it does suggest, however, that a mistake was made. Jane made a mistake in reasoning --- subtle, but damning. The first odds ratio Jane estimated was for "the pair went to a museum". The second Jane estimated should __not__ have been for "the pair went to dinner"; it should have been for "the pair went to dinner, given that they had already gone to the museum". The mistake Jane made was forgetting to properly condition when considering dependent pieces of evidence.
 
-Here's a verbal explanation of why this makes sense. Seeing the pair at a museum tells you "the pair have some sort of relationship". Most people do not have some sort of relationship, and thus this should strongly affect the probability that the pair are courting. However, seeing the pair having dinner only tells you types of relationship the pair has is one that involves dining together. Many relationships involve dining together, so this is only mildly suggestive of courtship. The mistake Jane made was seeing the pair at dinner and "finding out" that the pair were in a relationship a second time.
+Here's a verbal explanation of why this makes sense. Seeing the pair at a museum tells you "the pair have some sort of relationship". Most people do not have some sort of relationship, so this strongly affects the probability that the pair are courting. However, seeing the pair having dinner only tells you type of relationship the pair has is one that involves dining together. Many relationships involve dining together, so this is only mildly suggestive of courtship. The mistake Jane made was seeing the pair at dinner and "finding out" that the pair were in a relationship a second time.
 
-One of the consequences is that considering pieces of evidence separately might cause double-counting, causing overconfidence. If you have pieces of evidence that are all individually surprising, they will likely become much less surprising if you consider them together.
+One of the consequences is that considering pieces of evidence separately might result in double-counting, causing overconfidence. If you have pieces of evidence that are all individually surprising, they will likely become much less surprising if you consider them together.
