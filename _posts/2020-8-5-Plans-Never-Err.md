@@ -23,4 +23,4 @@ If you were not clever, then you didn't include contingencies. You only have exp
 
 If you were extremely not clever, you didn't even have expectations. Your plan is just a list of actions. Unless you are good at modeling the world, you are already doomed.
 
-Reality is your enemy. No plan survives. Learn to build with the wreckage.
+Reality is your enemy. No plan survives. Learn to build from the wreckage.
