@@ -11,7 +11,7 @@ When I planned to make mashed potatoes, I assumed the sous vide machine worked. 
 
 [Helmuth von Moltke the Elder](https://en.wikiquote.org/wiki/Helmuth_von_Moltke_the_Elder):
 
-\> No plan survives contact with the enemy.
+> No plan survives contact with the enemy.
 
 All plans inevitably fail. That does not make planning a useless exercise. What makes a plan useless is if it has no contingency for failure. This must be fixed; a simple patch is including "make a new plan" as part of your plan. This is the minimum necessary work to have a plan at all. Any minimally adequate plan makes no errors. 
 
