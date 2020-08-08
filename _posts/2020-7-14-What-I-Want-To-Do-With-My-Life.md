@@ -4,7 +4,7 @@ published: true
 ---
 Sometimes, people ask me what I want to do with my life. Usually, I say something like "I dunno, currently deciding between industry and grad school." This answer is not technically false, but it is not the whole truth either.
 
-The primary deception in the usual answer I give is that it doesn't actually answer the question - "becoming a software engineer" or "getting a PhD" are goals that I only care about in relation to other goals. It's important to remember that the things you want are distinct from the actions you take to get what you want. You take actions because they have consequences; if the consequences chance, then the action might no longer be valuable.
+The first deception is that my answer doesn't answer the question - "becoming a software engineer" or "getting a PhD" are goals that I only care about in relation to other goals. It's important to remember that the things you want are distinct from the actions you take to get what you want. You take actions because they have consequences; if the consequences change, then the action might no longer be valuable.
 
 The second deception is that I do know, and have known, what I want to do with my life for a while. I don't know with certainty, but I have good guesses; I cannot paint you a detailed picture of my utopia, but I can point to some things and say "probably close to this" and other things and say "probably not that". 
 
