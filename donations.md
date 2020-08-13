@@ -4,7 +4,7 @@ title: About
 
 ---
 
-One of the ways to do good is to give money to effective charities. Since I'm advocating this, below is a public record of my donations. I aim to donate at least 10% of my income; I fell short in 2019 because I forgot to account for income received as housing. I plan on donating >15% of my income in 2020 to compensate. 
+One of the ways to do good is to give money to effective charities. Since I'm advocating this, below is a public record of my donations.
 
 "Income" shows my "adjusted gross income" as reported on various US tax forms. 
 
