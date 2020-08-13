@@ -5,7 +5,7 @@ title: About
 
 I'm Mark Xu. I want to be omnibenevolent. To this end, I am also interested in becoming omniscient and omnipotent. I approximate this by employing the cognitive and technological prostheses that humanity has developed.
 
-Content is my own beliefs at the time of writing, lossily compressed into language. I will attempt to include the necessary nuance and caveats, although I can make no guarantees.
+Content is my own beliefs at the time of writing, lossily encrypted into language. I will attempt to include the necessary nuance and caveats, although I can make no guarantees.
 
 Leave me anonymous feedback [here](https://www.admonymous.co/mark).
 
