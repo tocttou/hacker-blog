@@ -8,6 +8,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Infrared Toaster Oven](https://smile.amazon.com/Panasonic-NB-G110P-FlashXpress-Infrared-Removable/dp/B008C9UFDI)
 * [iPod Touch](https://www.apple.com/ipod-touch/)
 * [Jabra Elite 65t Wireless Earbuds](https://www.jabra.com/bluetooth-headsets/jabra-elite-65t##100-99000000-02)
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
