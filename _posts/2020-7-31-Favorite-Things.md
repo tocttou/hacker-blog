@@ -44,6 +44,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 ### Environmental Adjusters
 
 * [Aeron Chair](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
+* [Battlestar Roller](https://www.roguefitness.com/mobility-wod-battlestar-2-0-kits)
 * [Blackout Curtains](https://www.amazon.com/gp/product/B071YYPDWJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [ChiliPad](https://www.chilitechnology.com/products/chilipad-sleep-system)
 * [Headphone Hook](https://www.amazon.com/gp/product/B07QJ9JZZX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
