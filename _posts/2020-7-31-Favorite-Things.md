@@ -48,6 +48,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Battlestar Roller](https://www.roguefitness.com/mobility-wod-battlestar-2-0-kits)
 * [Blackout Curtains](https://www.amazon.com/gp/product/B071YYPDWJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [ChiliPad](https://www.chilitechnology.com/products/chilipad-sleep-system)
+* [Earplugs](https://smile.amazon.com/Macks-Ultra-Soft-Foam-Earplugs/dp/B0051U7W32)
 * [Headphone Hook](https://www.amazon.com/gp/product/B07QJ9JZZX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [LIFX LED Bulb](https://www.amazon.com/gp/product/B073168GYG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Lumenator](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
