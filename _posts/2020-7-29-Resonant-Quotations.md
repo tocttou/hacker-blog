@@ -20,7 +20,7 @@ Jai
 
 Nate Soares
 
-> When all is said and done, and Nature passes her final judgment, ... [y]ou will be measured only by what actually happens, as we all will.
+> [Y]ou will be measured only by what actually happens.
 
 Scott Alexander
 
