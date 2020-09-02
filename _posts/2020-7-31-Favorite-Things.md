@@ -14,6 +14,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
 * [Logitech C920 Webcam](https://www.amazon.com/Logitech-C920-Pro-Webcam-Black/dp/B00829D0GM?pldnSite=1)
 * [Logitech Ergo Trackball Mouse](https://www.amazon.com/gp/product/B0753P1GTS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Logitech g602 Wireless Gaming Mouse](https://www.logitech.com/en-ch/product/g602-wireless-gaming-mouse)
 * [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Sony Digital Recorder](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ)
 * [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
