@@ -55,6 +55,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Lumenator](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
 * [Magnetic Poster Frame](https://www.amazon.com/gp/product/B07Y681V5L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Memory Foam Pillow](https://smile.amazon.com/gp/product/B00EINBSEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Phone Stand](https://smile.amazon.com/gp/product/B07F8S18D5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Standing Desk](https://www.upliftdesk.com/)
 * [Tree Bookshelf](https://www.amazon.com/gp/product/B07WGKXDW9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Velvet Hangers](https://www.amazon.com/gp/product/B00FXNAAW2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
