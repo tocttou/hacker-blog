@@ -5,7 +5,7 @@ published: true
 
 (The [law of equal and opposite](https://slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/) advice applies in droves.)
 
-Caltech has a couple of strange traditions. One such the tradition are the houses, which are sort of like a mix of dorms and fraternities/sororities. New students spend their first two weeks "rotating" through the eight houses and getting a feel for their cultures. At the end, students express preferences are are "rotated" into one of houses.
+Caltech has a couple of strange traditions. One such the tradition are the houses, which are sort of like a mix of dorms and fraternities/sororities. New students spend their first two weeks "rotating" through the eight houses and getting a feel for their cultures. At the end, students express preferences and are "rotated" into one of houses.
 
 (You may perceive some vaguely Hogwartsy vibes. You would be correct.)
 
