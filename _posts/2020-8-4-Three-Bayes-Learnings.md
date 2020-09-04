@@ -9,7 +9,7 @@ As such, I spend a reasonable amount of time comparing my own thought processes 
 
 (Bayes' Rule is much easier to understand in terms of ratios. Buck explains why [here](http://shlegeris.com/2019/12/01/bayes).)
 
-## Update Multiple Hypotheses
+# Update Multiple Hypotheses
 
 I have a tendency to telling stories about evidence that cause me to under-update. For example, suppose I think I'm good at essay writing, but I am struggling to write a particular essay. The story I tell myself is "I guess this essay was harder than I thought." This story might be true, but it ignores the fact that struggling is also evidence that I'm worse at writing than I thought. (This error might be described as over-proliferating [buckets](https://www.lesswrong.com/posts/EEv9JeuY5xfuDDSgF/flinching-away-from-truth-is-often-about-protecting-the).)
 
@@ -23,7 +23,7 @@ In 1974, if you solved an impressive-sounding problem with AI, you were actually
 
 One of the consequences is that everything you do is always giving you evidence about your own abilities. Thus it is said: "if everywhere you go smells like shit, maybe it's time to check your shoes"
 
-## Strong Evidence is Common
+# Strong Evidence is Common
 
 Whenever I'm explicitly doing Bayes' Rule, I tend to estimate the strength of evidence between 1:100 and 100:1. This might be a good strategy because a meta-prior: "if I'm confused enough to be doing Bayes explicitly, then the evidence probably isn't that strong". However, many situations involve evidence much much stronger than 1:100. 
 
@@ -35,7 +35,7 @@ Seeing a Wikipedia page say "X is the capital of Y" is tremendous evidence that 
 
 One of the consequences is that running through Bayes' Rule explicitly might produce a bias towards middling values. Extraordinary claims require extraordinary evidence, but extraordinary evidence might be more common than you think.
 
-## Conditioning is Critical
+# Conditioning is Critical
 
 I once read a story about someone (let's call them Jane) trying to determine whether two people were courting. Jane observed the pair both going to a museum and having dinner. Jane estimated the prior odds that these people were courting at 1:20 and the odds ratios of "going to a museum" and "having dinner" to both be 10:1, arriving at a posterior of 100:20, or 5:1. The pair turned out to be siblings.
 
