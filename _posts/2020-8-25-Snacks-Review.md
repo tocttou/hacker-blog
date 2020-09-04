@@ -1,5 +1,5 @@
 ---
-title: Review&#58;: Assorted Snacks 
+title: Review&#58; Assorted Snacks 
 published: true
 ---
 
