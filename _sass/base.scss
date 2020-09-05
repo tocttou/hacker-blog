@@ -196,7 +196,7 @@ hr {
 }
 
 
-.article hr:after {
+&:after {
     content: "···";
     letter-spacing: 2em;
 }
