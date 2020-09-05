@@ -178,7 +178,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed $gallery;
   padding: 5px 10px;
 }
 
@@ -189,7 +189,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dotted #gallery;
   color: #b5e853;
 }
 
