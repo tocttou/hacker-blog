@@ -65,7 +65,7 @@ header {
 }
 
 header h1 {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
@@ -107,27 +107,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #main_content h2 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 #main_content h3 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 #main_content h4 {
-  font-size: 12px;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
+  font-size: 14px;
 }
 
 #main_content h5 {
   font-size: 12px;
   text-transform: uppercase;
-  color: #ccc;
   margin: 0 0 5px 0;
 }
 
@@ -180,7 +177,7 @@ table {
 }
 
 th {
-  text-align: left;
+  text-align: left;a
   border-bottom: 1px dashed $gallery;
   padding: 5px 10px;
 }
@@ -190,10 +187,18 @@ td {
 }
 
 hr {
-  height: 3px;
-  border: 0;
-  border-bottom: 1px dotted #gallery;
-  color: #b5e853;
+    height: 1px;
+    margin: 2em 1em 4em 0;
+    text-align: center;
+    border-color: #777;
+    border-width: 0;
+    border-style: dotted;
+}
+
+
+.article hr:after {
+    content: "···";
+    letter-spacing: 2em;
 }
 
 /* Buttons
