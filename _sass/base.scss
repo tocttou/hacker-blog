@@ -187,9 +187,12 @@ td {
 }
 
 hr {
-    display: block;
+    height: 1px;
+    margin: 2em 1em 4em 0;
     text-align: center;
-    margin: 25px auto;
+    border-color: #777;
+    border-width: 0;
+    border-style: dotted;
 }
 
 
