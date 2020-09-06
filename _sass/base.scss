@@ -196,7 +196,7 @@ hr {
 }
 
 
-&:after {
+hr:after {
     content: "···";
     letter-spacing: 2em;
 }
