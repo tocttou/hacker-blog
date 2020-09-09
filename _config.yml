@@ -28,5 +28,6 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "Mark Xu"
-year : "2020"
+owner: "Mark Xu"
+year: "2020"
+google_analytics: UA-177634297-1
