@@ -27,5 +27,6 @@ Forecaster calibration is constantly monitored. Any given forecaster is given a 
 
 One day, an official noted that the number of forecasts a case required could itself be predicted. On that day, the meta-forecaster was born. The jurisdiction of the meta-forecaster expanded rapidly. Police's search for evidence was soon aided by meta-predictions about predictions conditional on search locations. Forecaster calibration monitoring was supplemented by meta-predictions about calibration. System improvements were hastened by meta-predictions about the number of forecasters that would be required.
 
-Another day, an official noted that meta-forecaster implied the possibility of a meta-meta-forecaster. Metsa-meta-forecasting was much the same as meta-forecasting; infinite regression was avoided. However, the scope of the forecasting apparatus grew until all citizens were under its employ.
+Another day, an official noted that the meta-forecaster implied the possibility of a meta-meta-forecaster. Meta-meta-forecasting was much the same as meta-forecasting; infinite regression was avoided. However, the scope of the forecasting apparatus grew until all citizens were under its employ.
+
 There are no longer citizens that break laws. The original purpose of the forecasting apparatus has been lost. All that remains of Metaculus is a recursive tangle that is perfect at predicting itself, predicting predictions of itself, predictions predictions of predictions of itself, ...
