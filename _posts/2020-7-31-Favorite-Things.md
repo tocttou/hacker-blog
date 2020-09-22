@@ -76,6 +76,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 
 * [Screwpop Utility Knife](https://www.amazon.com/gp/product/B00UZHT432/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
+* [Tungsten cube](https://smile.amazon.com/Tungsten-Cube-1-5-One-Kilo/dp/B00XZBIJLS)
 * [YubiKey](https://www.yubico.com/store/)
 * [Zojirushi Water Boiler](https://www.amazon.com/gp/product/B00R4HKJEE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
