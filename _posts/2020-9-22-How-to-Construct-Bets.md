@@ -1,9 +1,7 @@
 ---
 title: How to Construct Bets
 published: true
-katex: yes
-tags:
--test
+katex: true
 ---
 
 Suppose I think event $$E$$ is going to happen with 50% chance and my friend thinks that it's going to happen with 70% chance. Clearly, we should [bet](https://markxu.com/bets) on it, but how do we do that?
