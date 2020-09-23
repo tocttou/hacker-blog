@@ -1,5 +1,5 @@
 ---
-title: title
+title: How to Buy Things
 published: true
 ---
 
