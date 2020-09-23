@@ -3,7 +3,10 @@ title: These Legal Systems Do Not Exist
 published: true
 ---
 
+Inspired by [Legal Systems Very Different From Ours, Because I Just Made Them Up](https://slatestarcodex.com/2020/03/30/legal-systems-very-different-from-ours-because-i-just-made-them-up/)
+
 # I
+
 The people of Edent do not know if they are good. This is not unusual; many people do not know if they are good people or not. However, the people of Edent also believe in human nature. It would be more accurate to say that they do not know whether humanity is good.
 
 Luckily, the people of Edent are all evidentiary decision theorists. Instead of asking themselves "what should I do", they act based on the question "what would I be happy to hear that I did?". In answering this question, they reason: "if I did something bad, then that would mean human nature is bad. If human nature is bad, then Edent would soon collapse. I do not want this, so I will do something good."
