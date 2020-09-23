@@ -31,3 +31,4 @@ plugins:
 owner: "Mark Xu"
 year: "2020"
 google_analytics: UA-177634297-1
+markdown: kramdown
