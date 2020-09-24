@@ -9,7 +9,7 @@ Content is my own beliefs at the time of writing, lossily compressed into langua
 
 Leave me anonymous feedback [here](https://www.admonymous.co/mark).
 
-If you think a conversation with me will be beneficial, feel free to book a time [here](https://calendly.com/markxu/conversation).
+If you think a conversation with me will be beneficial, feel free to book a time [here](https://calendly.com/markxu/talk).
 
 My resume can be found [here](/downloads/resume.pdf).
 
