@@ -19,11 +19,11 @@ One of the ways to do good is to give money to effective charities. Since I'm ad
 
 ## Details
 
-| Date     | Donation | Recipient                               |
-| -------- | -------- | --------------------------------------- |
-| 12/04/19 | 1449     | Machine Intelligence Research Institute |
-| 09/23/19 | 1500     | Machine Intelligence Research Institute |
-| 07/15/18 | 1000     | Machine Intelligence Research Institute |
-| 08/15/17 | 391.12   | Against Malaria Foundation              |
-| 02/26/17 | 400      | Givewell’s Top Recommended              |
-| 06/27/16 | 143.47   | Against Malaria Foundation              |
+| Date     | Donation | Recipient                                                                       |
+| -------- | -------- | --------------------------------------------------------------------------------|
+| 12/04/19 | 1449     | [Machine Intelligence Research Institute](https://intelligence.org/)            |
+| 09/23/19 | 1500     | [Machine Intelligence Research Institute](https://intelligence.org/)            |
+| 07/15/18 | 1000     | [Machine Intelligence Research Institute](https://intelligence.org/)            |
+| 08/15/17 | 391.12   | [Against Malaria Foundation](https://www.againstmalaria.com/)                   |
+| 02/26/17 | 400      | [Givewell’s Maximum Impact Fund](https://www.givewell.org/maximum-impact-fund)  |
+| 06/27/16 | 143.47   | [Against Malaria Foundation](https://www.againstmalaria.com/)                   |
