@@ -7,10 +7,6 @@ I'm Mark Xu. I want to be omnibenevolent. To this end, I am also interested in b
 
 Content is my own beliefs at the time of writing, lossily compressed into language.
 
-Leave me anonymous feedback [here](https://www.admonymous.co/mark).
+Leave me anonymous feedback [here](https://www.admonymous.co/mark). If you think a conversation with me will be beneficial, feel free to book a time [here](https://calendly.com/markxu). My resume is located [here](/downloads/resume.pdf).
 
-If you think a conversation with me will be beneficial, feel free to book a time [here](https://calendly.com/markxu).
-
-My resume can be found [here](/downloads/resume.pdf).
-
-Find me on [Email](mailto:m@rkxu.me), [Facebook](https://www.facebook.com/markxu0), [EA Forums](https://forum.effectivealtruism.org/users/mark-xu), [LessWrong](https://www.lesswrong.com/users/mark-xu), [Github](https://github.com/markzxu), [Twitter](https://twitter.com/markzxu), [Instagram](https://www.instagram.com/markzxu/), [LinkedIn](https://www.linkedin.com/in/xu-mark/), and [Metaculus](https://www.metaculus.com/accounts/profile/112002/).
+Find me on [EA Forums](https://forum.effectivealtruism.org/users/mark-xu), [Email](mailto:m@rkxu.me), [Facebook](https://www.facebook.com/markxu0), [Github](https://github.com/markzxu), [Instagram](https://www.instagram.com/markzxu/),  [LessWrong](https://www.lesswrong.com/users/mark-xu), [LinkedIn](https://www.linkedin.com/in/xu-mark/), [Metaculus](https://www.metaculus.com/accounts/profile/112002/), and [Twitter](https://twitter.com/markzxu),
