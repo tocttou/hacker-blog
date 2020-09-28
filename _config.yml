@@ -26,6 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Custom variables
 owner: "Mark Xu"
