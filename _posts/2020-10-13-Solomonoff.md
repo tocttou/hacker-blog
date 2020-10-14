@@ -115,7 +115,7 @@ An intuition pump is that this argument is closer to an existence claim than a f
 
 How many bits does it take to specify a universe that can give rise to consequentialists? I do not know, but it seems like Conway’s Game of Life might provide a reasonable lower bound. 
 
-Luckily, the [code golf community](https://codegolf.stackexchange.com/) has spent some amount of effort optimizing for program size. How many bytes would you guess it takes to specify Game of Life? Well, it depends on the universal TM. Possible answers include [6](https://codegolf.stackexchange.com/questions/3434/shortest-game-of-life/204279#204279), [32](https://codegolf.stackexchange.com/a/204279), [39](https://codegolf.stackexchange.com/a/12733), or [96](https://codegolf.stackexchange.com/a/51975).
+Luckily, the [code golf community](https://codegolf.stackexchange.com/) has spent some amount of effort optimizing for program size. How many bytes would you guess it takes to specify Game of Life? Well, it depends on the universal TM. Possible answers include [6](https://codegolf.stackexchange.com/a/149976), [32](https://codegolf.stackexchange.com/a/204279), [39](https://codegolf.stackexchange.com/a/12733), or [96](https://codegolf.stackexchange.com/a/51975).
 
 Since universes of consequentialists can “cheat” by concentrating their predictive efforts onto universal TMs in which they are particularly simple, we’ll take the minimum. Additionally, my friend who’s into code golf (he wrote the 96-byte solution!) says that the 6-byte answer actually contains closer to 4 bytes of information.
 
