@@ -68,6 +68,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [Anki](https://apps.ankiweb.net/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/)
 * [Protonmail](https://protonmail.com/)
+* [Rescuetime](https://www.rescuetime.com/)
 * [Roam](https://roamresearch.com/)
 * [Signal](https://signal.org/en/)
 * [Todoist](https://todoist.com/)
