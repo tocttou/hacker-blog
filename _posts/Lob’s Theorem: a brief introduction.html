@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="generator" content="Jekyll">
+
+  <title>Lob’s Theorem: a brief introduction</title>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://markxu.com/css/main.css">
+</head>
+
+
+<body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+  <div id="wrapper">
+    <header>
+  <div>
+    <a href="https://markxu.com/">
+    <h1>Artificially Intelligent</h1>
+    </a>
+    <p style="text-align:center"> Any mimicry distinguishable from the original is insufficiently advanced. </p>
+    <div class="header-links">
+      <a href="https://markxu.com/about"><h2 class="header-link">About</h2></a>
+<a href="https://markxu.com/archive"><h2 class="header-link">Archive</h2></a>
+<a href="https://markxu.com/bets"><h2 class="header-link">Bets</h2></a>
+<a href="https://markxu.com/donations"><h2 class="header-link">Donations</h2></a>
+    </div>
+  </div>
+</header>
+
+    <div class="container">
+      <section id="main_content">
+        <script async="" src="The%20Solomonoff%20Prior%20is%20Malign_files/analytics.js"></script><script src="The%20Solomonoff%20Prior%20is%20Malign_files/MathJax.js" id=""></script>
+<article>
+          <h1>Lob’s Theorem: a brief introduction</h1>
+          <time class="by-line" datetime="2020-09-04T00:00:00+00:00">04 Sep 2020</time>
+  <h1 id="background">Background</h1>
+  <p>Mathematics is often thought of the study of Truth free from subjectivity. This is not entirely true (although it is
+    not entirely false either). It would be more correct to say that mathematics is the study of Truth relative to a
+    certain set of axioms. It would be even more correct to say that mathematics is the study of Truth relative to a
+    certain set of axioms under a given deductive system. It would be the most correct to say that mathematics is the
+    study of Truth relative to a certain set of axioms under a given deductive system <em>within a given structure</em>.
+  </p>
+  <p>For everything that follows, we will be working with the axioms of Peano Arithmetic and it’s corresponding language,
+    but the results hold with more generality.</p>
+  <h2 id="models-structures-and-truth">Models, Structures and Truth</h2>
+  <p>Informally, a structure of a given language is a set of objects along with a set of interpretations of all the
+    symbols in the language in relation to the given objects. For example, if your language is <span
+      class="math inline">\(\{S\}\)</span>, a possible interpretation is that your set is <span
+      class="math inline">\(\mathbb N\)</span> and <span class="math inline">\(S: x \mapsto x + 1\)</span>. A different
+    structure is that your set is <span class="math inline">\(\mathbb R\)</span> and <span class="math inline">\(S: x
+      \mapsto x / 2\)</span>. However, most of the time we want our structures to have, well, structure. The way we do
+    this is to get a set of axioms <span class="math inline">\(A\)</span> and constrain all structures so that our axioms
+    are ‘true’ inside the structures. What do I mean by ‘true’? Well, informally all mathematical statements are built
+    from pieces connected together with logical connectives - we assign truth values to all of the base pieces (via our
+    structure and/or deductive system) and then our statement is true if all of the right pieces are true. “Snow is white”
+    is true if and only if snow is white. If a given set of axioms <span class="math inline">\(A\)</span> is true inside a
+    structure <span class="math inline">\(S\)</span>, then we say that <span class="math inline">\(S\)</span> models <span
+      class="math inline">\(A\)</span> and we write <span class="math inline">\(S \models A\)</span>.</p>
+  <p>If a given sentence <span class="math inline">\(\sigma\)</span> is such that for all structures <span
+      class="math inline">\(S\)</span>, if <span class="math inline">\(S \models A\)</span>, then <span
+      class="math inline">\(S \models \{\sigma\}\)</span>, then we write that <span class="math inline">\(A \models
+      \sigma\)</span>.</p>
+  <h2 id="provability">Provability</h2>
+  <p>Slightly separately from truth, we have this notion of provability. Informally, something is provable from a set of
+    axioms if you can write down a proof for it. What’s a proof? It’s just a sequence of mathematical statements where
+    each statement is either an axiom or follows from one of your rules of inference. What are these rules of inference?
+    It turns out that the precise deductive system you use isn’t really that important, it just has to include stuff like
+    modus ponens.</p>
+  <p>Notice that this notion of provability only depends on your set of axioms and doesn’t reference any particular model.
+    If a sentence <span class="math inline">\(\sigma\)</span> is provable from a set of axioms <span
+      class="math inline">\(A\)</span>, we write <span class="math inline">\(A \vdash \sigma\)</span>.</p>
+  <h2 id="godels-completeness-theorem">Godel’s Completeness Theorem</h2>
+  <div class="theorem">
+    <p><strong>Theorem 1</strong> (Godel’s Completeness). <em>For any set of axioms <span
+          class="math inline">\(A\)</span>, <span class="math inline">\(A \vdash \sigma \iff A \models
+          \sigma\)</span>.</em></p>
+  </div>
+  <p>The proof is kind of tedious so I’m not going to explain it, but Godel’s Completeness Theorem basically says that
+    that if something is true is all possible models of a given set of axioms, then it must logically follow from those
+    axioms and thus must have a proof. If this weren’t the case, then there would be statement that were true in every
+    world where a set of axioms were true, but we wouldn’t be able to show that that was the case, which would make math
+    kind of hard.</p>
+  <h1 id="godels-first-incompleteness-theorem">Godel’s First Incompleteness Theorem</h1>
+  <p>The standard English phrasing of Godel’s First Incompleteness Theorem goes “There are statements in Peano Arithmetic
+    that are true, but not provable”. If you’re using ‘true’ to mean ‘true’ in all models, then this phrasing is wrong.
+    The obvious problem is that by Godel’s Completeness Theorem, since PA is a set of axioms, all statements that are true
+    in PA must be provable in PA. Some people use the word ‘true’ to mean ‘true in the natural numbers’, and in that
+    sense, Godels’ theorem does say that there are statements that are true but not provable. But you wouldn’t expect them
+    to be provable, because Godel’s Completeness Theorem.</p>
+  <div class="theorem">
+    <p><strong>Theorem 2</strong> (Godel’s First Incompleteness). <em>For any set of sufficiently powerful axioms <span
+          class="math inline">\(A\)</span>, there exists a mathematical statement such that <span
+          class="math inline">\(A\)</span> does not model <span class="math inline">\(\sigma\)</span> and <span
+          class="math inline">\(A\)</span> does not model <span class="math inline">\(\neg \sigma\)</span>. We call such a
+        <span class="math inline">\(\sigma\)</span> undecidable.</em></p>
+  </div>
+  <p>What do I mean by ‘sufficiently powerful’? Basically, you need to be able to encode Turing Machines inside <span
+      class="math inline">\(A\)</span>. For now, you can think of it as being able to prove the axioms of PA, but PA is
+    actually much stronger than you need for this sort of thing.</p>
+  <h3 id="coding">Coding</h3>
+  <p>Let’s say that you’re writing computer program and you need to use lists, but for some reason you really don’t like
+    lists. Since you really like natural numbers (who doesn’t?), you come up with a clever way to use natural numbers to
+    represent lists using the prime factorization theorem.</p>
+  <p>Given a list of numbers <span class="math inline">\((n_1, ..., n_k)\)</span>, we encode them in the product <span
+      class="math inline">\(\prod_i p_i^{n_i + 1}\)</span>, where <span class="math inline">\(p_i\)</span> is the <span
+      class="math inline">\(i\)</span>th prime number. Of course, encoding numbers means that you can encode any list
+    drawn from any countable set: in particular, you can encode the language of arithmetic. Since a arithmetic statement
+    is just a list of symbols with certain properties, with a lot of work, you can define what it means to be mathematical
+    statement in arithmetic. Since a proof is just a list of statements that satisfy other properties, you can also define
+    what it means to be a proof in arithmetic. Thus, with a whole lot of work, you can define a formula PROOF(n, s) :=
+    “<span class="math inline">\(n\)</span> is the code of a proof of the sentence whose code is <span
+      class="math inline">\(s\)</span>”. Using this, we define a formula <span class="math inline">\(\text{PRVB}(s) :=
+      \exists n: \text{PROOF}(n, s)\)</span>. For notation, given a formula <span class="math inline">\(\phi\)</span>, let
+    <span class="math inline">\([\phi]\)</span> be it’s code.</p>
+  <h2 class="unnumbered" id="proof-of-godels-first-incompleteness-theorem">Proof of Godel’s First Incompleteness Theorem
+  </h2>
+  <div class="proof">
+    <p><em>Proof.</em> Let’s try the obvious thing and figure out why its wrong. Let <span
+        class="math inline">\(\varphi(x):= \neg \text{PRVB}(x)\)</span>. Let <span class="math inline">\(c\)</span> be the
+      code of <span class="math inline">\(\varphi\)</span> and consider <span class="math inline">\(\varphi(c) \iff \neg
+        \text{PRVB}(c)\)</span>. Ideally, this statement <span class="math inline">\(\varphi(c)\)</span> would say
+      something like “I am not provable”, but it doesn’t quite do that. Notice that <span
+        class="math inline">\(\varphi(c)\)</span> says that <span class="math inline">\(\varphi\)</span> is not provable,
+      which doesn’t really make any sense since <span class="math inline">\(\varphi\)</span> needs a variable.</p>
+    <p>How do we get around this? Well the easy answer is something called the Diagonal Lemma, which states that for all
+      formulas <span class="math inline">\(F\)</span>, one can construct a sentence <span
+        class="math inline">\(\sigma\)</span> such that <span class="math inline">\(\sigma \iff F([\sigma])\)</span>. If
+      this Lemma is true, then we can let <span class="math inline">\(F:= \neg \pvbl\)</span>, and we’re done. We now
+      prove the Diagonal Lemma.</p>
+    <p>Let <span class="math inline">\(F\)</span> be the property we want to diagonalize. First, we need to define a
+      function <span class="math inline">\(subs(n) = [\alpha(n)]\)</span>, where <span class="math inline">\([\alpha] =
+        n\)</span>. In fact, what we actually need is a formula <span class="math inline">\(issub(n, m) \iff subs(n) =
+        m\)</span>. Such a formula exists because we have assumed our axiom system to be sufficiently powerful.</p>
+    <p>Given such a formula, define <span class="math display">\[\beta(z) = \forall y:(issubs(z, y) \implies
+        F(y))\]</span>. Thus we have that our axiom system proves <span class="math display">\[\beta([\phi]) \iff \forall
+        y: (y = [\phi([\phi])] \implies F(y)) \iff F([\phi([\phi])])\]</span>. Now we just plug in <span
+        class="math inline">\(\beta\)</span> for <span class="math inline">\(\phi\)</span> and we get <span
+        class="math display">\[\beta([\beta]) \iff F([\beta([\beta])])\]</span> ◻</p>
+  </div>
+  <h2 id="non-standard-models">Non-Standard Models</h2>
+  <p>So it seems like we can make some statement <span class="math inline">\(\sigma\)</span> that says “I am not
+    provable”. Of course, since <span class="math inline">\(\sigma\)</span> is actually not provable, it seems like this
+    statement is somehow “true”. The problem is that while being provable is not dependent on the model, trying to express
+    provability in a formula causes such a dependence to arise. The trouble is when you know that <span
+      class="math inline">\(\text{PRVB}(\sigma)\)</span> is true and you want to extract the proof out of it. Ideally, you
+    would get back some natural number that encoded the proof and then just convert it to symbols, but the problem is that
+    this assumes that you’re only quantifying over the natural numbers. If you have a strange model of arithmetic, then
+    you might get back some transcendental number, and when you try to get the proof out, you might end up with an
+    infinite sequence of: <span class="math display">\[... \neg \neg \neg \neg \neg \neg \sigma, \neg \neg \neg \neg
+      \sigma, \neg \neg \sigma, \sigma\]</span> This makes it possible to have a model of arithmetic where Godel’s
+    statement is false. What if we tried to get rid of the ‘non-standard’ part of arithmetic? This turns out to be
+    impossible</p>
+  <div class="theorem">
+    <p><strong>Theorem 3</strong>. <em>There is no set of axioms <span class="math inline">\(A\)</span> that can only be
+        modeled by <span class="math inline">\(\mathbb N\)</span></em></p>
+  </div>
+  <div class="proof">
+    <p><em>Proof.</em> Suppose such an <span class="math inline">\(A\)</span> exists. Then Godel’s sentence <span
+        class="math inline">\(\sigma\)</span> would be true in all possible models of <span
+        class="math inline">\(A\)</span>. By Godel’s completeness theorem, <span class="math inline">\(A \models
+        \sigma\)</span>, a contradiction. ◻</p>
+  </div>
+  <p>This particular proof of Godel’s First Completeness theorem also gives us Godel’s Second Incompleteness Theorem for
+    free.</p>
+  <div class="theorem">
+    <p><strong>Theorem 4</strong> (Godel’s Second Inconsistency). <em>No consistent sufficiently strong recursive
+        axiomatic system can prove that it is consistent.</em></p>
+  </div>
+  <p>The first thing we have to figure out is if it’s possible to express consistency in <span
+      class="math inline">\(A\)</span>. Well, if <span class="math inline">\(A\)</span> was inconsistent, then there would
+    be a proof of everything. Thus, consistency of <span class="math inline">\(A\)</span> is biconditional with there
+    being a statement that <span class="math inline">\(A\)</span> cannot prove. We can thus define a consistency predicate
+    <span class="math inline">\(CON(A) := \neg \text{PRVB}([0 \neq 0])\)</span>. This allows us to talk about <span
+      class="math inline">\(A\)</span>’s consistency within <span class="math inline">\(A\)</span>.</p>
+  <div class="proof">
+    <p><em>Proof.</em> Suppose that we could prove our system consistent. If we could prove our Godel statement, that
+      would be a contradiction. Since we can prove that our system is consistent, we can thus prove that that we cannot
+      prove our Godel statement. However, by definition of our Godel statement, this constitutes a proof of Godel’s
+      statement, a contradiction. Thus our system is not consistent. ◻</p>
+  </div>
+  <p>Godel’s Second Incompleteness Theorem say that no system can prove its own consistency <em>in general</em>. However,
+    we can hope that we might be able to prove consistency for specific formulas. While it is the case that <span
+      class="math inline">\(\pvbl\)</span> is globally unreliable, it might be the case that there are some statements
+    <span class="math inline">\(\sigma\)</span> such that <span class="math inline">\(A\)</span> can prove <span
+      class="math inline">\(\text{PRVB}(\sigma )\implies \sigma\)</span>, i.e. when <span class="math inline">\(A\)</span>
+    is right whenever <span class="math inline">\(A\)</span> thinks that it’s proved <span
+      class="math inline">\(\sigma\)</span>. It turns out that this is not the case.</p>
+  <h1 id="lobs-theorem">Lob’s Theorem</h1>
+  <div class="theorem">
+    <p><strong>Theorem 5</strong> (Lob). <em><span class="math inline">\((PA \models (\text{PRVB}(\sigma )\implies
+          \sigma)) \implies (PA \models \sigma))\)</span></em></p>
+  </div>
+  <p>Before we prove this theorem, we go over some properties of PA that we’ll need.</p>
+  <h2 id="preliminaries">Preliminaries</h2>
+  <ol>
+    <li>
+      <p><span class="math inline">\((PA \models \sigma) \implies (PA \models \text{PRVB}(\sigma))\)</span></p>
+    </li>
+    <li>
+      <p><span class="math inline">\(PA \models (\text{PRVB}(\sigma )\implies \text{PRVB}(\text{PRVB}(\sigma)))\)</span>
+      </p>
+    </li>
+    <li>
+      <p><span class="math inline">\(PA \models (\text{PRVB}(\sigma \implies \phi) \implies (\text{PRVB}(\sigma )\implies
+          \text{PRVB}(\phi)))\)</span></p>
+    </li>
+  </ol>
+  <p>The key to proving Lob’s theorem is a construction called Lob’s Sentence. Basically, given any statement <span
+      class="math inline">\(\sigma\)</span>, our Lob’s Sentence <span class="math inline">\(L \iff (\text{PRVB}(L)
+      \implies \sigma)\)</span>. This can be done by applying the diagonal lemma</p>
+  <div class="proof">
+    <p><em>Proof.</em> <span class="math display">\[\begin{aligned}
+        &amp;\text{By definition of L} &amp; &amp;PA \models (\text{PRVB}(L) \iff \text{PRVB}( \text{PRVB}(L) \implies
+        \sigma))\\
+        &amp;\text{Hypothesis} &amp; &amp;PA \models (\text{PRVB}(\sigma )\implies \sigma)\\
+        &amp;\text{By iii} &amp; &amp;PA \models (\text{PRVB}( \text{PRVB}(L) \implies \sigma) \implies
+        (\text{PRVB}(\text{PRVB}(L)) \implies \text{PRVB}(\sigma))\\
+        &amp;\text{By (1) and (3)}&amp; &amp;PA \models (\text{PRVB}(L) \implies (\text{PRVB}(\text{PRVB}(L)) \implies
+        \text{PRVB}(\sigma))\\
+        &amp;\text{By ii}&amp; &amp;PA \models (\text{PRVB}(L) \implies \text{PRVB}(\text{PRVB}(L)))\\
+        &amp;\text{By (4), (5) \&amp; MP}&amp; &amp;PA \models (\text{PRVB}(L) \implies \text{PRVB}(\sigma))\\
+        &amp;\text{By (2), (6), \&amp; MP}&amp; &amp;PA \models (\text{PRVB}(L) \implies \sigma)\\
+        &amp;\text{By i \&amp; (7)}&amp; &amp;PA \models \text{PRVB}(\text{PRVB}(L) \implies \sigma)\\
+        &amp;\text{By (1) \&amp; (8)}&amp; &amp;PA \models \text{PRVB}(L)\\
+        &amp;\text{By (7) \&amp; (9)}&amp; &amp;PA \models \sigma\end{aligned}\]</span> ◻</p>
+  </div>
+</article>
+
+
+      </section>
+    </div>
+  </div>
+
+   <footer>
+  <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+    <span>
+        <b>Mark Xu</b>
+    </span>
+    
+    <span>© 2020</span>
+  </a>
+</footer>
+
+  
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-177634297-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px none; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: italic; font-size-adjust: none; font-family: MathJax_Math, sans-serif;"></div></div></body></html>
