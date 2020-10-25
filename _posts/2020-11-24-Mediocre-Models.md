@@ -1,3 +1,9 @@
+---
+title: Miscellaneous Mediocre Models
+published: true
+---
+
+
 The world is very complicated. It is easier to engage with the world productively if you have simple models of how various parts of it work. These are some of the models I use. Some of them are more grounded in reality than others.
 
 # Acids/Bases
