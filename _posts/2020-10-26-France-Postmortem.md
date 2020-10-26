@@ -3,11 +3,11 @@ title: France Bet Postmortem
 published: true
 ---
 
-On the 18th of October 2020, I assigned a 50% chance that France's daily COVID cases would not exceed 40,000 by the end of October. My friend Sidney assigned 70% chance, so we bet about it. As of October 22nd, I have lost this bet.
+On the 18th of October 2020, I assigned a 50% chance that France's daily COVID cases would not exceed 40,000 by the end of October. My friend Sidney assigned 70% chance, so we [bet](https://markxu.com/bets) about it. As of October 22nd, I have lost this bet.
 
 [Abram Demski](https://www.lesswrong.com/posts/AM5JiWfmbAytmBq82/betting-with-mandatory-post-mortem) recommends that people who lose bets write a post-mortem explaining why they think they lost. In general, I think it's very valuable to look at the past and ask yourself how you could have done better.
 
-My model of COVID before I looked at the graph of France's daily cases went something:
+My model of COVID before I looked at the graph of France's daily cases was something like:
 
 - Most cases are driven by large social gatherings
 - Things are exponential early on because of this
