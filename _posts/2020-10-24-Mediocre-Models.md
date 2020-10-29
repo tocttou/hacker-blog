@@ -58,6 +58,8 @@ Another way to make friends is through “mere exposure” type effects. If you 
 Friendships also have signalling hierarchies. At the beginning, you're nice to each other. Eventually, you start insulting each other because "you're stupid" no longer means "you're stupid" but instead means "we're close enough friends that I know you won't take me calling you stupid to mean I think you're actually stupid". At some point the hierarchy flips again, and you start complimenting each other. This implies that you can escalate friendships by being slightly above the current place on the signalling hierarchy. For example, if I'm not quite sure that I'm supposed to start insulting my friend, I can go ahead and do it; most of the time, the result is that we get closer.
 
 # OODA
+epistemic status: useful
+
 The OODA loop is a model of decision making. In this model, decisions are made by first observing the environment, then orienting to possible actions, deciding which action to take, then acting out that action. 
 
 For example, I might make a move in chess by first observing the chess board, orienting to possible moves, deciding which move is best, then acting on that move.
