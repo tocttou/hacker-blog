@@ -6,6 +6,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 
 ### Electronics
 
+* [AirPods Pro](https://www.apple.com/airpods-pro/)
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Infrared Toaster Oven](https://smile.amazon.com/Panasonic-NB-G110P-FlashXpress-Infrared-Removable/dp/B008C9UFDI)
@@ -39,6 +40,7 @@ I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the 
 * [CeraVe PM](https://www.amazon.com/gp/product/B079H99466/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [CeraVe SPF 30](https://www.amazon.com/gp/product/B077TQR6ZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Dove Beauty Bar](https://www.amazon.com/gp/product/B003YOON0C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Floss Holder](https://smile.amazon.com/gp/product/B000LC22R6/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
 * [Pantene Conditioner](https://www.amazon.com/gp/product/B01MTNOJ2Z/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Philips Nose Trimmer](https://www.amazon.com/gp/product/B00QYOSK9E/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Philips Sonicare Toothbrush](https://www.amazon.com/gp/product/B078GVDB19/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
