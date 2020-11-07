@@ -56,7 +56,7 @@ As an analogy, we can consider the Christian God, who is trying to produce human
 
 Correspondingly, there is only one Jesus because there is only one human objective that is exactly the same as what God wants. There might be a few Martin Luthers, but robustly pointing to the Bible is a difficult task, so there are not going to be that many. However, anyone that believed what Blaise Pascal believed about God could become another Pascal, so there are many possible Pascals.
 
-To be explicitly, Jesus is internally aligned, Martin Luther is corrigibly aligned, and Blaise Pascal is deceptively aligned.
+To be explicit, Jesus is internally aligned, Martin Luther is corrigibly aligned, and Blaise Pascal is deceptively aligned.
 
 (This analogy is thanks to Buck Shlegeris.)
 
