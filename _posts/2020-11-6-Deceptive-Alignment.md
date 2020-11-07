@@ -56,7 +56,7 @@ As an analogy, we can consider the Christian God, who is trying to produce human
 
 Correspondingly, there is only one Jesus because there is only one human objective that is exactly the same as what God wants. There might be a few Martin Luthers, but robustly pointing to the Bible is a difficult task, so there are not going to be that many. However, anyone that believed what Blaise Pascal believed about God could become another Pascal, so there are many possible Pascals.
 
-To be explicit, Jesus is internally aligned, Martin Luther is corrigibly aligned, and Blaise Pascal is deceptively aligned.
+To be explicitly, Jesus is internally aligned, Martin Luther is corrigibly aligned, and Blaise Pascal is deceptively aligned.
 
 (This analogy is thanks to Buck Shlegeris.)
 
@@ -132,23 +132,23 @@ Imagine our model is described by four parameters describing the relative levels
 
 
 
-*   environment model $$e$$: at 0, the model does not know the environment exists. At 1, it has a perfect model of the environment.
-*   alignment $$a$$: at 0, the model has a random objective. At 1, it has a perfect copy of the training objective.
-*   objective pointer $$o$$: at 0, there is no pointer. At 1, there is a perfectly robust pointer to the objective in the environment. 
-*   power $$p$$: at 0, the model cannot do anything. At 1, the model is capable enough to achieve 0 training loss.
+*   environment model $e$: at 0, the model does not know the environment exists. At 1, it has a perfect model of the environment.
+*   alignment $a$: at 0, the model has a random objective. At 1, it has a perfect copy of the training objective.
+*   objective pointer $o$: at 0, there is no pointer. At 1, there is a perfectly robust pointer to the objective in the environment. 
+*   power $p$: at 0, the model cannot do anything. At 1, the model is capable enough to achieve 0 training loss.
 
-Let $$t$$ be the index of the current training set, starting at 0. Suppose that the values of the various parameters are given by the following functions:
+Let $t$ be the index of the current training set, starting at 0. Suppose that the values of the various parameters are given by the following functions:
 
 
 
-*   $$e_t = \log_{1000}(t + 1)$$, representing diminishing returns for environment modeling.
-*   $$a_t = \log_{1000}(t + 1)$$, representing diminishing returns for aligning the proxy objective.
-*   $$o_t = \log_{500}(t + 1 - \min({t | e_t > 0.5}))$$, representing diminishing returns for building a robust pointer, which is only possible when the environment model is sufficiently detailed.
-*   $$p_t = \log_{1000}(t + 1)$$, representing diminishing returns for increasing model power.
+*   $e_t = \log_{1000}(t + 1)$, representing diminishing returns for environment modeling.
+*   $a_t = \log_{1000}(t + 1)$, representing diminishing returns for aligning the proxy objective.
+*   $o_t = \log_{500}(t + 1 - \min({t | e_t > 0.5}))$, representing diminishing returns for building a robust pointer, which is only possible when the environment model is sufficiently detailed.
+*   $p_t = \log_{1000}(t + 1)$, representing diminishing returns for increasing model power.
 
-Given the above, $$e_{31} > 0.5$$, so the model will become a corrigibly aligned model before an internally aligned model in $$530$$ timesteps. At this point, the model is not yet powerful enough to achieve zero training loss, so training will continue to $$999$$ timesteps.
+Given the above, $e_{31} > 0.5$, so the model will become a corrigibly aligned model before an internally aligned model in $530$ timesteps. At this point, the model is not yet powerful enough to achieve zero training loss, so training will continue to $999$ timesteps.
 
-Suppose, however, that the model is capable of deception when $$e_t > 0.6$$ and has enough power to deceive successfully at $$p_t > 0.7$$. The model will enter this deceptive regime on timestep 125, far before it becomes a corrigibly aligned. At this point, there will no longer be a marginal incentive to increase the alignment or objective pointer parameters, so they will plateau while power and environmental modeling parameters go to 1.
+Suppose, however, that the model is capable of deception when $e_t > 0.6$ and has enough power to deceive successfully at $p_t > 0.7$. The model will enter this deceptive regime on timestep 125, far before it becomes a corrigibly aligned. At this point, there will no longer be a marginal incentive to increase the alignment or objective pointer parameters, so they will plateau while power and environmental modeling parameters go to 1.
 
 ![](https://markxu.com/assets/deceptive_alignment_training_example.png)
 
@@ -186,7 +186,7 @@ As in our previous example, etiquette including "listen to your teachers" means 
 
 Models have instrumental incentives to be deceptive because they want to preserve their current objectives and optimize for them in the future. Such models must care about utility across multiple training episodes (cross-episode utility). If a model only cared about the current episode, then it would never sacrifice utility in the current model by being deceptive to increase its utility in further episodes. We can call models that care only about current episode rewards [myopic](https://www.alignmentforum.org/tag/myopia).
 
-For example, if a model knew that it was in its last training episode, it would clearly want to optimize for its proxy objective; there would be no particular reason to deceive the training process into thinking it was aligned. Myopic models always behave as if they were in their last training episode.
+For example, if a model knew that it was in its last training episode and that it wasn't going to be deployed, it would clearly want to optimize for its proxy objective; there would be no particular reason to deceive the training process into thinking it was aligned. Myopic models always behave as if it's the end of training and they won't be deployed.
 
 One reason to think that models will often care about cross episode rewards is that caring about the future is a natural generalization. In order for a reward function to be [myopic](https://www.alignmentforum.org/tag/myopia), it must contain machinery that does something like "care about X in situations C and not situations D", which is more complicated than "care about X".
 
