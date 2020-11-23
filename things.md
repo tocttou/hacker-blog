@@ -18,6 +18,7 @@ Last updated: November 18th, 2020
 * [Logitech Ergo Trackball Mouse](https://www.amazon.com/gp/product/B0753P1GTS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Logitech g602 Wireless Gaming Mouse](https://www.logitech.com/en-ch/product/g602-wireless-gaming-mouse)
 * [MacBook Pro (13-inch)](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch)
+* [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
 * [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Remarkable 2](https://remarkable.com/store/remarkable-2)
 * [Sony Digital Recorder](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ)
