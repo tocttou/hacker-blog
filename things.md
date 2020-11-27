@@ -4,9 +4,9 @@ title: My Favorite Things
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
 
-Last updated: November 18th, 2020
+Last updated: November 26th, 2020
 
-### Electronics
+# Electronics
 
 * [AirPods Pro](https://www.apple.com/airpods-pro/)
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -19,13 +19,14 @@ Last updated: November 18th, 2020
 * [Logitech g602 Wireless Gaming Mouse](https://www.logitech.com/en-ch/product/g602-wireless-gaming-mouse)
 * [MacBook Pro (13-inch)](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch)
 * [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
+* [Oculus Quest 2](https://www.oculus.com/quest-2/?locale=en_US)
 * [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Remarkable 2](https://remarkable.com/store/remarkable-2)
 * [Sony Digital Recorder](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ)
 * [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
 * [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/product/uhk60)
 
-### Stationary
+# Stationary
 
 * [Hi-Tec-C Coleto 1000 Pen](https://www.amazon.com/Pilot-Multi-Pen-Hi-Tec-C-Coleto-LHKC-1SC-S/dp/B00OCDNB34/ref=sr_1_2?dchild=1&keywords=coleto+4+pilot&qid=1593989412&sr=8-2&pldnSite=1)
 * [Moleskin Dotted XL Notebook](https://www.amazon.com/gp/product/B015NG44CU/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -33,7 +34,7 @@ Last updated: November 18th, 2020
 * [White Post-its](https://www.amazon.com/gp/product/B008PAIC4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Writing Slope](https://www.amazon.com/gp/product/B0110BSSWE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
-### Toiletries
+# Toiletries
 
 * [Apagard Toothpaste](https://www.amazon.com/gp/product/B0016GCZQO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Aveeno Shampoo](https://www.amazon.com/gp/product/B0067H6E9G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -49,7 +50,7 @@ Last updated: November 18th, 2020
 * [Philips Nose Trimmer](https://www.amazon.com/gp/product/B00QYOSK9E/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Philips Sonicare Toothbrush](https://www.amazon.com/gp/product/B078GVDB19/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
-### Environmental Adjusters
+# Environmental Adjusters
 
 * [Aeron Chair](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * [Battlestar Roller](https://www.roguefitness.com/mobility-wod-battlestar-2-0-kits)
@@ -70,7 +71,7 @@ Last updated: November 18th, 2020
 * [Weighted Blanket](https://smile.amazon.com/gp/product/B07C1PBDLX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Workout Bar](https://smile.amazon.com/gp/product/B001EJMS6K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-### Software
+# Software
 
 * [Anki](https://apps.ankiweb.net/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/)
@@ -82,7 +83,7 @@ Last updated: November 18th, 2020
 * [Signal](https://signal.org/en/)
 * [Todoist](https://todoist.com/)
 
-### Miscellaneous
+# Miscellaneous
 
 * [Infrared Toaster Oven](https://smile.amazon.com/Panasonic-NB-G110P-FlashXpress-Infrared-Removable/dp/B008C9UFDI)
 * [Screwpop Utility Knife](https://www.amazon.com/gp/product/B00UZHT432/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
