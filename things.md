@@ -4,7 +4,7 @@ title: My Favorite Things
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
 
-Last updated: November 26th, 2020
+Last updated: December 3rd, 2020
 
 # Electronics
 
@@ -75,6 +75,7 @@ Last updated: November 26th, 2020
 
 * [Anki](https://apps.ankiweb.net/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/)
+* [Freedom](https://freedom.to/dashboard)
 * [Instapaper](https://www.instapaper.com/u)
 * [Protonmail](https://protonmail.com/)
 * [Readwise](https://readwise.io/)
