@@ -1,6 +1,5 @@
 ---
 title: The First Sample Gives the Most Information
-
 published: true
 ---
 
