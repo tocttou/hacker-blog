@@ -4,27 +4,29 @@ title: My Favorite Things
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
 
-Last updated: December 3rd, 2020
+Last updated: December 19th, 2020
 
 # Electronics
 
 * [AirPods Pro](https://www.apple.com/airpods-pro/)
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Freewrite Traveler](https://getfreewrite.com/products/freewrite-traveler)
+* [iPad Pro (12.9-inch, w/ Apple Pencil)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
+* [iPhone 12 Pro Max](https://www.apple.com/iphone-12-pro/)
 * [iPod Touch](https://www.apple.com/ipod-touch/)
-* [Jabra Elite 65t Wireless Earbuds](https://www.jabra.com/bluetooth-headsets/jabra-elite-65t##100-99000000-02)
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
 * [Logitech C920 Webcam](https://www.amazon.com/Logitech-C920-Pro-Webcam-Black/dp/B00829D0GM?pldnSite=1)
 * [Logitech Ergo Trackball Mouse](https://www.amazon.com/gp/product/B0753P1GTS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
-* [Logitech g602 Wireless Gaming Mouse](https://www.logitech.com/en-ch/product/g602-wireless-gaming-mouse)
+* [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
 * [MacBook Pro (13-inch)](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch)
 * [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
 * [Oculus Quest 2](https://www.oculus.com/quest-2/?locale=en_US)
-* [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Remarkable 2](https://remarkable.com/store/remarkable-2)
-* [Sony Digital Recorder](https://www.amazon.com/Sony-ICDPX370-Digital-Recorder-Built/dp/B06XFTWCBJ)
+* [Samsung T7 Portable 1TB SSD](https://smile.amazon.com/gp/product/B0874XN4D8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 * [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
 * [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/product/uhk60)
+* [Unitek Multi Charging Station](https://smile.amazon.com/gp/product/B01AW9Z9ZE/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 
 # Stationary
 
@@ -47,6 +49,7 @@ Last updated: December 3rd, 2020
 * [Dove Beauty Bar](https://www.amazon.com/gp/product/B003YOON0C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Floss Holder](https://smile.amazon.com/gp/product/B000LC22R6/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
 * [Pantene Conditioner](https://www.amazon.com/gp/product/B01MTNOJ2Z/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [Philips Body Hair Trimmer](https://smile.amazon.com/gp/product/B010XIGBUQ/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 * [Philips Nose Trimmer](https://www.amazon.com/gp/product/B00QYOSK9E/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Philips Sonicare Toothbrush](https://www.amazon.com/gp/product/B078GVDB19/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
@@ -63,11 +66,11 @@ Last updated: December 3rd, 2020
 * [Lumenator](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
 * [Magnetic Poster Frame](https://www.amazon.com/gp/product/B07Y681V5L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Memory Foam Pillow](https://smile.amazon.com/gp/product/B00EINBSEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Nexstand Laptop Stand](https://smile.amazon.com/gp/product/B01HHYQBB8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Phone Stand](https://smile.amazon.com/gp/product/B07F8S18D5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Standing Desk](https://www.upliftdesk.com/)
 * [Tree Bookshelf](https://www.amazon.com/gp/product/B07WGKXDW9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Velvet Hangers](https://www.amazon.com/gp/product/B00FXNAAW2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
-* [Vertical Laptop Stand](https://www.amazon.com/gp/product/B07K8JJ2LG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Weighted Blanket](https://smile.amazon.com/gp/product/B07C1PBDLX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Workout Bar](https://smile.amazon.com/gp/product/B001EJMS6K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
@@ -83,6 +86,8 @@ Last updated: December 3rd, 2020
 * [Roam](https://roamresearch.com/)
 * [Signal](https://signal.org/en/)
 * [Todoist](https://todoist.com/)
+* [Typora](https://typora.io/)
+* [Zotero](https://www.zotero.org/)
 
 # Miscellaneous
 
