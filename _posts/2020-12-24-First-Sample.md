@@ -4,7 +4,7 @@ title: The First Sample Gives the Most Information
 published: true
 ---
 
-*I originally heard this point made by Ben Pace in Episode 126 of* [*the Bayesian Conspiracy Podcast*](http://www.thebayesianconspiracy.com/2020/12/126-lesswrong-2-0-and-books/)*. Ben claimed that he learned this from the book* [*How to Measure Anything*](https://hubbardresearch.com/publications/how-to-measure-anything-book/)*, but I think I identified the relevant section and this point wasn't made explicitly.*
+*I originally heard this point made by Ben Pace in Episode 126 of* [*the Bayesian Conspiracy Podcast*](http://www.thebayesianconspiracy.com/2020/12/126-lesswrong-2-0-and-books/)*. Ben claimed that he learned this from the book* [*How to Measure Anything*](https://hubbardresearch.com/publications/how-to-measure-anything-book/)*, but I think I identified the relevant section, and this point wasn't made explicitly.*
 
 Suppose that I came up to you and asked you for a 90% confidence interval for the weight of a wazlot. I'm guessing you would not really know where to start. However, suppose that I randomly sampled a wazlot and told you it weighed 142 grams. I'm guessing you would now have a much better idea of your 90% confidence interval (although you still wouldn't have *that* good a guess at the width). 
 
