@@ -3,7 +3,7 @@ title: The Solomonoff Prior is Malign
 published: true
 ---
 
-Cross posted from [LessWrong](https://www.lesswrong.com/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign).
+*Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign). May contain more technical jargon than usual.*
 
 This argument came to my attention from [this post](https://ordinaryideas.wordpress.com/2016/11/30/what-does-the-universal-prior-actually-look-like/) by Paul Christiano. I also found [this clarification](https://www.lesswrong.com/posts/jP3vRbtvDtBtgvkeb/clarifying-consequentialists-in-the-solomonoff-prior) helpful. I found [these counter-arguments](https://www.lesswrong.com/posts/Ecxevhvx85Y4eyFcu/weak-arguments-against-the-universal-prior-being-malign) stimulating and have included some discussion of them.
 
