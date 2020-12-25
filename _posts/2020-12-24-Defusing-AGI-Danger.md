@@ -131,7 +131,7 @@ In addition to thinking of part of AI Safety research as trying to address speci
 
 For example, [AI Safety via debate](https://www.alignmentforum.org/tag/debate-ai-safety-technique-1) might be safe because “win a debate” might be aligned with human values (3c*) and not generalize to be large in scope (2b*). 
 
-There is also work that doesn’t fit within this picture. Much of the work done on the [Agent Foundations](https://intelligence.org/files/TechnicalAgenda.pdf) agenda, for instance, seeks to better understand assumptions about agency made by traditional stories for danger. One could think of this work as trying to create the pieces that will enable strong arguments for safety instead of trying to 
+There is also work that doesn’t fit within this picture. Much of the work done on the [Agent Foundations](https://intelligence.org/files/TechnicalAgenda.pdf) agenda, for instance, seeks to better understand assumptions about agency made by traditional stories for danger. One could think of this work as trying to create the pieces that will enable strong arguments for safety instead of trying to defuse arguments for danger.
 
 
 # Pitfalls
