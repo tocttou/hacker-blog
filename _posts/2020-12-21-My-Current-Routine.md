@@ -3,7 +3,7 @@ title: My Routine
 published: true
 ---
 
-Recently, I've been about as productive as I've ever been. One reason for this is my current routine, which can roughly be described as "systematize literally everything". Here's a snapshot of what my routine currently looks like. 
+Recently, I've been about as productive as I've ever been. One reason for this is my current routine, which can roughly be described as "systematize literally everything". I currently work from home. Here's a snapshot of what my routine currently looks like. 
 
 * Monday-Saturday
   * ~0800: wake up
