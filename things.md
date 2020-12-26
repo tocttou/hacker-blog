@@ -4,7 +4,7 @@ title: My Favorite Things
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
 
-Last updated: December 19th, 2020
+Last updated: December 25th, 2020
 
 # Electronics
 
@@ -13,7 +13,6 @@ Last updated: December 19th, 2020
 * [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Freewrite Traveler](https://getfreewrite.com/products/freewrite-traveler)
 * [iPad Pro (12.9-inch, w/ Apple Pencil)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
-* [iPhone 12 Pro Max](https://www.apple.com/iphone-12-pro/)
 * [iPod Touch](https://www.apple.com/ipod-touch/)
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
 * [Logitech C920 Webcam](https://www.amazon.com/Logitech-C920-Pro-Webcam-Black/dp/B00829D0GM?pldnSite=1)
@@ -22,6 +21,7 @@ Last updated: December 19th, 2020
 * [MacBook Pro (13-inch)](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch)
 * [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
 * [Oculus Quest 2](https://www.oculus.com/quest-2/?locale=en_US)
+* [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Remarkable 2](https://remarkable.com/store/remarkable-2)
 * [Samsung T7 Portable 1TB SSD](https://smile.amazon.com/gp/product/B0874XN4D8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 * [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
