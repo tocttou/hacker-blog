@@ -77,7 +77,7 @@ Many of these examples do not involve me. I wrote them all in the first person f
 ## Failed example: sleep
 
 1. I frequently sleep after 2am.
-2. I am frequently caught up doing a distracting thing, so I don’t take a shower until my computer automatically shuts itself off at 11pm. After I shower, it’s 11:40pm and my hair has to try afterward. I’m also often hungry because it’s late, so I made some food. At this point, I’m often more bored than sleepy, so I engage in some other activity until I become more sleepy, which happens after 2am.
+2. I am frequently caught up doing a distracting thing, so I don’t take a shower until my computer automatically shuts itself off at 11pm. After I shower, it’s 11:40pm and my hair has to dry afterward. I’m also often hungry because it’s late, so I made some food. At this point, I’m often more bored than sleepy, so I engage in some other activity until I become more sleepy, which happens after 2am.
     1. More compactly: distracting thing -> computer turns off at 11pm -> take a shower -> hair has to dry -> hungry -> make food -> more bored than sleepy -> do activity -> after 2am
 3. I notice there are many parts of this chain that can be violated without fixing the problem. For instance, if I wasn’t hungry at night, the problem would likely remain. Also, being more bored than sleepy at night is caused by not having enough stimulation during the day. It’s not clear which parts of this chain can be violated easily and also solve the problem.
     1. In particular, “bored” and “sleepy” are mental states that are already tangled in huge webs of cause and effect. It’s not clear how to intervene to make myself more or less bored at night.
