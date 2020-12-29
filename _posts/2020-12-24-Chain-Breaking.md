@@ -7,9 +7,7 @@ published: true
 This is a rationality technique I’ve been experimenting with. Thank you to Jack Ryan, Thomas Kwa, Sydney Von Arx, Noa Nabeshima, and Kyle Scott for helping me refine the method. 
 
 
-# Chain Breaking
-
-The algorithm:
+# Algorithm
 
 1. Pick something that has happened before that you would prefer not to happen again.
     1. Examples include: not exercising, not flossing, not sleeping on time, eating too many chocolate almonds, spending too much time on Facebook, being late to meetings, forgetting to schedule things, etc.
