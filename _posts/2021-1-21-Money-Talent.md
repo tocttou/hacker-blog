@@ -3,8 +3,6 @@ title: Money Can't (Easily) Buy Talent
 published: true
 ---
 
-
-
 # Key Takeaways
 
 Arguments for earning to give (EtG) as an impactful career have a simplified conception of the market for talent. Assuming a functioning market, I argue there are many forces pushing the price of talent upwards. I also argue that the market for talent is dysfunctional and buying talent has to navigate supply not meeting demand. Finally, I provide reasons why buying talent is undesirable, even if it’s possible.
@@ -29,7 +27,7 @@ The argument:
 
 > Some people are more talented than other people: more productive, more intelligent, more personable, etc. Talented people are better able to achieve goals, like creating software, managing people, or conducting research. Organizations want to hire talented people. This gives us a supply of and demand for talented people.
 >
-> The economy uses pricing to allocate match supply with demand. Money should be able to efficiently buy talent just like it can buy other goods. Thus, being willing to pay more money for talented people should increase the amount you can attract. 
+> The economy uses pricing to match supply with demand. Money should be able to efficiently buy talent just like it can buy other goods. Thus, being willing to pay more money for talented people should increase the amount you can attract. 
 
 This argument is compelling. However, it makes multiple false assumptions about the market for talent.
 
@@ -45,7 +43,7 @@ Suppose you wanted an iPhone 15. How much would this cost you? There isn't any s
 
 It's tempting to think of a unit of talent like an iPhone - you can buy some talent for some price, so you can buy double the talent for double the price. This is technically true if you hire two people. However, due to communication and managerial overhead, two people will do less than twice the work of one person or cost more than twice as much. One person with twice the talent is more valuable than two people, just like an iPhone 15 is more valuable than two iPhone 12s.
 
-As another analogy, consider microSD cards. I can buy a 512 GB microSD for \$65. A 1 TB microSD card costs ​\$330, about 5x as much for a 2x storage increase. How much would I have to pay for a 2 TB microSD? It is not yet available generally, but it might be available in an R&D department. Said department would probably not part with it for a million dollars.
+As another analogy, consider microSD cards. I can buy a 512 GB microSD for \$65. A 1 TB microSD card costs \$330, about 5x as much for a 2x storage increase. How much would I have to pay for a 2 TB microSD? It is not yet available generally, but it might be available in an R&D department. Said department would probably not part with it for a million dollars.
 
 Applied to talent, imagine Alice can think twice as fast as Bob. How much more is Alice worth? Naively, twice as much as Bob. However, suppose that Alice and Bob work at competing trading firms. Both firms have capital, so they can maximally exploit any market opportunities their traders spot. Thus, it's winner takes all; whichever firm spots the market inefficiency first gets all of the profit. Alice thinks twice as fast as Bob, so she always spots the best market inefficiencies first. If some market inefficiencies are 10x more profitable than others, Alice is worth 10x more than Bob.
 
@@ -83,7 +81,7 @@ Hedge funds turn talent into profit. In particular, the compensation an individu
 
 Assuming the market functions properly, the amount one talented individual costs is the amount they would have been paid elsewhere. Since talent is also useful for making money, this amount can be large. To be specific, I have friends that might become quantitative traders/analysts. Their expected salaries are at least \$1 million per year over their careers, plausibly 2-10 times larger. I expect many top longtermist researchers to be able to obtain similar salaries if they switched to finance.
 
-At \$1 million per year, ​\$10 billion buys 10,000 researcher-years, equivalent to 250 researcher-careers.[^4]<sup> </sup>That's not a lot. And also probably an overestimate.
+At \$1 million per year, \$10 billion buys 10,000 researcher-years, equivalent to 250 researcher-careers.[^4] That's not a lot. And also probably an overestimate.
 
 Some people are altruistic and might be willing to do direct work for less than their expected salary. Might we be able to use money to buy these people?
 
@@ -176,14 +174,14 @@ Some expensive things are worth buying. The arguments above are only strong enou
 
 Overall, I see many people new to effective altruism considering EtG as their primary career. Arguments for the effectiveness of EtG, especially in the longtermist space, rely on simplifications of the market for talent. I hope to add nuance to this market and encourage young EAs to consider direct work as a career.
 
-[^1]:An example of this is quantitative traders, who are at the limit of getting efficiently compensated for the talent and only get 10-20% of their profits.
-[^2]:https://blog.prepscholar.com/whats-a-good-sat-act-score-for-the-ivy-league-whats-the-lowest-score-i-can-get-in-with
-[^3]:https://blog.prepscholar.com/how-many-people-get-a-34-35-36-on-the-act-score-breakdown
-[^4]:Assuming 40 years per career.
-[^5]:I don't have data on this, but it would not be surprising to me if most interns at tech companies were net-negative in terms of revenue, i.e. they cost more in money/management time than the value they produce. Of course, they're still likely worth it to the company because determining the talent of a potential employee is worth much more than the $20,000-$50,000 they pay the intern.
-[^6]:As anecdata, as part of an interview process, my friend spent an hour talking to someone who made upwards of \$5 million a year. Naively, that conversation cost the company more than \$2500. In practice, that person worked more than 40 hours a week and didn't have to spend that much energy conversing, lowering the cost.
-[^7]:I have no knowledge about mercenaries . This is also a bad example because Examplestan would not want to hire mercenaries that would switch sides in the middle of a battle. For reasons of reputation, the mercenaries would then not want to switch. However, they might switch if paid enough money that reputation no longer mattered.
-[^8]:Of course, such mechanisms probably cause less effective behavior due to [Goodhart's Law](https://www.lesswrong.com/tag/goodhart-s-law).
-[^9]:I have very little experience working for EA organizations. This perspective was informed by conversing with some people who do have such experience and listening to [this episode](https://80000hours.org/podcast/episodes/ben-todd-on-what-effective-altruism-most-needs/) of the 80,000 Hours podcast.
-[^10]:This is a more constrained version of the Efficient Altruism Hypothesis (EAH) which states that approximately all ways of doing good will accomplish the same amount. The strong version of the EAH false. It seems probable that the weaker version presented here is also false, but also less false than the strong version. It seems intuitive that the more we have optimized for efficient use of donations, the less we expect gains. We're already hiring relatively efficiently, we are unlikely to find  much cheaper ways of hiring.
-[^11]:One example is the vetting problem: how do you robustly find talented and altruistic individuals?
+[^1]: An example of this is quantitative traders, who are at the limit of getting efficiently compensated for the talent and only get 10-20% of their profits.
+[^2]: https://blog.prepscholar.com/whats-a-good-sat-act-score-for-the-ivy-league-whats-the-lowest-score-i-can-get-in-with
+[^3]: https://blog.prepscholar.com/how-many-people-get-a-34-35-36-on-the-act-score-breakdown
+[^4]: Assuming 40 years per career.
+[^5]: I don't have data on this, but it would not be surprising to me if most interns at tech companies were net-negative in terms of revenue, i.e. they cost more in money/management time than the value they produce. Of course, they're still likely worth it to the company because determining the talent of a potential employee is worth much more than the $20,000-$50,000 they pay the intern.
+[^6]: As anecdata, as part of an interview process, my friend spent an hour talking to someone who made upwards of \$5 million a year. Naively, that conversation cost the company more than \$2500. In practice, that person worked more than 40 hours a week and didn't have to spend that much energy conversing, lowering the cost.
+[^7]: I have no knowledge about mercenaries . This is also a bad example because Examplestan would not want to hire mercenaries that would switch sides in the middle of a battle. For reasons of reputation, the mercenaries would then not want to switch. However, they might switch if paid enough money that reputation no longer mattered.
+[^8]: Of course, such mechanisms probably cause less effective behavior due to [Goodhart's Law](https://www.lesswrong.com/tag/goodhart-s-law).
+[^9]: I have very little experience working for EA organizations. This perspective was informed by conversing with some people who do have such experience and listening to [this episode](https://80000hours.org/podcast/episodes/ben-todd-on-what-effective-altruism-most-needs/) of the 80,000 Hours podcast.
+[^10]: This is a more constrained version of the Efficient Altruism Hypothesis (EAH) which states that approximately all ways of doing good will accomplish the same amount. The strong version of the EAH false. It seems probable that the weaker version presented here is also false, but also less false than the strong version. It seems intuitive that the more we have optimized for efficient use of donations, the less we expect gains. We're already hiring relatively efficiently, we are unlikely to find  much cheaper ways of hiring.
+[^11]: One example is the vetting problem: how do you robustly find talented and altruistic individuals?
