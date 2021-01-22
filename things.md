@@ -2,29 +2,26 @@
 layout: page
 title: My Favorite Things
 ---
-I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories.
+I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories. Many of these are taken directly from [Wirecutter[(https://www.nytimes.com/wirecutter/).
 
-Last updated: December 25th, 2020
+Last updated: January 16th, 2021.
 
 # Electronics
 
 * [AirPods Pro](https://www.apple.com/airpods-pro/)
+* [Bose 700 Noise Canceling Headphones](https://smile.amazon.com/gp/product/B07Q9MJKBV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * [Dell U-Series 38 Monitor](https://www.amazon.com/gp/product/B073FHWTPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
-* [Fitbit Versa 2](https://smile.amazon.com/gp/product/B07TWFVDWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Freewrite Traveler](https://getfreewrite.com/products/freewrite-traveler)
 * [iPad Pro (12.9-inch, w/ Apple Pencil)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
 * [iPod Touch](https://www.apple.com/ipod-touch/)
 * [Jabra Evolve 40 Stereo Headset](https://www.jabra.com/business/office-headsets/jabra-evolve/jabra-evolve-40##6393-823-109)
 * [Logitech C920 Webcam](https://www.amazon.com/Logitech-C920-Pro-Webcam-Black/dp/B00829D0GM?pldnSite=1)
 * [Logitech Ergo Trackball Mouse](https://www.amazon.com/gp/product/B0753P1GTS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
-* [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
 * [MacBook Pro (13-inch)](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch)
-* [Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
 * [Oculus Quest 2](https://www.oculus.com/quest-2/?locale=en_US)
 * [Pixel 3a](https://store.google.com/us/product/pixel_3a)
 * [Remarkable 2](https://remarkable.com/store/remarkable-2)
 * [Samsung T7 Portable 1TB SSD](https://smile.amazon.com/gp/product/B0874XN4D8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
-* [Sony MX2 Wireless Headphones](https://www.amazon.com/Sony-Noise-Cancelling-Headphones-WH1000XM2/dp/B074KDJVS2)
 * [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/product/uhk60)
 * [Unitek Multi Charging Station](https://smile.amazon.com/gp/product/B01AW9Z9ZE/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 
@@ -60,13 +57,15 @@ Last updated: December 25th, 2020
 * [Blackout Curtains](https://www.amazon.com/gp/product/B071YYPDWJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Bowflex Adjustable Dumbbells](https://www.bowflex.com/selecttech/552/100131.html)
 * [ChiliPad](https://www.chilitechnology.com/products/chilipad-sleep-system)
+* [Conway Air Purifier](https://smile.amazon.com/gp/product/B01728NLRG/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * [Earplugs](https://smile.amazon.com/Macks-Ultra-Soft-Foam-Earplugs/dp/B0051U7W32)
 * [Headphone Hook](https://www.amazon.com/gp/product/B07QJ9JZZX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [LIFX LED Bulb](https://www.amazon.com/gp/product/B073168GYG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+* [LightDims Black Out Stickers](https://smile.amazon.com/gp/product/B00CLVQG68/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 * [Lumenator](https://www.lesswrong.com/posts/hC2NFsuf5anuGadFm/how-to-build-a-lumenator)
-* [Magnetic Poster Frame](https://www.amazon.com/gp/product/B07Y681V5L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Memory Foam Pillow](https://smile.amazon.com/gp/product/B00EINBSEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Nexstand Laptop Stand](https://smile.amazon.com/gp/product/B01HHYQBB8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [NOMATIC Travel Pack](https://smile.amazon.com/gp/product/B07782GG5T/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 * [Phone Stand](https://smile.amazon.com/gp/product/B07F8S18D5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Standing Desk](https://www.upliftdesk.com/)
 * [Tree Bookshelf](https://www.amazon.com/gp/product/B07WGKXDW9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
@@ -74,12 +73,28 @@ Last updated: December 25th, 2020
 * [Weighted Blanket](https://smile.amazon.com/gp/product/B07C1PBDLX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Workout Bar](https://smile.amazon.com/gp/product/B001EJMS6K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
+# Kitchen
+
+* [Escali Kitchen Scale](https://smile.amazon.com/gp/product/B000CH9OCG/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+* [Fullstar Vegetable Chopper](https://smile.amazon.com/gp/product/B0764HS4SL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+* [Hamilton Electric Can Opener](https://smile.amazon.com/gp/product/B000SAS5GI/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+* [Infrared Toaster Oven](https://smile.amazon.com/Panasonic-NB-G110P-FlashXpress-Infrared-Removable/dp/B008C9UFDI)
+* [Inomata Rice Washing Bowl](https://smile.amazon.com/gp/product/B004QZAAS2/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&psc=1)
+* [Mac Mighty Professional Hollow Edge Chef's Knife](https://smile.amazon.com/gp/product/B000N5H2XU/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+* [Microwave Plate Cover](https://smile.amazon.com/gp/product/B07JJC8NWP/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+* [OXO Bottle Brush](https://smile.amazon.com/gp/product/B00004OCLJ/ref=ppx_yo_dt_b_asin_title_o05_s04?ie=UTF8&psc=1)
+* [OXO Garlic Press](https://smile.amazon.com/gp/product/B00HEZ888K/ref=ppx_yo_dt_b_asin_title_o08_s01?ie=UTF8&psc=1)
+* [Tramontina Aluminum Nonstick Fry Pan](https://smile.amazon.com/gp/product/B009HBKRKG/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+* [Victorinox Swiss Army Cutlery Straight Paring Knife](https://smile.amazon.com/gp/product/B0019WXPQY/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&psc=1)
+* [Zojirushi Water Boiler](https://www.amazon.com/gp/product/B00R4HKJEE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
+
 # Software
 
 * [Anki](https://apps.ankiweb.net/)
-* [Firefox](https://www.mozilla.org/en-US/firefox/)
+* [Bitwarden](https://bitwarden.com/)
 * [Freedom](https://freedom.to/dashboard)
 * [Instapaper](https://www.instapaper.com/u)
+* [Open Tabs Next To Current](https://github.com/sblask/webextension-open-tabs-next-to-current)
 * [Protonmail](https://protonmail.com/)
 * [Readwise](https://readwise.io/)
 * [Rescuetime](https://www.rescuetime.com/)
@@ -91,10 +106,14 @@ Last updated: December 25th, 2020
 
 # Miscellaneous
 
-* [Infrared Toaster Oven](https://smile.amazon.com/Panasonic-NB-G110P-FlashXpress-Infrared-Removable/dp/B008C9UFDI)
+* [Crystal Nail File](https://smile.amazon.com/gp/product/B07DH8K154/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1)
+* [Duck EZ Start Packing Tape](https://smile.amazon.com/gp/product/B0033URRSM/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+* [Greenbell Nail Clipper](https://smile.amazon.com/gp/product/B000FQS9AC/ref=ppx_yo_dt_b_asin_title_o01_s02?ie=UTF8&psc=1)
+* [Latex Mattress Topper](https://smile.amazon.com/gp/product/B00UYGA49M/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+* [Levitating Moon Lamp](https://smile.amazon.com/gp/product/B075WCXSJC/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+* [Monthly Pill Organizer](https://smile.amazon.com/gp/product/B07WZRVX23/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 * [Screwpop Utility Knife](https://www.amazon.com/gp/product/B00UZHT432/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 * [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
 * [Tungsten cube](https://smile.amazon.com/Tungsten-Cube-1-5-One-Kilo/dp/B00XZBIJLS)
 * [YubiKey](https://www.yubico.com/store/)
-* [Zojirushi Water Boiler](https://www.amazon.com/gp/product/B00R4HKJEE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1)
 
