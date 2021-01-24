@@ -2,7 +2,7 @@
 layout: page
 title: My Favorite Things
 ---
-I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories. Many of these are taken directly from [Wirecutter[(https://www.nytimes.com/wirecutter/).
+I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories. Many of these are taken directly from [Wirecutter](https://www.nytimes.com/wirecutter/).
 
 Last updated: January 16th, 2021.
 
