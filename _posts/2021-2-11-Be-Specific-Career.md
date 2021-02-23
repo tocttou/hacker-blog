@@ -11,7 +11,7 @@ These are all useful questions to ask. However, they are very abstract. There is
 
 - If I chose meta-EA as my career path, what, specifically, would I be doing?
 
-- - At which organization would I work? 
+  - At which organization would I work? 
   - What would I do at that organization? 
   - Would I plan events? 
   - Which events? 
@@ -19,7 +19,7 @@ These are all useful questions to ask. However, they are very abstract. There is
 
 - If I chose biosecurity, what, specifically, would I be doing? 
 
-- - Would I get a Ph.D.?
+  - Would I get a Ph.D.?
   - If so, where? 
   - Who would be my advisor? 
   - What would the topic of my thesis be? 
