@@ -13,7 +13,8 @@ Suppose events $$A$$ and $$B$$ both have a probability $$0.01$$ of occurring, an
 
 More concretely, a hypothesis that postulates a strong causal link between $$A$$ and $$B$$ might have $$P(B \mid A) = 0.9$$. This hypothesis is favored $$90:1$$ over a hypothesis that has $$P(B \mid A) = P(B) = 0.01$$. More generally, if you observe two improbable things, this is evidence that the presence of one observation makes the other more likely, with the evidence getting stronger as the connection between the two events strengthens.
 
-Coincidences happen, but they are improbable. If you get a dog and your couch starts getting damaged, your dog is probably doing it. If your skin gets irritated and you recently switched lotion brands, you're probably allergic to the new brand. If my friend and I both see someone six feet tall with red hair, we probably saw the same person. If someone your friend introduces you to is both vegan and plays Magic the Gathering, you probably forget that your friend is also vegan and plays Magic the Gathering.
+Coincidences happen, but they are improbable. If you get a dog and your couch starts getting damaged, your dog is probably doing it. If your skin gets irritated and you recently switched lotion brands, you're probably allergic to the new brand. If my friend and I both saw someone six feet tall with red hair, we probably saw the same person. If your friend introduces you to someone that is both vegan and plays Magic the Gathering, you probably forget that your friend is also vegan and plays Magic the Gathering.
+
 There are four ways events can be causally linked, only two of which are direct:
 
 - $$A$$ causes $$B$$; your dog caused the couch damage.
