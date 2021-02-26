@@ -5,7 +5,7 @@ published: true
 
 Alice is trying to maximize the impact of her career. She is deciding between biosecurity research and building the effective altruism community (meta-EA). As far as she can tell, her fit is about the same for both paths.
 
-She attempts to decide between them by zooming out. What cause has a higher impact? Which one is more neglectedness? Which cause is more tractable?
+She attempts to decide between them by zooming out. What cause has a higher impact? Which one is more neglected? Which cause is more tractable?
 
 These are all useful questions to ask. However, they are very abstract. There is another set of questions that Alice is likely to find very useful:
 
