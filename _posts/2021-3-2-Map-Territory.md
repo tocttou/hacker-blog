@@ -51,3 +51,5 @@ A proof that P is provable is different than a proof of P.
 The map is the territory.
 
 The hypothesis is not the experimental result.
+
+Probability is in the mind.
