@@ -4,6 +4,7 @@ title: An Ode to My Parents
 ---
 
 Sometimes I talk to my friends about their parents. I generally come away disoriented. I didn't regard my parents as particularly exceptional; they were adequate at the task of raising me but not exemplary. However, what little I know about how parenting seems to work suggests that adequacy *is* exemplary. 
+
 Most people's parents do things that are crazy to me. Some of my friends' parents don't let them talk to their friends online. Other parents don't let their children leave the house. Some parents track their children's phones. Some parents decide their children's class schedule. What. Hello? HELLO? Did you know that children are also human beings with agency and preferences? I'm sure children know this, but maybe they forget when they become adults.
 
 I'm not claiming that my parents never did anything that I found objectionable. When I think of the handful of fights I've had with them, probably about half were caused (whatever that means) by me, and the other half were caused (whatever that means) by them. However, my parents were remarkably adequate at treating me like a human being in that they took efforts to encourage my interests and let me explore the space of possible activities. Here are some stories. All are recollected from my memory and are thus contain non-trivial mistakes.
