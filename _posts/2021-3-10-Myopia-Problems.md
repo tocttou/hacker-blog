@@ -1,5 +1,5 @@
 ---
-title: Towards a Mechanistic Understanding of Goal-Directedness
+title: Open Problems in Myopia
 
 ---
 
