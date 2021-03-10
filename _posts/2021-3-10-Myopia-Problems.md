@@ -3,6 +3,8 @@ title: Towards a Mechanistic Understanding of Goal-Directedness
 
 ---
 
+Coauthored with [Evan Hubinger](https://www.alignmentforum.org/users/evhub).
+
 *Crossposted from the [AI Alignment Forum](https://www.alignmentforum.org/posts/LCLBnmwdxkkz5fNvH/open-problems-with-myopia). May contain more technical jargon than usual.*
 
 Thanks to Noa Nabeshima for helpful discussion and comments.
