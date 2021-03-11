@@ -9,12 +9,14 @@ Coauthored with [Evan Hubinger](https://www.alignmentforum.org/users/evhub).
 
 Thanks to Noa Nabeshima for helpful discussion and comments.
 
+Thanks to Noa Nabeshima for helpful discussion and comments.
+
 Introduction
 ============
 
-Certain types of myopic agents represent a possible way to construct safe AGI. We call agents with a time discount rate of zero *time-limited myopic*, a particular instance of the broader class of myopic agents. A prototypical example is a time-limited myopic approval-maximizing agent. In theory, such an agent has some desirable safety properties because a human would only approve safe actions (although we still would consider it unsafe). Since the agent is time-limited myopic, it will never attempt to sacrifice approval now to gain more approval later. For example, it would never prevent itself from being turned off so it could continue to act because the human would disapprove of it being incorrigible.
+Certain types of myopic agents represent a possible way to construct safe AGI. We call agents with a time discount rate of zero *time-limited myopic*, a particular instance of the broader class of myopic agents. A prototypical example is a time-limited myopic imitative agent. In theory, such an agent has some desirable safety properties because a human would only take safe actions (although any imperfect imitation would be unsafe). Since the agent is time-limited myopic, it will never imitate poorly now to make it easier to imitate easier later. For example, it would never give a human a simple plan so it could more easily imitate the human executing the plan.
 
-We might run into issues if the agent *intends* to myopically maximize human approval but guesses incorrectly. Such an agent might witness a human purchasing paperclips, infer that humans approve of actions that result in many paperclips, and proceed to convert the universe into paperclips. This agent would not be safe because it is not [robustly capable](https://www.alignmentforum.org/posts/SzecSPYxqRa5GCaSF/clarifying-inner-alignment-terminology). Myopia does not contribute to capability robustness; we only hope it helps create [intent aligned](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6) agents.
+We might run into issues if the agent *intends* to myopically imitate humans but guesses incorrectly. Such an agent might witness a human purchasing paperclips, infer that humans tend to acquire paperclips, and proceed to convert the universe into paperclips. This agent would not be safe because it is not [robustly capable](https://www.alignmentforum.org/posts/SzecSPYxqRa5GCaSF/clarifying-inner-alignment-terminology). Myopia does not contribute to capability robustness; we only hope it helps create [intent aligned](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6) agents.
 
 In particular, [SGD might produce deceptively aligned agents](https://www.alignmentforum.org/posts/ocWqg2Pf2br4jMmKA/does-sgd-produce-deceptive-alignment#comments). One way of viewing deception is as sacrificing reward now for reward later, which suggests that time-limited myopia should prevent it. However, there are several ways time-limited myopia fails to rule out deceptive alignment.
 
@@ -59,10 +61,10 @@ To consider a more straightforward example of non-myopic actions resulting from 
 
 Given that there’s a 50% chance of swapping actions, from the perspective of either player, each cell’s reward is actually the average of the rewards for either player. Thus the effective matrix is:
 
-|       | C      | D          |
-| ---- | ------ | ---------- |
-| **C** | (1, 1) | (0.5, 0.5) |
-| **D** | (0.5, 0.5) | (-1, -1) |
+|       | C          | D          |
+| ----- | ---------- | ---------- |
+| **C** | (1, 1)     | (0.5, 0.5) |
+| **D** | (0.5, 0.5) | (-1, -1)   |
 
 This new payoff matrix has (C, C) as a Nash equilibrium, instead of the usual prisoner's dilemma Nash equilibrium (D, D). Thus, even myopic agents will have no incentive to defect under action swapping uncertainty. Intuitively, if the probability of swap is high enough, choosing to defect is defecting against yourself, while choosing to cooperate is cooperating with yourself.
 
