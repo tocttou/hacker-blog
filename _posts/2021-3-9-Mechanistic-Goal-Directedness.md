@@ -18,7 +18,7 @@ Converting most NFA into DFA requires an exponential increase in the state-space
 
 We roughly break down our current understanding in the following chart. Note that this chart isn’t a complete factorization of questions into subquestions, but rather a hierarchical grouping of questions into similar themes:
 
-![](https://lh6.googleusercontent.com/59q3xAH8Kkl-AAxYvG0NPqFec8lZJvmA97rd3SkeMtjy2sYwTIYStM3uwhRChSdJtck9HMiaW78Dem6NLA0f3bWbZpDuO2dnMV4HGMs01pxrq-jKIuP_PUN4VcvJNRg0sH-yRPNy)
+![goal_directeness_hierarchy](/assets/goal_directeness_hierarchy.png)
 
 Behavioral Goal-Directedness
 ============================
@@ -35,7 +35,7 @@ Adam Shimi’s [Literature Review on Goal-Directedness](https://www.lesswrong.co
 
 We restructure these properties hierarchically:
 
-![](https://lh5.googleusercontent.com/hvlF3VoEpEFtR8CmArLIHz8le3P9vuRkl6fdH88zfzrVCqroRiIJ6v5rs_qCI2Tuz8zmVLDdIzdwEnq-2VjAunz04y0YthmcQVEmlLubWQni7eG1LBDAm-LGxuXTTc3DKtLlXsaA)
+![behavioral_goal_directedness](/assets/behavioral_goal_directedness.png)
 
 We are interested in explaining behavior. We desire two things: A low-entropy distribution over possible goals and some minimum level of competence such that those goals will be achieved. One specific interesting feature of our goal-distribution is how those goals generalize. In particular, we are interested in whether the goals generalize to a long time horizon or to be large in scale. From the competence angle, we’re interested in how directly the goal is achieved. 
 
@@ -55,7 +55,7 @@ We omit “far-sighted” because this is not a property intrinsically related t
 
 We structure these properties hierarchically:
 
-![](https://lh4.googleusercontent.com/BAMQH6wgmmqdxtl57V3JwbfQw2hnb-dxwAGUKSpUZ9hWP2kxOGsdD0W0y8BBk7FhIGVArznBuqOcBJvegrSxJpnRmdOQ3rRzP4Zpqg53EXDJZNaFi7LB8th6riQLLblGTyMXSmf6)
+![mechanistic_goal_directedness](/assets/mechanistic_goal_directedness.png)
 
 We are interested in explaining internal structure. We desire two things: An explicit representation of the goal and an explicit process that optimizes the goal. One interesting feature of the goal is what type it is over. In particular, we’re interested in what level of conceptual abstraction those types are. We’re also interested in how complicated the goal is. On the optimization side, we’re interested in how much optimization power is exerted. We’re also interested in how much this optimization power varies when the engine of optimization is placed in different environments.
 
