@@ -1,5 +1,5 @@
 ---
-title: Intermittent Distillations #1
+title: Intermittent Distillations \#1
 ---
 
 
