@@ -2,17 +2,14 @@
 title: "Intermittent Distillations #1"
 ---
 
+This is my low-budget version of Rohin's [Alignment Newsletter](https://rohinshah.com/alignment-newsletter/).
 
 
-# AI Existential Safety
-
-
-## A critique of pure learning and what artificial neural networks can learn from animal brains (Anthony M. Zador)
+# A critique of pure learning and what artificial neural networks can learn from animal brains (Anthony M. Zador)
 
 [A critique of pure learning and what artificial neural networks can learn from animal brains](https://www.nature.com/articles/s41467-019-11786-6) 
 
-
-### **Summary**
+## Summary
 
 This paper points out that human learning algorithm must rely on nearly all unsupervised data because humans don't live that long before they become intelligent. The authors also point out that many animals, potentially including humans, are remarkably functional after only a very short time being alive. This result suggests that there are parts of animal behavior that are not learned. This observation aligns with Yann Lecun's metaphor: "If intelligence is a cake, the bulk of the cake is unsupervised learning, the icing on the cake is supervised learning, and the cherry on the cake is reinforcement learning."
 
@@ -21,7 +18,7 @@ Since the genome contains finite information (only about 1.5Gb in humans), there
 The authors also suggest that the genome's finite information might form a "genomic bottleneck" that serves as a regularizer, potentially improving generalization performance.
 
 
-### **Opinion**
+## Opinion
 
 I agree with the observation that most humans seem to learn based on unsupervised data, although I think there are denser forms of "labels" in reality than the authors claim. For example, babies can get reinforcement from their parent's facial expressions, which potentially gives them a considerable number of labeled examples.
 
@@ -34,21 +31,21 @@ I am relatively sympathetic to arguments that the speed at which humans learn th
 Disappointingly, the paper concludes by claiming that artificial general intelligence will "constrained to match human capacities so tightly that only a machine structured similarly to a brain can achieve it", which seems pretty false to me.
 
 
-## Learning Normativity: A Research Agenda (Abram Demski)
+# Learning Normativity: A Research Agenda (Abram Demski)
 
 [Learning Normativity: A Research Agenda](https://www.alignmentforum.org/posts/2JGu9yxiJkoGdQR4s/learning-normativity-a-research-agenda)
 
 [Alignment Newsletter Summary](https://mailchi.mp/c8b57f25d787/an-133building-machines-that-can-cooperate-with-humans-institutions-or-other-machines) 
 
 
-### **Summary**
+## Summary
 
 What is the "correct usage" of language? There are more "correct" ways of using language, but no human speaks perfectly. However, humans can often learn how to speak language by being taught by humans who use language imperfectly in a way that lets them speak better than their teachers. The fact that this process is possible suggests that humans learn from data that contains mistakes without learning the mistakes. The author calls the rules that govern the use of language "norms" and proposes that learning these norms is an alignment method.  
 
 If something is learning from feedback, you want to be able to give it feedback about how it's learning from the feedback, how it's learning how to learn from the feedback, etc. When does this end? The author suggests a fixed point, where adding the N+1th level of feedback would not change the process anymore. The particular way that the author proposes this is done is with quantilizers. This amounts to learning to take 90th percentile actions using a 90th percentile learning process and a 90th percentile loss-function, which was learned using a 90th percentile meta-learning process with a 90th percentile loss-function, etc. The way the learning happens is by taking initial distributions, recursively quantilizing them until you reach a fixed point, then propagating feedback about the fixed-point back up to the initial distributions that generated that fixed point.   
 
 
-### **Opinion:**
+## Opinion:
 
 The discussion on norms was interesting. Norms seem pretty different from imitation because you can learn to do better than your teacher, but I'm not sure how "norms" aren't just different than quantilization. I also am not quite sure that norms are different than values. They aren't quite a utility function that can be unboundedly maximized without disaster, but most human goals are formulated in a way that looks more like norms than a utility function. Maybe this is part of the point of the post.
 
@@ -57,14 +54,14 @@ The post also contains a list of desiderata that I found interesting, although I
 The proposal also is definitely not training competitive, although I'm sure it wasn't meant to be.
 
 
-## Scaling Laws for Transfer (Danny Hernandez)
+# Scaling Laws for Transfer (Danny Hernandez)
 
 [[2102.01293] Scaling Laws for Transfer](https://arxiv.org/abs/2102.01293) 
 
 [Alignment Newsletter Summary](https://mailchi.mp/9887edab4e73/an-137-quantifying-the-benefits-of-pretraining-on-downstream-task-performance) 
 
 
-### **Summary**
+## Summary
 
 The way that large ML models get trained is generally by first pretraining on massive amounts of data, then fine-tuning them with task-specific data. This paper investigates how much the pre-training helps the model by framing in terms of "effective data transferred", e.g. how much more fine-tuning data would have been needed to get the same performance without pretraining. For instance, if you would need 1 Gb of data to achieve performance 10 on some task, but I only need 0.1 Gb to achieve performance 10 if I pre-train first, then pre-training is equivalent to 0.9 Gb of task-specific performance. The paper uses pre-training on natural language and fine-tuning on python code to investigate how effective data transferred scales with fine-tuning size and model parameters. It assumed the model is trained on basically infinite pre-training data
 
@@ -73,7 +70,7 @@ The authors find a simple scaling law that governs the effective amount of data 
 The authors also discuss ossification, a phenomenon in which pre-training hurts performance, which happens with the model is small and the fine-tuning dataset size is large
 
 
-### **Opinion**
+## Opinion
 
 These results roughly match my picture of how models are going to get better at doing tasks. Compute can be used to do pre-training on vast amounts of data. These models will then be fine-tuned on a variety of tasks. If these scaling laws roughly hold, I suspect that it will be far more efficient per dollar to get a larger pre-trained model than to get task-specific data.
 
@@ -82,12 +79,12 @@ These results also roughly match my intuition that fine-tuning is basically lett
 It's also interesting to note that "how effectively does pre-training transfer" gives a process to answer vague questions like "is English more similar to French than it is to German?"
 
 
-## Occam's razor is insufficient to infer the preferences of irrational agents (Stuart Armstrong and Sören Mindermann)
+# Occam's razor is insufficient to infer the preferences of irrational agents (Stuart Armstrong and Sören Mindermann)
 
 [[1712.05812] Occam's razor is insufficient to infer the preferences of irrational agents](https://arxiv.org/abs/1712.05812) 
 
 
-### **Summary**
+## Summary
 
 A potential way to create aligned AI is to observe human behavior and infer human values using inverse reinforcement learning (IRL). However, humans are irrational, so this inference has to decompose human actions in terms of a value function and a planning algorithm. Previous attempts to model human irrationality involve assuming noise in the planning algorithm. While this yields better experimental results on some datasets, it has been shown that humans are irrational in systematic ways, which the noise assumption fails to model.
 
@@ -106,7 +103,7 @@ Since converting a policy to a planning algorithm, argmax, argmin, converting a 
 Finally, the authors argue that the "real" decomposition of the human policy is very complicated because it must encode the unique nuances of human biases and cultural variation in values and irrationality.
 
 
-### **Opinion**
+## Opinion
 
 The informal arguments in this paper are strong enough for me to basically believe that a simplicity prior will not be sufficient for back-inferring human preferences from the human policy. A similar argument extends to the speed prior, so adding that adjustment won't help either. 
 
@@ -117,14 +114,14 @@ Appendix C gives an interesting example of narrowing down which planning algorit
 Overall, I view this class of objection as one of the core problems in value-learning-based approaches. I am optimistic about research that aims to deal with this objection directly and pessimistic about research that assumes a solution.
 
 
-## The case for aligning narrowly superhuman models (Ajeya Cotra)
+# The case for aligning narrowly superhuman models (Ajeya Cotra)
 
 [The case for aligning narrowly superhuman models](https://www.lesswrong.com/posts/PZtsoaoSLpKjjbMqM/the-case-for-aligning-narrowly-superhuman-models)
 
 [Alignment Newsletter Summary](https://mailchi.mp/9887edab4e73/an-137-quantifying-the-benefits-of-pretraining-on-downstream-task-performance) 
 
 
-### **Summary**
+## Summary
 
 One subcomponent of AI safety is differential capability improvements. AI safety research should make it comparatively easier to do things safely than not safely. For example, in [What failure looks like](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like), Paul Christiano describes a world that becomes complicated faster than humans gain increased ability to understand the world, resulting in human values "going out with a whimper." Differential capabilities research might aim to increase human ability to understand an increasingly complex world, reducing the probability of human values being lost.
 
@@ -135,7 +132,7 @@ Another strong reason why this type of work might be valuable is that it's a con
 The author goes over other potential reasons this work might be valuable and discusses a number of objections that I have not covered.
 
 
-### **Opinion**
+## Opinion
 
 Thinking of parts of alignment as differential capabilities is a perspective I acquired fairly recently. I'm not yet sure how useful and valuable it is, as it is only really valuable in worlds where inner alignment is not a large problem. I am, however, very sympathetic to the claim that there is valuable information to be learned from getting experience aligning existing models.
 
@@ -146,14 +143,14 @@ I'm also excited about how relatively "mainstream" this work could potentially b
 Overall, however, I agree with the author that shifting parts of current ML research to aligning narrowly superhuman models would likely be net-positive for AI safety as a whole.
 
 
-## Asymptotically Unambitious Artificial General Intelligence (Michael Cohen)
+# Asymptotically Unambitious Artificial General Intelligence (Michael Cohen)
 
 [[1905.12186] Asymptotically Unambitious Artificial General Intelligence](https://arxiv.org/abs/1905.12186) 
 
 [Alignment Newsletter Summary (previous version)](https://mailchi.mp/3e2f43012b07/an-54-boxing-a-finite-horizon-ai-system-to-keep-it-unambitious) 
 
 
-### **Summary**
+## Summary
 
 This paper constructs a myopic unbounded agent in a box that will not try to take over the world, i.e. is "asymptotically unambitious." The rough intuition is that boxed myopic AI (BoMAI) will only value what happens inside the box, causally separating the rest of the world from its reward. This proceeds roughly as follows:
 
@@ -166,67 +163,10 @@ Since the agent is an optimal learner and the prior has a relatively large weigh
 The paper has a bunch of math justifying these claims that is not that important. There is also an appendix that attempts to construct a box that is causally disconnected from the environment, which I find amusing, if not really relevant.
 
 
-### **Opinion**
+## Opinion
 
 I find interesting the idea of achieving safety via causal separation from the rest of the world. Achieving literal causal separation from the environment is likely to be prohibitively difficult, although the general strategy of getting the AI to only value things inside a "box" seems promising. I'm particularly intrigued with non-physical boxes, as it seems related to myopia.
 
 I'm also intrigued by the idea of an agent that reasons according to the maximum aposteriori (MAP) world model. I currently suspect that a clean definition of myopia that avoids these problems will require eliminating parts of the agent’s uncertainty, which applying the MAP trick seems to accomplish quite nicely. Obviously, there are problems with this, such as if the agent thinks the most probable world is one that involves potentially undesirable properties, but it does seem to restrict the influence of said worlds to the case where they are the maximum probability. Relatedly, one reason that the Solomonoff prior is malign because counts all possible worlds - taking the MAP world might make it less malign.
 
 There is a bunch of math in the paper. As usual with results like this, the math is not that interesting. Parts of the theorems amount to "if we assume that models that involve &lt;property> require increased space, and we penalize space, then we won't get models with &lt;property>." This is obviously doable and not that interesting as a result. There is something to be learned about the cleanest way to formalize these assumptions and go through the corresponding proofs, but I think nearly all interesting insights the intuitions behind the math, as opposed to the math itself.
-
-
-# Rationality
-
-
-## Trapped Priors As A Basic Problem Of Rationality (Scott Alexander)
-
-[Trapped Priors As A Basic Problem Of Rationality](https://astralcodexten.substack.com/p/trapped-priors-as-a-basic-problem)
-
-
-### **Summary**
-
-Aumann's Agreement Theorem says that if two agents start with the same prior and they encounter each other if they know each other to be Bayesian rational agents then they must eventually agree. To see the intuition, if Alice knows Bob to be rational, Bob's beliefs are Bayesian evidence, so Alice updates. The amount Alice updates informs Bob how much evidence Alice had, which in turn informs how much Bob updates. This process continues until they converge in belief. 
-
-However, if the two agents start with different priors, they might diverge in belief even after communication. For example, if, on priors, Alice believes that some information source is deceptive and Bob believes it's truthful, Alice might think Bob is being deluded and Bob might think Alice is being obstinate. A more fleshed-out example of this is given in Jaynes' The Logic of Science.
-
-The problem of a trapped prior is the above problem where the other rational agent is the world. If I think my fortune cookies are fundamentally trustworthy, then every time they tell me something, I will believe it. If I see contradictory evidence, then I might start doubting my own sensory experiences. We can see this happening in real life when people seem to reinterpret evidence to suit the beliefs they already have.   
-
-The author draws some connection to neuroscience, claiming that strong emotions cause decreased trust in sensory experiences, amplifying this effect.
-
-
-### **Opinion**
-
-I once looked at the Aum Shinrikyo, a death cult, and thought it might be reasonable that they were committed negative utilitarians. I think I might have a trapped prior that the world doesn't contain evil, only misguided goodness. In general, I think absolute mistake theorists might have a trapped prior that there is only badness because of incompetence? I'm not that sure about this.
-
-In the post, the author mentions how some sciency people tried a bunch of interventions to get people to change their mind about policy proposals being good or bad and the only thing that worked was getting people to concretely describe why their preferred policy leads to material benefits, reminding me yet again that specificity is one of the most powerful rationality techniques.
-
-I think the author is roughly right that if you have a trapped prior that causes you to reinterpret all evidence in its light, you're basically doomed. I'm not sure how anyone escapes this, besides a gradual erosion of worldview that maybe eventually results in a crisis of faith. How to reliably cause this to happen remains an open problem. 
-
-
-## A Crash Course in the Neuroscience of Human Motivation (lukeprog)
-
-[A Crash Course in the Neuroscience of Human Motivation](https://www.lesswrong.com/posts/hN2aRnu798yas5b2k/a-crash-course-in-the-neuroscience-of-human-motivation)
-
-
-### **Summary**
-
- (Note that there is a summary at the end of the post that is better than mine.)
-
-In the beginning, there was folk psychology. Humans had beliefs and desires and they acted in ways to fulfill their desires. However, folk psychology quickly ran into the limits of its ability to generalize, so humanity was forced to innovate.
-
-Next, humanity invented neoclassical economics. Beliefs and desires were replaced with expectations and utilities. Humans were said to choose actions that maximized their expected utility. In particular, humans were modeled as ranking all outcomes according to utility and choosing the highest expected utility action. But humans are known to be unable to calculate the expected utility of every action, so humanity was forced to innovate. 
-
-Next, humanity invented reinforcement learning, which separates a utility function into rewards and values. While rewards determine the immediate relative desirability of environmental states, values determine the expected desirability of that state given all the other states that can be reached. In other words, the reward of an action is how good it feels intrinsically, while the value of a state is determined by how many high-reward actions can be sustainably taken from the state. For instance, eating a bunch of chocolate might be a high reward action, but it might lead to a low-value state; in contrast, exercising might be a low reward action but lead to high-value states.
-
-One problem with reinforcement learning is that you don't get feedback about how good your actions were until a while into the future, e.g. exercising might take many months to pay off. One solution is to determine the reward of actions based on changing estimates of how much value you're going to get in the future, e.g. exercising might slightly decrease your estimate of your chances of breaking a bone, so exercise is a positive reward activity. This is called temporal difference learning. Some elegant experiments strongly suggest that the function of dopamine in the brain is to give reward prediction errors, which enables some sort of temporal difference learning via "neurons that fire together wire together."
-
-One particularly spooky hypothesis is that there seem to be neuronal activation levels that correspond roughly to the "probability this action is the best action." These levels fluctuate until one of them is fully activated, upon which that action is taken. Monkey discounting functions were captured by neuronal firing discount rates, offering evidence that favors this hypothesis. This firing rate is normalized, which has some implications that I don't quite understand. 
-
-
-### **Opinion**
-
-Sometimes people say "we still don't know anything about what happens in the brain." I'm pretty sure they're wrong. I think this post does a good job of explaining that we actually might know a reasonable amount about how brains work. 
-
-I like the connections drawn to various observed phenomena like the paradox of choice.
-
-I am kind of impressed by the thoroughness of this literature review. It feels a bit like lesswrong doesn't really do this kind of stuff anymore, which is sad. I’m told that 
