@@ -70,7 +70,7 @@ We begin our analysis at the point where the model can approximately be describe
 We assume that the base objective is reasonably complicated, closer to "predict the next token" than "always output 5".
 
 
-## Internally aligned Models
+## Internally Aligned Models
 
 At this point, the model's objective is a proxy for the true base objective. How much better does the model's performance get upon marginally aligning the proxy with the base objective?
 
