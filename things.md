@@ -4,7 +4,7 @@ title: My Favorite Things
 ---
 I try to be [deliberate](https://www.neelnanda.io/blog/be-deliberate) about the objects that I own and use. These are some of the objects I own that I consider to be among the best in their respective categories. Many of these are taken directly from [Wirecutter](https://www.nytimes.com/wirecutter/).
 
-Last updated: Febuary 15th, 2021.
+Last updated: March 30th, 2021.
 
 # Electronics
 
@@ -92,11 +92,14 @@ Last updated: Febuary 15th, 2021.
 
 # Software
 
+* [Alfred](https://www.alfredapp.com/)
 * [Anki](https://apps.ankiweb.net/)
 * [Bitwarden](https://bitwarden.com/)
 * [Freedom](https://freedom.to/dashboard)
 * [Google Chrome](https://www.google.com/chrome/)
 * [Instapaper](https://www.instapaper.com/u)
+* [Krisp](https://krisp.ai/)
+* [Mathpix](https://mathpix.com/)
 * [Open Tabs Next To Current](https://github.com/sblask/webextension-open-tabs-next-to-current)
 * [Protonmail](https://protonmail.com/)
 * [Readwise](https://readwise.io/)
