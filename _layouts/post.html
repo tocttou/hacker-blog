@@ -6,7 +6,7 @@ layout: default
 <article>
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time> |
-  {{ post.content | number_of_words }} words
+  {{ content | number_of_words }} words
   {% include toc.html html=content %}
   {{ content }}
 </article>
