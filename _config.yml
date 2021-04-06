@@ -46,6 +46,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/O5M4N" # url: "https://github.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-gitlab" #<i class="fab fa-gitlab"></i> 
+      url: "https://gitlab.com/O5M4N" # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
