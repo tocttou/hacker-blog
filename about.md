@@ -10,9 +10,9 @@ title: About
 I beliebe in plain, static html pages, as stable and simple way to distrubute my own thoughs, ideas.
                                      
 
-<pre>
-                                                      Happy Hacking
-</pre>
+
+<H4 align="center">  Happy Hacking </H2>                
+
 
 
 
