@@ -1,6 +1,9 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
+<div>
+<a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="fab fa-fw fa-linkedin"><span class="label">LinkedIn</span></a>
+</div>
   <div class="author__urls-wrapper">  
       {% if author.linkedin %} 
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
