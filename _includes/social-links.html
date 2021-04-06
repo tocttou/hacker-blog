@@ -4,7 +4,14 @@
 <div>
 <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="fab fa-fw fa-linkedin"><span class="label">LinkedIn</span></a>
 </div>
-  <div class="author__urls-wrapper">  
+      {% if author.links %}
+        {% for link in author.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}  
+
       {% if author.linkedin %} 
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
