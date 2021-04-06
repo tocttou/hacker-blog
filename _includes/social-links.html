@@ -1,8 +1,6 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
-<div>
-<a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="fab fa-fw fa-linkedin"><span class="label">LinkedIn</span></a>
 </div>
       {% if author.links %}
         {% for link in author.links %}
@@ -10,11 +8,5 @@
             <a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
           {% endif %}
         {% endfor %}
-      {% endif %}  
-
-      {% if author.linkedin %} 
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
-          </a>
       {% endif %}
   </div>
