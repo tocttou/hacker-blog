@@ -3,56 +3,12 @@
 
 <div itemscope itemtype="https://schema.org/Person">
 
-  {% if author.avatar %}
-    <div class="author__avatar">
-      {% if author.home %}
-        <a href="{{ author.home | relative_url }}">
-          <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
-        </a>
-      {% else %}
-        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
-      {% endif %}
-    </div>
-  {% endif %}
-
-  <div class="author__content">
-    {% if author.home %}
-      <a href="{{ author.home | relative_url }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
-    {% else %}
-      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
-    {% endif %}
-    {% if author.bio %}
-      <div class="author__bio" itemprop="description">
-        {{ author.bio | markdownify }}
-      </div>
-    {% endif %}
-  </div>
-
+  
+  
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
-        </li>
-      {% endif %}
-
-      {% if author.links %}
-        {% for link in author.links %}
-          {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
-      {% if author.uri %}
-        <li>
-          <a href="{{ author.uri }}" itemprop="url">
-            <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
-          </a>
-        </li>
-      {% endif %}
-
+    
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
