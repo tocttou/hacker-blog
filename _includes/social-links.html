@@ -1,7 +1,6 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
-
-</div>
+<div>
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
