@@ -2,6 +2,8 @@
 title: "Intermittent Distillations #2"
 ---
 
+
+
 # Servant of Many Masters: Shifting priorities in Pareto-optimal sequential decision-making (Andrew Critch and Stuart Russell)
 
 [Servant of Many Masters: Shifting priorities in Pareto-optimal sequential decision-making](https://arxiv.org/abs/1711.00363)
@@ -113,7 +115,7 @@ But how do we know that a "curve detector" is really detecting curves? Couldn't 
 
 ## Opinion
 
-I once heard Anna Salamon describe the "the map/territory game", which is a form of 3rd person mental narrational that involves inserting the phrase "whose map was not the territory" after time you said your own name. For example, I might say "Mark, whose map was not the territory, sat at his computer describing the map/territory game." The point of the game is to repeatedly emphasize that your beliefs about the world are not the world itself.
+I once heard Anna Salamon describe the "the map/territory game", which is a form of 3rd person mental narrational that involves inserting the phrase "whose map was not the territory" after each time you said your own name. For example, I might say "Mark, whose map was not the territory, sat at his computer describing the map/territory game." The point of the game is to repeatedly emphasize that your beliefs about the world are not the world itself.
 
 As I was reading the circuits thread, I found myself making similar mental motions. "The authors, whose map is not the territory, write that this set of neurons are high/low-frequency detectors." Are they? Are they really? How do they know?
 
@@ -142,7 +144,7 @@ If we're trying to train models to do tasks that humans cannot do easily, we mig
 
 Naively, since we're not training on human approval, any check will be independent. However, the relevant question is whether there's _any channel_ by which the model learns about how it's going to be assessed, not just whether the model is being trained on the assessment metric. Since humans are doing the final evaluation, any method by which the model learns how humans tend to behave will contaminate the check, similar to how a software engineering candidate learning about how the interviewer thinks will also contaminate the interview.
 
-In other words, the capability of human modeling makes it easier to deceive human-judgment-based checks in the same way that knowing the contents of the test makes it easier to game. If we want to be confident our AI systems are aligned, we want its capability profile to be as far away from deception as possible, suggesting we should train systems that cannot do human modeling, for example, [STEM AI](https://www.lesswrong.com/posts/fRsjBseRuvRhMPPE5/an-overview-of-11-proposals-for-building-safe-advanced-ai#6__STEM_AI)
+In other words, the capability of human modeling makes it easier to deceive human-judgment-based checks in the same way that knowing the contents of the test makes it easier to game. If we want to be confident our AI systems are aligned, we want its capability profile to be as far away from deception as possible, suggesting we should train systems that cannot do human modeling, for example, [STEM AI](https://www.lesswrong.com/posts/fRsjBseRuvRhMPPE5/an-overview-of-11-proposals-for-building-safe-advanced-ai#6__STEM_AI).
 
 
 ## Opinion
