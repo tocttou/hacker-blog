@@ -45,7 +45,7 @@ A way to make market making more efficient is to use trading jargon. From Jane S
 >
 > ...
 >
-> Once an order is created, someone else can trade against it, by saying ** "sold"** to **hit** (sell) to your bid, or ** "take 'em"** to **lift** (buy) your offer. Saying "sold" or "take 'em" trades against the entire quantity available. To trade only 5 (or any **partial** amount) of the available 10 widgets, say "I **buy 5"** or "I **sell 5."**
+> Once an order is created, someone else can trade against it, by saying **"sold"** to **hit** (sell) to your bid, or **"take 'em"** to **lift** (buy) your offer. Saying "sold" or "take 'em" trades against the entire quantity available. To trade only 5 (or any **partial** amount) of the available 10 widgets, say "I **buy 5"** or "I **sell 5."**
 
 You can also make markets over functions of attributes to account for different distributions. Height is normally distributed, so a linear payout makes sense. However, the amount of time my homework takes might be power-law distributed. In this case, I might make a market over the base-10 logarithm of how long the task takes in minutes.
 
