@@ -454,3 +454,4 @@ What exactly does it mean for an agent to improve? Our four-map model allows us 
 *   $\text{execute}$: An agent could expand $A$ or decrease the expected entropy of $\text{execute}(e, a)$. For example, a robot could learn how to jump, build itself an extra arm, or refine its physics model. Many humans practice new skills or employ prostheses.
 
 Many actions can make agents more powerful along multiple axes. For example, increasing computation ability might create new actions, increase decision-making ability, and better interpretation processing. Moving to a different location can both create new actions and increase observation ability. 
+
