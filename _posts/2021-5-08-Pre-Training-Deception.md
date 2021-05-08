@@ -2,6 +2,8 @@
 title: Pre-Training + Fine-Tuning Favors Deception
 ---
 
+*Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/rZTjsKy4Jvu6krWJt/pre-training-fine-tuning-favors-deception). May contain more technical jargon than usual.*
+
 Thanks to Evan Hubinger for helpful comments and discussion.
 
 Currently, to obtain models useful for some task X, models are pre-trained on some task Y, then fine-tuned on task X. For example, to obtain a model that can summarize articles, a large language model is first pre-trained on predicting common crawl, then fine-tuned on article summarization. Given the empirical success of this paradigm and the difficulty of obtained labeled data, I loosely expect this trend to continue.
