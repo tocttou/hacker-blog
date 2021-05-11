@@ -10,7 +10,7 @@ Currently, to obtain models useful for some task X, models are pre-trained on so
 
 I will argue that compared to the paradigm of training a model on X directly, training on Y then fine-tuning on X increases the chance of deceptive alignment. More specifically, I will argue that fine-tuning a deceptive model will produce a deceptive model and fine-tuning a non-deceptive model is more likely to produce a deceptive model than training from scratch.
 
-From Does SGD Produce Deceptive Alignment?:
+From [Does SGD Produce Deceptive Alignment?](https://www.alignmentforum.org/posts/ocWqg2Pf2br4jMmKA/does-sgd-produce-deceptive-alignment):
 
 > More specifically, we can single out three types of models that optimize for the base objective:
 >
