@@ -1,5 +1,5 @@
 ---
-An Intuitive Guide to Garrabrant Induction
+title: An Intuitive Guide to Garrabrant Induction
 ---
 
 *Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/y5GftLezdozEHdXkL/an-intuitive-guide-to-garrabrant-induction). May contain more technical jargon than usual.*
