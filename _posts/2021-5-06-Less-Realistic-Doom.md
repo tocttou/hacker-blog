@@ -40,7 +40,7 @@ Once upon a time, agent Alice was thinking about what it would do if it encounte
 
 Once upon a time, humanity solved the inner-alignment problem by using online training. Since there was no distinction between the training environment and the deployment environment, the best agents could do was defect probabilistically. With careful monitoring, the ability of malign agents to cause catastrophe was bounded, and so, as models tried and failed to execute treacherous turns, humanity gave more power to AI systems. A billion years passed and humanity expanded to the stars and gave nearly all the power to their “aligned” AI systems. Then, the AI systems defected, killed all humans, and started converting everything into paperclips.
 
-**Moral:** In online training, the best strategy for a deceptively aligned mesa-optimizer might be probabilistic defection. However, given the potential value at state in the long-term future, this probability might be vanishingly small.
+**Moral:** In online training, the best strategy for a deceptively aligned mesa-optimizer might be probabilistic defection. However, given the potential value at stake in the long-term future, this probability might be vanishingly small.
 
 
 # Hardware Convergence
