@@ -1,0 +1,37 @@
+---
+title: Anthropic Effects in Estimating Evolution Difficulty
+---
+
+*Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/pg6Z5tiuXotGTWaG8/anthropic-effects-in-estimating-evolution-difficulty). May contain more technical jargon than usual.*
+
+_Thanks to Linchuan Zhang, Mauricio Baker, Jack Ryan and Carl Shulman for helpful comments and suggestions. Remaining mistakes are my own._
+
+Epistemic status: “There is something fascinating about [anthropics]. One gets such wholesale returns of conjecture out of such a trifling investment of fact.” (Mark Twain, Life on the Mississippi)
+
+Attempts to predict the development of artificial general intelligence (AGI) sometimes use biological evolution to upper bound the amount of computation needed to produce human level intelligence, e.g. in [Ajeya’s use of biological anchors](https://www.lesswrong.com/posts/KrJfoZzpSDpnrv9va/draft-report-on-ai-timelines). Such attempts have mostly ignored observation selection effects. Shulman and Bostrom’s 2012 paper [How Hard is Artificial Intelligence?](https://www.nickbostrom.com/aievolution.pdf) analyzes how evolutionary arguments interact with various ways of reasoning about observation selection effects, drawing evidence from timings of evolutionary milestones and instances of convergent evolution. This post is a summary of key arguments advanced by the paper; see the original paper for citations.
+
+More concretely, suppose evolutionary processes produce human-level intelligence on 1/10 or 1/10^1000 planets that develop life. Call the former case “easy” and the latter case “hard.” The paper attempts to determine whether the facts about evolution on Earth can distinguish between evolving intelligence being easy or hard.
+
+Recall two common forms of anthropic reasoning:[^ADT]
+
+* Self-Sampling Assumption (SSA): Observers should reason as if they were a random sample from all actually existent observers in their reference class. Observers should reason as if they have an equal probability of being in any world with observers, regardless of the number of observers in that world. Worlds where a higher _fraction_ of observers are “like you” are more probable.
+* Self-Indication Assumption (SIA): Observers should reason as if they were a random sample from all possible observers. Observers should reason as if they have a probability of being in a world proportional with the number of observers it contains. Worlds where a higher _number _of observers are “like you” are more probable.
+
+[^ADT]: [Armstrong](https://www.fhi.ox.ac.uk/wp-content/uploads/Anthropic_Decision_Theory_Tech_Report.pdf) roughly argues that SSA corresponds to making decisions under average utilitarianism while SIA corresponds to making decisions under total utilitarianism.
+
+For more discussion, see Katja's [Anthropic Principles](https://meteuphoric.com/anthropic-principles/) or Bostrom’s [Anthropic Bias](https://en.wikipedia.org/wiki/Anthropic_Bias_(book)).
+
+Key takeaways:
+
+* Universes where evolution is easy have vastly more intelligent observers than universes in which intelligence is hard. Since SIA _a priori_ favors universes with many observers over universes with few, SIA assigns almost dogmatically high prior credence to evolution being easy.
+    * Caveat: Intelligent life could run cheap computer programs that simulate observers, so any universe with a few instances of intelligent life could have an immense number of observers. SIA cannot strongly distinguish between universes where nearly all resources are used for observers, which is possible both with intelligence in every solar system or only a few times per galaxy. SIA therefore advises that evolution is relatively easy, but can still be some orders of magnitude more difficult than once per solar system.
+* Given SSA, our observation of humans having evolved cannot alone distinguish between evolution being easy or hard. However, under both SSA and SIA, whether or not intermediaries to intelligence evolved multiple times can provide evidence about evolution’s overall difficulty. If evolution is easy, we would expect predecessors to intelligence to have evolved more than once. Evolutionary developments that have occurred multiple times cannot be subject to massive anthropic distortion.
+    * The Last Common Ancestor (LCA) between humans and octopuses, estimated to have lived 560 million years ago, had an extremely primitive nervous system. However, octopuses have extensive central nervous systems and display sophisticated behaviors like memory, visual communication, and tool use.
+        * Other examples of complex learning and memory include corvids (crows and ravens, LCA about 300 million years ago) and elephants (LCA about 100 million years ago).
+    * Caveat: Non-human intelligence might not be as scalable as human intelligence, despite appearances of generality. If this is the case, these examples might not represent an instance of convergent evolution since they and humans might be substantially different.
+    * Caveat: The LCA of octopuses and humans already contained a nervous system, which only evolved once in Earth’s history and thus might be arbitrarily difficult to evolve. 
+    * Caveat: The LCA of various other intelligent organisms and humans might have some undetected property that predisposed both organisms towards intelligence. Similarly, the LCA of all animals with eyes contained opsins proteins, which might have been extremely difficult to evolve.
+* If a task requires many steps of varying difficulty to accomplish and you condition on the task being done in about the time expected for accomplishing a single step, each of the steps is expected to take about the same amount of time. In effect, conditioning on the task being done in a short time prohibits _any_ of the tasks taking very long and the truncated distributions for tasks of varying difficulty are similar. 
+    * Example: Suppose you need to pick two locks, and the first takes uniform [0, 20] seconds and the second takes uniform [0, 1000] seconds, if you condition both taking &lt;20 seconds, then you know the second lock took less than 20 seconds, so you cannot distinguish between the second lock taking uniform [0, 1000] seconds or uniform [0, 20] seconds.
+    * Crucially, since the conditional distributions are roughly uniform, the time gap between when the last of these steps was completed and the end of the interval is equal in expectation to the time any of the hard steps took. Given that the Earth remains habitable for about a billion years and is about 5 billion years old, the expected number of “hard steps” in evolution is around 5. We can rule out hypotheses that postulate large numbers of evolutionarily hard steps because they predict intelligent life evolving much later than a billion years before the Earth stops being habitable. The LCA between humans and chimps was 6 million years ago, making it improbable that scaling up brains contained any hard steps.
+        * Caveat: This argument cannot distinguish between evolutionary steps being hard (~1 billion years) or extremely hard (~100 billion years), since anthropic conditioning implies these would have taken the same amount of time historically.
