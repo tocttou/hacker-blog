@@ -1,7 +1,6 @@
 ---
 title: Defusing AGI Danger
 published: True
-
 ---
 
 *Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/BSrfDWpHgFpzGRwJS/defusing-agi-danger). May contain more technical jargon than usual.*

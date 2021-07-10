@@ -41,7 +41,10 @@ One perspective on the economy is that it's running a vast, distributed computat
 
 ## Summary
 
-Takeaways I found interesting: Evolutionary history strongly suggests that there are linear or superlinear returns to increased cognitive investment. Various lines of evidence, e.g. brain size of humans compared to chimps, look linear with respect to time. The last common ancestor of humans and chimps was only about 10 million years ago. 400,000 generations isn't enough time for mutations with low fitness increases to reach fixation, so the timelines are inconsistent with rapidly diminishing cognitive returns. If intelligence is a product of software capabilities and hardware capabilities, a series of recursive software improvements (in terms of percentile gains) can converge to a finite amount or go to infinity depending on the amount of hardware present. In economics, [Jevon's paradox](https://en.wikipedia.org/wiki/Jevons_paradox) is the observation that increasing the efficiency of coal use might increase the demand for coal. Similarly, algorithmic improvements in AI might increase how profitable AI is, resulting in increased spending on computers. 
+Takeaways I found interesting:
+
+* Evolutionary history strongly suggests that there are linear or superlinear returns to increased cognitive investment. Various lines of evidence, e.g. brain size of humans compared to chimps, look linear with respect to time. The last common ancestor of humans and chimps was only about 10 million years ago. 400,000 generations isn't enough time for mutations with low fitness increases to reach fixation, so the timelines are inconsistent with rapidly diminishing cognitive returns.
+* If intelligence is a product of software capabilities and hardware capabilities, a series of recursive software improvements (in terms of percentile gains) can converge to a finite amount or go to infinity depending on the amount of hardware present. In economics, [Jevon's paradox](https://en.wikipedia.org/wiki/Jevons_paradox) is the observation that increasing the efficiency of coal use might increase the demand for coal. Similarly, algorithmic improvements in AI might increase how profitable AI is, resulting in increased spending on computers. 
 
 ## Opinion
 
