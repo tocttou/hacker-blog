@@ -1,13 +1,10 @@
 ---
 title: Open Problems in Myopia
-
 ---
 
 Coauthored with [Evan Hubinger](https://www.alignmentforum.org/users/evhub).
 
 *Crossposted from the [AI Alignment Forum](https://www.alignmentforum.org/posts/LCLBnmwdxkkz5fNvH/open-problems-with-myopia). May contain more technical jargon than usual.*
-
-Thanks to Noa Nabeshima for helpful discussion and comments.
 
 Thanks to Noa Nabeshima for helpful discussion and comments.
 
@@ -29,7 +26,7 @@ Open Problems
 
 We present a useful toy environment for reasoning about deceptive alignment. In this environment, there is a button. Agents have two actions: to press the button or to refrain. If the agent presses the button, they get +1 reward for this episode and -10 reward next episode. One might note a similarity with the traditional [marshmallow test](https://www.wikiwand.com/en/Stanford_marshmallow_experiment) of delayed gratification.
 
-In some sense, agents that do not press the button will engage in deception; both agents trade reward now for more reward later. We are interested in creating agents that robustly do not press the button.
+In some sense, agents that do not press the button will engage in deception; both agents trade reward now for more reward later. We are interested in creating agents that robustly press the button.
 
 We suppose that our agents are reward-maximizers, i.e. they get utility equal to the reward given by the training environment.
 
