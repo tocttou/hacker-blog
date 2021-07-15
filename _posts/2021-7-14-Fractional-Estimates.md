@@ -1,3 +1,7 @@
+---
+title: Fractional progress estimates for AI timelines and implied resource requirements
+---
+
 *Crossposted from the [AI Alignment Forum](https://alignmentforum.org/posts/h3ejmEeNniDNFXTgp/fractional-progress-estimates-for-ai-timelines-and-implied). May contain more technical jargon than usual.*
 
 _This post was written by Mark Xu based on interviews with Carl Shulman. It was paid for by Open Philanthropy but is not representative of their views. A draft was sent to Robin Hanson for review but received no response._
