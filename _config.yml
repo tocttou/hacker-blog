@@ -12,6 +12,7 @@ destination: ./_site
 permalink: /:title
 paginate: 10
 paginate_path: /page/:num/
+favicon: ./favicon.ico
 
 defaults:
   -
