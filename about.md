@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Something about me.
+InfoSec enthusiast | Cybercrime investigator | OSINT specialist | #Hacking noob | Linux ParrotSec
