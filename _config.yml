@@ -5,7 +5,7 @@ author:
   email: "viking0@tutanota.com"
   url: "https://vikin0x.github.io"
 
-baseurl: /
+baseurl: /viking0x.github.io
 
 source: .
 destination: ./_site
