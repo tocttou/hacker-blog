@@ -6,8 +6,8 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ '/' | absolute_url }}</link>
+    <atom:link href="{{ 'atom.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     <author>
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>
@@ -18,9 +18,10 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}/{{ post.url }}</link>
-        <link href="{{ site.url }}{{ post.url }}"/>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        {% assign post_url = post.url | absolute_url %}
+        <link>{{ post_url }}</link>
+        <link href="{{ post_url }}"/>
+        <guid isPermaLink="true">{{ post_url }}</guid>
       </item>
     {% endfor %}
   </channel>
