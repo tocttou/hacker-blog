@@ -7,7 +7,7 @@ layout: null
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ '/' | absolute_url }}</link>
-    <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ 'atom.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     <author>
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>
