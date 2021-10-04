@@ -1,5 +1,5 @@
 ---
-title: Another Sample Page
+title: Tạo và chạy file jar trên cmd như 1 hacker
 published: true
 ---
 
