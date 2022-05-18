@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: O nas
 ---
 
 Something about me.
