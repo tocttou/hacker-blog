@@ -1,6 +1,8 @@
 ---
 title: Sample Page
 published: true
+author: test
+tag: tag1
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.

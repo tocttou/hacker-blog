@@ -1,7 +1,7 @@
-title: Hacker-Blog
+title: putrequest_
 description: "A Jekyll Blog Theme For Hackers"
 author:
-  name: "SomeHacker"
+  name: "putrequest_"
   email: "someone@somewebsite.somedomain"
   url: "https://ashishchaudhary.in/hacker-blog"
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "putrequest_"
 year : "2020"
