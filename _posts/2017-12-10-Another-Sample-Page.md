@@ -1,6 +1,6 @@
 ---
 title: Another Sample Page
-published: true
+published: false
 author: test
 tag: tag1 tag2 tag3
 ---
