@@ -3,7 +3,7 @@ title: Sample
 published: true
 author: Kinga Skrętkowicz
 tag: Web
-category: Rozwiązania
+category: Solutions
 ---
 
 Przykładowe rozwiązanie CTF

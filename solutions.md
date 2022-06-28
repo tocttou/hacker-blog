@@ -4,15 +4,17 @@ title: Kompendium wiedzy
 ---
 
 <section>
-    {%for post in site.posts %}
-      {% unless post.next %}
-        <ul>
-      {% endunless %}
-      {% else %}
-        {% if post.categories contains "Rozwiązania" %}
-          <h3>{{post.title}}</h3>
-          {{post.content}}
-        {% endif %}
-    {% endfor %}
-    </ul>
+  {% if site.posts[0] %}
+  <ul>
+  {% for post in site.posts %}
+    {% if post.categories contains "Solutions" %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  {% endif %}
 </section>
