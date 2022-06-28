@@ -4,7 +4,7 @@ title: Kompendium wiedzy
 ---
 
 <section>
-    {%for post in site.compendium %}
+    {%for post in site.categories.Kompendium %}
       {% unless post.next %}
         <ul>
       {% endunless %}
