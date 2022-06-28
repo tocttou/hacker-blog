@@ -3,6 +3,7 @@ title: cat
 published: true
 author: Kinga Skrętkowicz
 tag: Wiedza
+categories: Linux
 ---
 
 Polecenie służące do łączenia plików oraz wyświetlania ich zawartości.  
