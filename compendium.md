@@ -11,6 +11,7 @@ title: Kompendium wiedzy
     {%for post in site.compendium.linuxbasics %}
       {% unless post.next %}
         <ul>
+      {% endunless %}
       {% else %}
           <h2>{{post.title}}</h2>
           {{post.content}}
