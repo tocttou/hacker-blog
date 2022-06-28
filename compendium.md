@@ -4,14 +4,12 @@ title: Kompendium wiedzy
 ---
 
 <section>
-    <h3>Podstawy Linuxa</h3>
-
-    {%for post in site.compendium.linuxbasics %}
+    {%for post in site.compendium %}
       {% unless post.next %}
         <ul>
       {% endunless %}
       {% else %}
-          <h4>{{post.title}}</h4>
+          <h3>{{post.title}}</h3>
           {{post.content}}
     {% endfor %}
     </ul>
