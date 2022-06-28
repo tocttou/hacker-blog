@@ -4,7 +4,7 @@ title: Kompendium wiedzy
 ---
 
 <section>
-  {% if site.compendium[0] %}
+  {% if site.compendium.linuxbasics[0] %}
 
     <h3>Podstawy Linuxa</h3>
 
@@ -13,7 +13,7 @@ title: Kompendium wiedzy
         <ul>
       {% endunless %}
       {% else %}
-          <h2>{{post.title}}</h2>
+          <h4>{{post.title}}</h4>
           {{post.content}}
     {% endfor %}
     </ul>
