@@ -48,7 +48,7 @@ Hasło: **CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9**
 
 <h3>Level 2 → Level 3</h3>
 
-Tutaj ponownie musieliśmy się zmierzyć z wyświetleniem zawartości pliku o "nietypowej" nazwie - tym razem zawieracjącej spacje: **spaces in this filename**. Ponownie skorzystaliśmy z narzędzia `cat`:
+Tutaj ponownie musieliśmy się zmierzyć z wyświetleniem zawartości pliku o "nietypowej" nazwie - tym razem zawierającej spacje: **spaces in this filename**. Ponownie skorzystaliśmy z narzędzia `cat`:
 
 ```
 cat "spaces in this filename" 
@@ -64,7 +64,7 @@ Hasło: **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
 <h3>Level 3 → Level 4</h3>
 
-Hasło zostało umieszczone w ukrytym pliku w katalogu **inhire**. Najpierw przeszliśmy do podanego katalogu, a następnie wyświetliliśmy jego zawartość wraz z plikami ukrytymi. Znając nazwę ukrytego pliku (**.hidden**), mogliśmy wyświetlić jego zawartość.
+Hasło zostało umieszczone w ukrytym pliku w katalogu **inhere**. Najpierw przeszliśmy do podanego katalogu, a następnie wyświetliliśmy jego zawartość wraz z plikami ukrytymi. Znając nazwę ukrytego pliku (**.hidden**), mogliśmy wyświetlić jego zawartość.
 
 ```
 cd inhere
