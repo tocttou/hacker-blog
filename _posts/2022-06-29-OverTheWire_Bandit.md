@@ -76,7 +76,7 @@ Hasło: **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
 
 <h3>Level 4 → Level 5</h3>
 
-Tym razem hasło zostało ukryte w jedynym pliku czytelnym dla człowieka zlokalizowanym w katalogu **inhere**. Zamiast ręcznie sprawdzać zawartość każdego pliku, można skorzystać z polecenia **file**, by określić typ pliku. Można zauważyć, że plik **-file07** zawiera tekst ASCII.
+Tym razem hasło zostało ukryte w jedynym pliku czytelnym dla człowieka zlokalizowanym w katalogu **inhere**. Zamiast ręcznie sprawdzać zawartość każdego pliku, można skorzystać z polecenia `file`, by określić typ pliku. Można zauważyć, że plik **-file07** zawiera tekst ASCII.
 
 ```
 cd inhere
@@ -92,7 +92,7 @@ Kolejne hasło jest przechowywane w pliku w katalogu **inhere** lub w którymś 
 * czytelny dla człowieka,
 * rozmiar 1033B
 * niewykonywalny.
-Wykorzystaliśmy narzędzie **find** i podaliśmy odpowiednie argumenty. Jedynym plikiem spełniającym kryteria okazał się **.file2** z katalogu **maybehere07**.
+Wykorzystaliśmy narzędzie `find` i podaliśmy odpowiednie argumenty. Jedynym plikiem spełniającym kryteria okazał się **.file2** z katalogu **maybehere07**.
 
 ```
 cd inhere
@@ -105,10 +105,10 @@ Hasło: **DXjZPULLxYr17uwoI01bNLQbtFemEgo7**
 <h3>Level 6 → Level 7</h3>
 
 Aby dostać się na kolejny poziom, należy odnaleźć plik ukryty gdziekolwiek na serwerze spełniający poniższe kryteria:
-* posiadany przez użytkownika *bandit7*,
-* posiadany przez grupę *bandit6*,
+* posiadany przez użytkownika **bandit7**,
+* posiadany przez grupę **bandit6**,
 * rozmiar 33B.
-Ponownie użyliśmy narzędzia **find**. W wyniku otrzymaliśmy długą listę plików, ale tylko do jednego mieliśmy przyznane uprawnienia. To w nim znaleźliśmy hasło.
+Ponownie użyliśmy narzędzia `find`. W wyniku otrzymaliśmy długą listę plików, ale tylko do jednego mieliśmy przyznane uprawnienia. To w nim znaleźliśmy hasło.
 
 ```
 find ./ -size 33c -group bandit6 -user bandit7
