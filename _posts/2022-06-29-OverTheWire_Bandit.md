@@ -117,4 +117,54 @@ cat /var/lib/dpkg/info/bandit7.password
 
 Hasło: **HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs**
 
+<h3>Level 7 → Level 8</h3>
+
+Hasło do następnego pliku zostało umieszczone w pliku **data.txt** tuż obok słowa **millionth**. W takich przypadkach sprawdza się narzędzie `grep` służące do wyszukiwania fraz lub wzorców w plikach.
+
+```
+grep millionth data.txt
+```
+
+Hasło: **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**
+
+<h3>Level 8 → Level 9</h3>
+
+Hasło ponownie zostało ukryte w pliku **data.txt**, lecz tym razem w wierszu, którego zawartość pojawia się w pliku tylko raz. Wykorzystaliśmy narzędzie `sort` sortujące wiersze w porządku alfabetycznym wraz z poleceniem `uniq` zwracającym jedynie niepowtarzające się wiersze.
+
+```
+sort data.txt | uniq -u
+```
+
+Hasło: **UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR**
+
+<h3>Level 9 → Level 10</h3>
+
+Kolejne zadanie jest podobne do dwóch poprzednich. Hasło znajduje się w pliku **data.txt** w jednym z niewielu wierszy czytelnych dla człowieka. Ponadto zostało poprzedzone wieloma znakami **=**.
+
+```
+cat data.txt | strings | grep ===
+```
+
+Hasło: **truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk**
+
+<h3>Level 10 → Level 11</h3>
+
+W celu zdobycia kolejnego hasła należało odczytać zawartość pliku **data.txt** zawierającego dane zakodowane przy użyciu **base64**.
+
+```
+cat data.txt | base64 -d
+```
+
+Hasło: **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
+
+<h3>Level 11 → Level 12</h3>
+
+Hasło ponownie zostało umieszczone w pliku **data.txt**, ale teraz wszystkie małe oraz wielkie litery zostały przesunięte o 13 pozycji. Jest to szyfr przesuwający **ROT13**. Do odszyfrowania użyliśmy narzędzia `tr` służącego do tłumaczenia oraz usuwania znaków.
+
+```
+cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-N'
+```
+
+Hasło: **5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu**
+
 _Część dalsza rozwiązania pojawi się wkrótce..._
