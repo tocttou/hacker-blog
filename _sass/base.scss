@@ -271,3 +271,11 @@ a:active, a:focus {
 #wrapper {
   min-height: calc(100vh - 100px);
 }
+
+#search-input {
+    background-color: $cod-grey;
+    color: $gallery;
+    border: 2px solid $conifer;
+    border-radius: 10px;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
