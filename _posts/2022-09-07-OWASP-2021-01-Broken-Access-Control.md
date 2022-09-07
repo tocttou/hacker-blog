@@ -24,7 +24,11 @@ These broken access controls can comprise:
 
 ## how to find 
 
-test for above described controls
+Using the burp suite extension [autorize](https://github.com/PortSwigger/autorize). Therefore a higher and lower user is needed. 
+Goal of this test is to try if a lower privileged user can access funcions only intended for higher privileged users.
+Take the session cookie and write it in the cookie field in the autorize tab. Start autorize and browse with the higher privileged user.
+Watch the output provided in the autorize tab. This will send the request with the cookie of the higher privileged user and the lower privileged user and compares the response lenth of the original, the modified and the case where no cookie is provided. When the original and the modified lengths are identical it indicates that the lower privileged user can use the same function like the higher privileged user which is an indication for a broken access control.
+
 
 ## references 
 
