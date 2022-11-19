@@ -1,9 +1,11 @@
 ---
 title: Yet Another Sample Page
-published: true
+published: false
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+![hello](../assets/bkg.png)
+
 
 [Link to another page](another-page).
 
@@ -95,11 +97,11 @@ end
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![]()
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![hello](../assets/bullet.png)
 
 
 ### Definition lists can be used with HTML syntax.
