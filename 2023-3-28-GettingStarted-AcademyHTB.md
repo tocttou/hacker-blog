@@ -42,7 +42,7 @@ Nmap done: 1 IP address (1 host up) scanned in 38.94 seconds
 
 Entro en la web.
 
-![](/home/kali/htb-academy/verificacion_de_conocimientos/1-web.png)
+![](/assets/images/1-getting-started/1-web.png)
 
 GetSimple CMS es un sistema de gestión de contenido (CMS) de código abierto y gratuito que permite a los usuarios crear y administrar fácilmente sitios web dinámicos.
 
@@ -174,7 +174,7 @@ Después de escanear con gobuster los 4 directorios que se encontraron anteriorm
 
 En el directorio /tmp se puede comprobar la versión de GetSimple a la que corresponde que es la 3.3.15. Busco un exploit  poniendo en el buscador *getsimple 3.3.15 exploit* y encuentro lo siguiente.
 
-![](/home/kali/htb-academy/verificacion_de_conocimientos/3.png)
+![](/assets/images/1-getting-started/3.png)
 
 En la terminal con el comando *searsploit* busco *getsimple* y obtengo varios resultados.
 
@@ -317,7 +317,7 @@ Se puede ver que el siguiente binario no requiere password *(ALL : ALL) NOPASSWD
 
 Busco en [gtfobins]([https://gtfobins.github.io/](https://gtfobins.github.io/)) el binario php y encuentro lo siguiente.
 
-![](/home/kali/htb-academy/verificacion_de_conocimientos/6.png)
+![](/assets/images/1-getting-started/6.png)
 
 Aplico las dos anteriores lineas de comandos y consigo acceso a *root* y desde esta posición busco y encuentro la *flag* de root.
 
