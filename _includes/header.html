@@ -1,11 +1,8 @@
-<header>
-  <div>
-    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
-    <h1>{{ owner_first_name[0] | downcase }}@home:~$</h1>
-    </a>
-    <div class="header-links">
-      {% include links.html %}
-    </div>
-  </div>
-</header>
+<HGROUP id="heading">
+<img src="https://mayor.lacity.gov/sites/g/files/wph2066/files/styles/default/public/2023-04/Tri_Color_Ribbon_6000x75_v2.png.webp" />
+<img src="https://mars.nasa.gov/system/internal_resources/details/original/1684_PIA25965-Enhanced-web.jpg" > 
+<img src="https://mayor.lacity.gov/sites/g/files/wph2066/files/styles/default/public/2023-04/Tri_Color_Ribbon_6000x75_v2.png.webp" />
+<nav>
+{% include links.html %}
+</nav>
+</HGROUP>

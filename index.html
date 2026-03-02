@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<form method="get" id="search-google" action="https://www.google.com/search" target="_blank"><input type="hidden" name="sitesearch" value="https://ricothaka.github.io/compliling" /><input type="text" name="q" maxlength="255" value="" placeholder="Search via Google" class="form-control" /></form>
 <ul>
     {% for post in paginator.posts %}
       <li>

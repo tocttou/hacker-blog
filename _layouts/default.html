@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {% include head.html %}
 
 <body>
   <div id="wrapper">
+  <main id="MAiN">
     {% include header.html %}
-    <div class="container">
+
+  
+    
+  <div class="container">
+
       <section id="main_content">
         {{ content }}
       </section>
+ 
     </div>
-  </div>
+
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
@@ -32,11 +38,17 @@
     <span class="page-item">&raquo;</span>
     {% endif %}
   </div>
-  {% endif %} {% include footer.html %}
 
-  {% if site.google_analytics %}
-    {% include analytics.html %}
-  {% endif %}
+
+{% endif %} {% include footer.html %}
+</main>
+</div>
+{% if site.google_analytics %}
+  {% include analytics.html %}
+{% endif %}
+
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<link rel="stylesheet" href="/css/lightbox.css">
 </body>
 
 </html>

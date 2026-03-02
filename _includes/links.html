@@ -1,3 +1,72 @@
-<a href="{{ "/archive" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">Archive</h2></a>
-<a href="{{ "/about" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">About</h2></a>
-<a href="{{ "/atom.xml" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">RSS</h2></a>
+<div id="navcontainer">
+  <div class="logo"><a href="https://github.com/thakarashard">./HoleToAnotherUniverse=></a></div>
+  <ul id="navlist">
+    
+   <li>
+      <a href="https://thakarashard.github.io/worknotes">AstronomY</a>
+      <ul>
+        <li><a href="https://thakarashard.github.io/marsblog.html" alt="Mars Reconissince Orbiter is my job to help maintain for the us government and our global allies, we r a fun bunch">MarsNotes</a></li>
+      <!--  <li><a href="#">Saturn</a></li> -->
+      </ul>
+    </li>
+        <li>
+      <a href="{{ site.url }}{{ site.baseurl }}/compiling/index.html">ComPiLinG</a>
+      <ul>
+        <li><a href="{{ "/archive" | prepend: site.baseurl | replace: '//', '/' }}">Archive</a></li>
+<li><a href="{{ "/atom.xml" | prepend: site.baseurl | replace: '//', '/' }}">RSS</a></li>
+<li><a id="current" href="https://thakarashard.github.io/" alt="FailoveR">FailoveR</a></li>
+
+   <!--   <li><a href="#">LosAngeles</a></li> -->
+      </ul>
+    </li>
+    <li><a href="{{ site.url }}">HOME</a></li>
+    <!-- etc. -->
+  </ul>
+  <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    {{ owner_first_name[0] | downcase }}@home:~$
+    </a>
+</div>
+
+
+
+<div id="navcontainer">
+  <div class="logo">./HoleToAnotherUniverse=></div>
+  <ul id="navlist">
+    
+   <li>
+    <a href="{{ site.url }}{{ site.baseurl }}/compiling/index.html">AstronomY</a>
+      <ul>
+        <li><a href="https://thakarashard.github.io/marsblog1.html">MarsArchive1</a></li>
+        <li><a href="https://thakarashard.github.io/marsblog.html">MarsArchive2</a></li>
+      </ul>
+    </li>
+        <li>
+      <a href="{{ site.url }}{{ site.baseurl }}/compiling/index.html">ComPiLinG</a>
+      <ul>
+        <a href="https://thakarashard.github.io/worknotes">WorkNoteS</a>
+        <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/bubblegumpop24/">BubbleguMPoP</a></li> -->
+        <li><a href="https://thakarashard.github.io/htau.html">BubbleguMPoP</a></li>
+        <li><a href="https://thakarashard.github.io/holetoanotheruniverse/">Hole2AnotherUniversE</a></li>
+
+      </ul>
+    </li>
+     <li>
+      <a href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+      <ul>
+        <li><a href="https://thakasartu.github.io/">FAiLOVER</a></li>
+        <li><a href="https://thakarashard.github.io.github.io/cv">CV</a></li>
+        <li><a href="https://thakasartu.github.io/thaka/">JustMe</a></li>
+        <li><a href="https://moonlov3r.wordpress.com/blog-feed/">WordPress</a></li>
+        <li><a href="https://bubblegumpop01.tumblr.com/">BubbleGumPop01</a></li>
+        <li><a href="https://bubblegumfm01.tumblr.com/">BubbleGumFM</a></li>
+        <li><a href="https://thakarashard.github.io/twitters/">TwitterS</a></li>
+       </ul>
+    </li>
+
+  </ul>
+  <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    {{ owner_first_name[0] | downcase }}localhost.localdomain
+    </a>
+</div>
