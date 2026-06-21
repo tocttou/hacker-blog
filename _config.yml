@@ -1,9 +1,7 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: BougieTech Blog
+description: "Blog about general tech, amateur hacking/reverse engineering"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "BougieTech"
 
 baseurl: /
 
@@ -28,5 +26,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "BougieTech"
+year : "2026"
